@@ -29,6 +29,39 @@ Wangxing refers to 張忘形; `wangxing` is a project identifier. These styles a
 
 ## Get started
 
+### Local agents: install with `npx skills add`
+
+Run these commands in the project where you want to use the skills. Node.js, npm and Git are required; the tested `skills` CLI 1.7.0 requires Node.js 22.20.0 or newer.
+
+Codex:
+
+```sh
+npx skills add https://github.com/CXPhoenix/slide-style-design/tree/main/skills \
+  --agent codex --skill '*' --yes
+```
+
+Claude Code:
+
+```sh
+npx skills add https://github.com/CXPhoenix/slide-style-design/tree/main/skills \
+  --agent claude-code --skill '*' --yes
+```
+
+This installs the five product skills in the current project: `.agents/skills/` for Codex and `.claude/skills/` for Claude Code. The `skills/` subdirectory URL limits discovery to product content. The repository root also contains development collaboration skills, which appear when searching the whole repository.
+
+To install one style, specify its name. For example, install Steve Jobs guidance from the published `v0.1.0`:
+
+```sh
+npx skills add https://github.com/CXPhoenix/slide-style-design/tree/v0.1.0/skills \
+  --agent codex --skill jobs-style --copy --yes
+```
+
+`main` follows the current main branch; a version URL stays on the specified release. Replace `jobs-style` with an entry from the table above. For the route, installing all five is recommended so the selected style definition is available.
+
+Project-local installation, complete files and reference links were tested for Codex and Claude Code; see the [installation verification](docs/reviews/skills-cli-installation.md), currently in zh-TW. Other scopes and agent options are described in the [official CLI documentation](https://github.com/vercel-labs/skills#install-a-skill). These commands install local agent files; they do not register skills in ChatGPT's web interface or Skills MCP.
+
+### ChatGPT and other hosts: supply the guide files
+
 1. Obtain the chosen `SKILL.md` and its linked `references/`. A style skill can be used directly.
 2. Supply the files through your host's supported attachment, instruction or skill-loading mechanism so it can read references as needed. Typing a skill name does not install it.
 3. Provide existing material, purpose and preferences. Use the route if undecided; each request selects one primary style.

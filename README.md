@@ -29,6 +29,39 @@
 
 ## 開始使用
 
+### 本機 agent：透過 `npx skills add` 安裝
+
+在要使用 skills 的專案目錄執行。需要 Node.js、npm 與 Git；本次測試的 `skills` CLI 1.7.0 要求 Node.js 22.20.0 以上。
+
+Codex：
+
+```sh
+npx skills add https://github.com/CXPhoenix/slide-style-design/tree/main/skills \
+  --agent codex --skill '*' --yes
+```
+
+Claude Code：
+
+```sh
+npx skills add https://github.com/CXPhoenix/slide-style-design/tree/main/skills \
+  --agent claude-code --skill '*' --yes
+```
+
+這會在目前專案安裝五個產品 skills，Codex 放在 `.agents/skills/`，Claude Code 放在 `.claude/skills/`。指定 `skills/` 子目錄，可限定為產品內容；repo 根目錄也包含開發協作 skills，直接搜尋整個 repo 會一併列出它們。
+
+只需要一種風格時，可指定名稱；例如安裝已發布的 `v0.1.0` 賈伯斯流：
+
+```sh
+npx skills add https://github.com/CXPhoenix/slide-style-design/tree/v0.1.0/skills \
+  --agent codex --skill jobs-style --copy --yes
+```
+
+`main` 取得目前主分支內容；版本網址固定在指定 release。可用上表的 skill 名稱替換 `jobs-style`。若要使用 route，建議安裝全部五個，讓它能取得選定風格的定義。
+
+已實測 Codex／Claude Code 的專案目錄安裝、完整檔案與參考連結，詳見[安裝驗證](docs/reviews/skills-cli-installation.md)。CLI 的其他安裝範圍與 agent 選項見[官方文件](https://github.com/vercel-labs/skills#install-a-skill)。這些指令安裝本機 agent 檔案，不會替 ChatGPT 網頁版或 Skills MCP 註冊 skills。
+
+### ChatGPT／其他宿主：提供指引文件
+
 1. 取得上表中所需的 `SKILL.md` 與它引用的 `references/`。已選好風格時，可直接使用樣式 skill。
 2. 透過宿主支援的附件、指令或 skill 載入方式提供文件，讓它能按需要讀取參考內容。只輸入 skill 名稱不代表已安裝。
 3. 提供既有素材、用途與要求。尚未選風格時，改用 route；每次選一個主要風格。
