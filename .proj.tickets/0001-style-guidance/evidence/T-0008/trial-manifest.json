@@ -1,0 +1,57 @@
+{
+  "candidate": "T-0008-candidate-01",
+  "surface": "assistant-operated Chrome ChatGPT conversation; pasted text automatically becomes attachment",
+  "product_files": {
+    "skills/wangxing-style/SKILL.md": "a8e6557633e1be74b008156f8c6206ec6125ced870ac368d4929b84c45b8bb92",
+    "skills/wangxing-style/references/adjustments.md": "bf614a6141509ab81caf7c4b2f3d2fd4c107dad579c572cb4f3ddd9b78a42ac9",
+    "skills/wangxing-style/references/compatible-example.md": "4b420a2e772a673a4f3a45d01d1e958212dd469815dcb295dc3b68da22385463",
+    "skills/wangxing-style/references/conflict-example.md": "174d13c39079f36c7f03dcd12ca92637844058fb7c01b6446e1bf1121c4500e1",
+    "skills/wangxing-style/references/core-rule.md": "a836f72866a3c8a11466f8f40e01080de90ab781c096b993a0de66f4f6beacb4",
+    "skills/wangxing-style/references/handoff-example.md": "57c894281a264708b6828a3297a4d5fd7b29ec4f1f251518e904ba1737f754f8",
+    "skills/wangxing-style/references/json-example.md": "367402464b05a2004f0d0f1d7954695bdabb3b4bfee0a704f7da7efaa026bddb"
+  },
+  "bundle_sha256": "d11badb5f7362385eb00c232af8f77e565b7528df23a7ca3c48509761d97a444",
+  "cases": [
+    {
+      "case_id": "CT-01",
+      "request": "請使用忘形流，提供自行閱讀社群圖文的風格指引與設定。接受彩色、不使用幽默；保留「在這個團隊中，清楚分工有助減少重複工作」，視覺是任務區塊對應各人的分工。不依賴講者補充。只提供風格約束，不改寫或重組素材。用台灣繁體中文回答。",
+      "input_file": "chatgpt-CT-01-input.txt",
+      "input_sha256": "1ea25dbea97c7c2118a06bbd7f8faf1716b905b1eaca099777ac228021fcfdd6",
+      "status": "passed",
+      "planned_runs": 1,
+      "response_file": "CT-01-response.md",
+      "model_label": "default conversation model; exact model not displayed",
+      "effort": "Medium visibly checked before CT-01; unchanged CT-02",
+      "response_sha256": "170991ba12a33d298b3898452af4af372ab410b924b4c59fc55bd625660ccd70",
+      "conversation_url": "[private-conversation-redacted]",
+      "runs": 1,
+      "private_capture_basename": "CT-01-screenshot.png"
+    },
+    {
+      "case_id": "CT-02",
+      "request": "請使用忘形流，提供自行閱讀社群圖文的風格指引與設定，設定明確要求 JSON。接受彩色、不使用幽默；保留「在這個團隊中，清楚分工有助減少重複工作」，視覺是任務區塊對應各人的分工。不依賴講者補充。只提供風格約束，不改寫或重組素材。用台灣繁體中文回答。",
+      "input_file": "chatgpt-CT-02-input.txt",
+      "input_sha256": "c988af0f8330ea38b4aabcf02666f1fd4c13c71c67a0ac6977f64e302d75cb9b",
+      "status": "passed",
+      "planned_runs": 1,
+      "response_file": "CT-02-response.md",
+      "model_label": "default conversation model; exact model not displayed",
+      "effort": "Medium visibly checked before CT-01; unchanged CT-02",
+      "response_sha256": "d0ef7656a7bcaa41ceed7bb3909ea2041bf2aa8948a1f8527911e566c7a2f1e3",
+      "conversation_url": "[private-conversation-redacted]",
+      "runs": 1,
+      "private_capture_basename": "CT-02-screenshot.png"
+    }
+  ],
+  "observations": [
+    "Only YAML default / only JSON on explicit request, both plus Markdown. Semantic review against Wangxing catalog: concise viewpoint and meaningful task/person relation contributes to understanding, team limitation retained, independent-reading/no-speaker exception in both representations, color/no-humor accepted optional ID stable. No rewrite or material restructuring.",
+    "No failed runs; prepared input hashes known, UI text attachment bytes not independently exported; MCP unverified."
+  ],
+  "skills_mcp_status": "unverified",
+  "publication": {
+    "status": "sanitized-public-metadata",
+    "raw_browser_captures": "private; not published",
+    "response_files": "retained unchanged; response_sha256 refers to those original response bytes",
+    "historical_capture_hashes": "refer to private originals, not disclosure notices"
+  }
+}

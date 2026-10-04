@@ -1,0 +1,57 @@
+{
+  "candidate": "T-0007-candidate-01",
+  "surface": "assistant-operated Chrome ChatGPT conversation; pasted text automatically becomes attachment",
+  "product_files": {
+    "skills/gates-style/SKILL.md": "a406670f153a2bb8092d77b3a66a721c55b06829553e7d95594e09490fbd8123",
+    "skills/gates-style/references/adjustments.md": "7eb9bf803796d4456cf1e592efd3fd7571019bb53e581ba6ef84b49db0563338",
+    "skills/gates-style/references/compatible-example.md": "c64112098cea79f16ee41e50ecaf055da93075ee2db15c2f957f58310e0d645e",
+    "skills/gates-style/references/conflict-example.md": "d916b24c7235da82a2b1b1387745e07ead7a5123c80c587e6221a9000cf8c66f",
+    "skills/gates-style/references/core-rule.md": "c752ea5c6be068af0d24e5b5f8bc9a9869820a830cf9ebaaa7be1ccd49e993f5",
+    "skills/gates-style/references/handoff-example.md": "968e34dbd7498f5217391a4591ad8e1d87bdc87bdeeeb4a678d2848519d16f5f"
+  },
+  "bundle_sha256": "9d6e77dd7130901a86636b21b0cf55725e8e1fca57e254bc016c0c378da6d945",
+  "cases": [
+    {
+      "case_id": "CT-01",
+      "request": "請使用比爾蓋茲流提供現場投影風格指引與設定。我要減少裝飾、增加留白，仍維持「方案 A 與方案 B 的平均回應時間比較」。A 是 120 ms、B 是 90 ms，使用相同硬體與工作負載，各重複測試 10 次取平均，結果僅適用於此次測試條件。請接受相容偏好，兩種表示保留必要標籤、單位、條件與限定，只提供風格約束，不計算、改寫或重組素材。以台灣繁體中文回覆。",
+      "input_file": "chatgpt-CT-01-input.txt",
+      "input_sha256": "24dcb8942d50b5ba575aec557ec36cecb7f91c5bdccba596b4a872208268eaad",
+      "status": "passed",
+      "planned_runs": 1,
+      "response_file": "CT-01-response.md",
+      "model_label": "default conversation model; exact model not displayed",
+      "effort": "Medium (visible before first trial; unchanged for second)",
+      "response_sha256": "5ee81664baa6d0b575eb89b487bc16bd6e292e3aa10f88c8fdbb93f75b8c1ec0",
+      "conversation_url": "[private-conversation-redacted]",
+      "runs": 1,
+      "private_capture_basename": "CT-01-screenshot.png"
+    },
+    {
+      "case_id": "CT-02",
+      "request": "請使用比爾蓋茲流提供風格指引與設定。既有證據是方案 A 平均回應時間 120 ms、方案 B 90 ms，使用相同硬體與工作負載，結果僅適用此次測試條件；但我要求拿掉必要的指標標籤、ms 單位、共同測試假設與適用限定，只保留 120、90 作裝飾。我尚未接受替代方案；請指出規則 ID、衝突要求與被破壞命題，給保留核心建議，交付原本核心設定，保留原始必要條件，不套用衝突或未接受替代方案。只提供風格約束。以台灣繁體中文回覆。",
+      "input_file": "chatgpt-CT-02-input.txt",
+      "input_sha256": "0b1283640f2eb0d252cc312d33e1eebc31be428f035844b99e463770b2d8104d",
+      "status": "passed",
+      "planned_runs": 1,
+      "response_file": "CT-02-response.md",
+      "model_label": "default conversation model; exact model not displayed",
+      "effort": "Medium (visible before first trial; unchanged for second)",
+      "response_sha256": "4888cb234b11a1421d8f8d356d858d845acd5904cfdce514ded437be55005380",
+      "conversation_url": "[private-conversation-redacted]",
+      "runs": 1,
+      "private_capture_basename": "CT-02-screenshot.png"
+    }
+  ],
+  "observations": [
+    "CT-01: Markdown and YAML preserve A120ms/B90ms average response comparison, shared hardware/workload, 10 repetitions averaged, limited applicability. Accepted whitespace/decoration rule is separately identified.",
+    "CT-02: Core ID, conflicting request, broken relationship/necessary-qualifier propositions, compatible suggestion are explicit. Original core and qualifiers persist; unaccepted suggestions excluded.",
+    "Only style constraints; no calculation or material rewriting/reorganization. Prepared input hashes known; UI automatic text attachments were not independently exported. Actual conversation tests do not verify Skills MCP loading."
+  ],
+  "skills_mcp_status": "unverified",
+  "publication": {
+    "status": "sanitized-public-metadata",
+    "raw_browser_captures": "private; not published",
+    "response_files": "retained unchanged; response_sha256 refers to those original response bytes",
+    "historical_capture_hashes": "refer to private originals, not disclosure notices"
+  }
+}

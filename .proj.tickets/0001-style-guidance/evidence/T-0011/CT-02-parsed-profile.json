@@ -1,0 +1,10 @@
+{
+  "style_id": "gates",
+  "core_rules": [
+    {
+      "rule_id": "gates.evidence_relation",
+      "constraint": "Relate the supplied measured-energy evidence, quantities, or relevant system elements to a clearly stated comparison or system point. Preserve labels, units, assumptions, measurement conditions, and qualifications whenever they are necessary to interpret the supplied evidence correctly. Use hierarchy, spacing, and relevant annotations to make the analytical relationship clear; whitespace or reduced decoration may be used without removing interpretation- critical information, and high density is not required. Do not invent missing assumptions or convert measurements into disconnected decorative quantities."
+    }
+  ],
+  "adjustable_rules": []
+}

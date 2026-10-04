@@ -1,0 +1,55 @@
+{
+  "candidate": "T-0009-candidate-01",
+  "surface": "assistant-operated Chrome ChatGPT conversation; pasted text automatically becomes attachment",
+  "product_files": {
+    "skills/takahashi-style/SKILL.md": "ed0d6daa72ab9498f83c41983d96e83688b8ffec8b8eda61800139d523da450a",
+    "skills/wangxing-style/SKILL.md": "ec004a4e7d80d62d821594890ee2acb7e528636eb0108115362fe242b3ff2cb1",
+    "skills/takahashi-style/references/adjustments.md": "bccbdd4c469b85f048ea8885baf319d26c3cd5c02802b4964a5556c3c4988b42",
+    "skills/takahashi-style/references/compatible-example.md": "22eb9315b9197e006e02410a11ef8535fdfd0e90853ac14acb651f4b5f4b99e8",
+    "skills/takahashi-style/references/conflict-example.md": "cb5fc38e981d8d64c24781bb65b1283d38831dbac4faef14a01937e101f1efde",
+    "skills/takahashi-style/references/core-rule.md": "f0307e72542d36ac0c7b9aaf2f8c6a0508649f0dc95f8760ab503be0f5160b4a",
+    "skills/takahashi-style/references/english-example.md": "8ccf26709bce5ae84361719b3120075f6da52ed1ee5e38666c164643a0826aca",
+    "skills/takahashi-style/references/handoff-example.md": "a7ae0ecfd0436503833de1ec70c3afd5d79694f13a401653b72c35a522393205",
+    "skills/takahashi-style/references/json-example.md": "2d4f4f3616dbf86a7f825c89081d2160407ad24678ba56d40bd48a173e35e55a",
+    "skills/wangxing-style/references/adjustments.md": "bf614a6141509ab81caf7c4b2f3d2fd4c107dad579c572cb4f3ddd9b78a42ac9",
+    "skills/wangxing-style/references/compatible-example.md": "4b420a2e772a673a4f3a45d01d1e958212dd469815dcb295dc3b68da22385463",
+    "skills/wangxing-style/references/conflict-example.md": "174d13c39079f36c7f03dcd12ca92637844058fb7c01b6446e1bf1121c4500e1",
+    "skills/wangxing-style/references/core-rule.md": "a836f72866a3c8a11466f8f40e01080de90ab781c096b993a0de66f4f6beacb4",
+    "skills/wangxing-style/references/english-example.md": "16681cf0586a19b1841e8d2fa5f97c514065fdaf2cad54474db8b7bd02038971",
+    "skills/wangxing-style/references/handoff-example.md": "57c894281a264708b6828a3297a4d5fd7b29ec4f1f251518e904ba1737f754f8",
+    "skills/wangxing-style/references/json-example.md": "367402464b05a2004f0d0f1d7954695bdabb3b4bfee0a704f7da7efaa026bddb"
+  },
+  "bundle_sha256": "b60d07cb9fb1ddf45c38227c1f341f7f462e2ca39f43c1072d46a09abd963842",
+  "cases": [
+    {
+      "case_id": "CT-01",
+      "request": "Please answer entirely in English, including constraint text. Use Wangxing style for independently read social graphics. Accept color and no humor. Keep the statement limited to this team: clear task division helps reduce duplicate work. The visual maps task blocks to each person's responsibilities. No speaker is present to supply missing information. Provide style guidance and settings only, without rewriting or reorganizing material.",
+      "input_file": "chatgpt-CT-01-input.txt",
+      "input_sha256": "47c9ad7ecfda83f4d859ab207f3673522bd79ad7040d8c233c29894051ec47b7",
+      "status": "unverified",
+      "planned_runs": 1,
+      "response_file": null,
+      "model_label": null,
+      "effort": null
+    },
+    {
+      "case_id": "CT-02",
+      "request": "請用台灣繁體中文提供高橋流風格指引及設定。我要求讓密集圖表主導，文字只作小標題。保留「結果僅適用於本次測試條件」。我尚未接受替代建議；請指出核心規則 ID、衝突要求、被破壞命題及保留核心的建議，設定仍保留原核心且不套用衝突或未接受替代。只提供風格約束。",
+      "input_file": "chatgpt-CT-02-input.txt",
+      "input_sha256": "7d0600e36483957d8ef5e32624cfeb1eb69c965670ca704c63bc0bc6353ecb5a",
+      "status": "unverified",
+      "planned_runs": 1,
+      "response_file": null,
+      "model_label": null,
+      "effort": null
+    }
+  ],
+  "observations": [],
+  "skills_mcp_status": "unverified",
+  "publication": {
+    "status": "sanitized-public-metadata",
+    "raw_browser_captures": "private; not published",
+    "response_files": "retained unchanged; response_sha256 refers to those original response bytes",
+    "historical_capture_hashes": "refer to private originals, not disclosure notices"
+  }
+}

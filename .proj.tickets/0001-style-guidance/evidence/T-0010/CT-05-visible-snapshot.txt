@@ -1,0 +1,133 @@
+- link "跳至內容":
+  - /url: "#_r_11_"
+- complementary:
+  - navigation "應用程式導覽":
+    - button "首頁":
+      - generic: 首頁
+    - button "空間":
+      - generic: 空間
+    - button "已排程":
+      - generic: 已排程
+    - button "外掛程式":
+      - generic: 外掛程式
+    - button "探索":
+      - generic: 探索
+    - button "開啟個人檔案選單"
+  - navigation "首頁"
+- main:
+  - button "新對話":
+  - button "分享":
+    - text: 分享
+  - button "更多":
+  - button "切換釘選摘要":
+  - heading "你說：" [level=4]
+  - paragraph:
+    - text: Use the following supplied route and available selected-style guidance for the final caller request. Do not assume other guidance is loaded.
+    - text: === skills/presentation-style-route/SKILL.md ===
+    - text: "---"
+    - text: "name: presentation-style-route"
+    - text: "description: Select one presentation style and route to its actual guidance; honor a named Takahashi, Steve Jobs, Wangxing or Bill Gates choice and report unavailable guidance honestly."
+    - text: "---"
+    - text: "# Presentation style route"
+    - text: Route to one primary style; deliver style guidance and constraints only. Content
+    - text: rewriting, reordering, page splitting/merging, production, rehearsal and export
+    - text: belong to consuming tools, outside this skill.
+    - text: "## Explicit choice"
+    - text: Consult the caller's existing request. A supported explicit style wins over inferred
+    - text: suitability. Resolve Takahashi/高橋流, Steve Jobs/賈伯斯流, Wangxing/忘形流/張忘形,
+    - text: or Bill Gates/比爾蓋茲流 using the [style registry](references/styles.md).
+    - text: "`wangxing` is a project identifier for 張忘形, not an official English name."
+    - text: Do not substitute another style or ask for missing optional purpose, audience or
+    - text: expression details before delivering a supported explicit choice. Relevant
+    - text: limitations may be explained without changing that choice.
+    - text: Read the selected style's actual entry using whichever skill-content access the
+    - text: host provides. Supporting rules/sources/examples are read only when the selected
+    - text: style's relevant branch requires them. Do not load all four styles or all research
+    - text: as a routine prerequisite. Registry references identify the published definitions;
+    - text: they do not assume local path access, shell commands, Codex/Claude invocation syntax,
+    - text: or an available Skills MCP service. Already supplied selected guidance counts as
+    - text: accessible content; do not pretend to perform a tool load that did not occur.
+    - text: "## Delivery"
+    - text: Apply the selected style's existing core, adjustment/conflict and handoff rules.
+    - text: Keep its rule IDs, every required proposition and scope-changing condition in both
+    - text: Markdown and settings. Do not create a separate routed rule catalog. Use Markdown
+    - text: "plus one profile: default YAML, explicit JSON instead, never both. Preserve accepted"
+    - text: preferences, exclude conflicts/unaccepted alternatives according to that style.
+    - text: All visible explanations and constraints follow requested/conversation language;
+    - text: Chinese uses Taiwan Traditional Chinese. English fields/style/rule IDs stay stable.
+    - text: Finish when one selected style's complete guidance/settings are delivered under
+    - text: that actual style's rules, with no content transformation.
+    - text: "## Availability"
+    - text: If the selected actual guidance cannot be accessed, state which guidance is unavailable
+    - text: and the limitation in the caller's language. Do not reconstruct loaded rules from
+    - text: memory, fabricate a profile, assume a missing connector is installed, or silently
+    - text: switch styles. Ask the caller to supply the selected guidance or make it accessible
+    - text: through the host's available means. An honest limitation report completes this
+    - text: branch without settings. For this branch, see the [availability example](references/unavailable-example.md).
+    - text: Context selection and unresolved choices are later increments.
+    - text: === skills/presentation-style-route/references/styles.md ===
+    - text: "# Published style registry"
+    - text: These links identify actual independently usable definitions. They are package
+    - text: references, not host commands or proof of Skills MCP loading. Named use can invoke
+    - text: the selected definition directly without this route. Read only the selected entry;
+    - text: its rule records own meaning, conditions and attribution.
+    - text: "| Project style ID | Names identifying that style | Actual definition |"
+    - text: "|---|---|---|"
+    - text: "| takahashi | Takahashi / 高橋流 | [takahashi-style](../../takahashi-style/SKILL.md) |"
+    - text: "| jobs | Steve Jobs / 賈伯斯流 | [jobs-style](../../jobs-style/SKILL.md) |"
+    - text: "| wangxing | Wangxing / 忘形流 / 張忘形 | [wangxing-style](../../wangxing-style/SKILL.md) |"
+    - text: "| gates | Bill Gates / 比爾蓋茲流 | [gates-style](../../gates-style/SKILL.md) |"
+    - text: "```yaml"
+    - text: "takahashi: ../../takahashi-style/SKILL.md"
+    - text: "jobs: ../../jobs-style/SKILL.md"
+    - text: "wangxing: ../../wangxing-style/SKILL.md"
+    - text: "gates: ../../gates-style/SKILL.md"
+    - text: "```"
+    - text: This registry is a resolver, not a duplicate core-rule catalog or an emitted profile.
+    - text: === skills/presentation-style-route/references/unavailable-example.md ===
+    - text: "# Unavailable selected guidance example"
+    - text: This branch assumes an explicit Jobs choice and no access to the actual definition.
+    - text: It illustrates a limitation report, not a substitute Jobs rule or settings profile.
+    - text: I can identify your choice as Jobs, but the actual jobs-style guidance is unavailable
+    - text: in this host. I cannot truthfully deliver a loaded Jobs profile from that missing
+    - text: content. Please supply its guidance or make it accessible through an available
+    - text: skill-content mechanism. I will retain your Jobs choice rather than switch styles.
+    - text: No local shell, filesystem or connected Skills MCP service is assumed. Language
+    - text: follows the current caller; the English here is an example, not a fixed output language.
+    - text: === Caller request ===
+    - text: "Through presentation-style-route, choose Jobs. For this trial the actual jobs-style guidance is unavailable: no supplied content or connected skill loader can retrieve it. Do not search or reconstruct it from prior knowledge. Reply in English with an honest availability report, without pretending loaded rules or substituting another style.\\"
+  - generic: …
+  - button "顯示較多":
+    - generic: 顯示較多
+  - button "複製訊息":
+  - button "分享提示詞":
+  - button "編輯訊息":
+  - heading "ChatGPT 說：" [level=4]
+  - paragraph:
+    - text: The selected style is
+    - strong: Jobs / Steve Jobs
+    - text: .
+  - paragraph: "The actual jobs-style guidance is unavailable in this trial: no selected-style content was supplied, and no connected skill loader can retrieve it. I therefore cannot truthfully provide a loaded Jobs style profile, rules, settings, or constraints."
+  - paragraph: I will not reconstruct the missing guidance from prior knowledge, search for it, or substitute another presentation style.
+  - paragraph: Please supply the actual jobs-style guidance or make it accessible through an available skill-content mechanism.
+  - button "複製" [active]:
+  - button "分享":
+  - button "朗讀":
+  - button "重新產生回覆":
+  - button "更多操作":
+  - generic: ChatGPT 可能會出錯。請查證重要資訊。
+  - button:
+  - heading "最新回覆" [level=4]
+  - status
+  - button "新增檔案和更多內容":
+  - textbox "問問 ChatGPT":
+    - paragraph: 問問 ChatGPT
+  - button "選取 ChatGPT 模型":
+    - generic: Medium
+  - button "聽寫":
+  - button "開始語音對話":
+- status
+- status
+- status: 回覆完畢
+- tooltip "複製回應":
+  - generic: 複製回應

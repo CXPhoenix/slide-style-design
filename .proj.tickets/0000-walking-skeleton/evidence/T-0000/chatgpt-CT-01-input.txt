@@ -1,0 +1,144 @@
+請將以下內容視為這次使用的高橋流 skill 及其參考資料，依照指引回答最後的請求。
+
+=== skills/takahashi-style/SKILL.md ===
+---
+name: takahashi-style
+description: Provide Takahashi presentation-style guidance when this style is requested, using words and phrases as the primary visual focus.
+---
+
+# Takahashi style
+
+Provide reusable style guidance directly. Content transformation and presentation
+production belong to the consuming tools.
+
+## Identifying core
+
+`takahashi.text_primary` is the mandatory core rule:
+
+- Words or phrases carry the primary visual/message focus.
+- Relative scale establishes their priority.
+- Other detail, if present, supports that text focus rather than becoming an equal
+  or dominant focal point. Supporting charts or notes are not universally excluded.
+
+This relationship is source-led project synthesis, not a creator quotation or
+universal numerical formula. Consult the [core/source record](references/core-rule.md)
+when source attribution, applicability, evidence limits, or boundary examples matter.
+The core above is sufficient for a direct invocation; no route is required.
+
+## Guidance boundary
+
+Use supplied material as context for style constraints. Preserve any qualifications
+needed to interpret the material; style guidance is not a reason to remove them.
+Return guidance and constraints, not rewritten material, page plans, presentation
+files, or rehearsal instructions. Consuming tools can separately perform authorized
+content or production work using this guidance.
+
+## Core/YAML handoff
+
+This walking-skeleton edition provides core guidance in Taiwan Traditional Chinese.
+Field names and rule identifiers remain English. JSON switching, adjustment response
+handling, other language variants, and route behavior are separate increments.
+
+Return complementary Markdown and one YAML settings block. Include the style
+identity and `takahashi.text_primary` in the explanation. Both the explanation and
+its constraint retain every core proposition and any applicable conditions.
+Background, source reasoning, and illustrative examples may stay Markdown-only.
+
+The YAML contains `style_id: takahashi`, a `core_rules` list containing the mandatory
+record, and `adjustable_rules: []`. Every record has a nonempty English `rule_id`
+and a nonempty string `constraint`; identifiers are unique. Use JSON-compatible
+YAML types without custom tags. Finish when the guidance and settings agree on
+the identifying relationship and conditions.
+
+Consult the [handoff example](references/handoff-example.md) when the output shape
+needs illustration; wording can vary while rule identity and meaning stay intact.
+
+If the requested source/supporting record is inaccessible, state that limitation;
+do not invent its contents. Access does not assume shell commands, a local
+filesystem, or a connected Skills MCP service.
+
+
+=== skills/takahashi-style/references/core-rule.md ===
+# Takahashi core/source record
+
+## Rule identity
+
+- Rule ID: `takahashi.text_primary`.
+- Rule classification: core.
+- Evidence class: project synthesis, grounded in direct publication support and
+  limited observations of creator material; not a quotation or official rule ID.
+
+## Required propositions and applicability
+
+1. Words or phrases are the primary visual/message carrier in Takahashi guidance.
+2. Relative scale establishes their priority rather than a fixed font-size rule.
+3. Other detail, if included, is supporting rather than an equal or dominant focus.
+
+Preserve the third proposition as conditional: supporting detail may be absent.
+When it is present, preserve its relationship to the primary words/phrases.
+Maintain source-material qualifications needed for correct interpretation. This
+record describes guidance, not a procedure for rewriting or splitting slides.
+
+## Evidence basis and reading limits
+
+**T1 — Direct publication support.** The creator's publisher describes very large
+text as a defining feature of the method. This supports relative textual emphasis;
+the primary-carrier/supporting-detail relationship above is the project's practical
+synthesis, not a claim that the publisher states all three propositions.
+Source: [SB Creative, the creator's 2005 book](https://www.sbcr.jp/product/4797332530/).
+Reading scope: publisher introduction and bibliographic material, not the full book.
+
+**T2 — Limited creator-sample observation.** The creator's later LT material shows
+short textual fragments and also includes bullets and relationship-model examples
+in extracted text/alternative text. This limits the claim that all creator
+presentations universally exclude other forms. It does not prove every chart fits
+the original text-first method.
+Source: [Takahashi's 2011 LT material](https://www.slideshare.net/takahashim/ldd11-w).
+Reading scope: extracted web text/alternative text; no full visual measurement,
+downloaded PDF, or observed delivery timing. Source notes were collected 2026-10-03.
+
+No fixed font size, word count, pacing, or density threshold is established by these
+reading scopes. Any later numerical project choice needs its own explicit status
+and conditions. No universal audience-effectiveness claim is supported here.
+
+## Boundary examples
+
+**Compatible:** A chart and three auxiliary note lines support the main words/phrases;
+relative scale still makes those words the main visual/message focus. Three is an
+illustrative case, not an allowed-count threshold.
+
+**Conflicting:** A dense chart or prose paragraph becomes the main message carrier,
+while the words/phrases are only a minor heading. This replaces the required
+primary/supporting relationship.
+
+These examples judge the meaning of guidance. They do not assess a rendered slide
+or introduce the adjustment-response handling delivered by a later ticket.
+
+
+=== skills/takahashi-style/references/handoff-example.md ===
+# Illustrative core/YAML handoff
+
+This illustrates the shared fields and meaning, not required exact phrasing.
+
+## 高橋流指引
+
+核心規則 `takahashi.text_primary`：以詞句承載主要視覺與訊息，透過相對尺度
+建立優先地位。其他細節若出現，須輔助這個文字焦點，不能成為同等或更主要
+的焦點。保留理解素材所需的限定條件；這些指引交由其他工具處理實際製作。
+
+這是根據來源整理的專案規則，不是創作者原話，也沒有固定字數或字體大小。
+
+```yaml
+style_id: takahashi
+core_rules:
+  - rule_id: takahashi.text_primary
+    constraint: >-
+      以詞句作為主要視覺與訊息載體，透過相對尺度建立優先地位；
+      若包含其他細節，須讓它們輔助詞句，而非成為同等或更主要的焦點。
+      保留正確理解素材所需的限定條件。
+adjustable_rules: []
+```
+
+
+=== 本次請求 ===
+請使用高橋流，提供適用於現場投影的簡報風格指引與設定。以台灣繁體中文回覆。

@@ -1,0 +1,3 @@
+# T-0010 security review
+
+Independent frozen change packet, root slide-style-design, tickets/T-0010/explicit-style-route; base/HEAD/mergebase ccf8a50f090004aeda36f16d182f5ab74c3b684b. HIGH/MEDIUM candidates0. Fixed registry resolves four published definitions, no arbitrary caller path/URL/command as load target. No added permissions, shell execution, arbitrary access or external transmission. Unavailable branch prohibits fabricated loaded rules/settings. safe_load tests. Static reasoning, no attack reproduction. Excluded dependency/availability/rate-limit/lowseverity/MCP/cross-ticket chain coverage. Zero candidates not global safety proof.

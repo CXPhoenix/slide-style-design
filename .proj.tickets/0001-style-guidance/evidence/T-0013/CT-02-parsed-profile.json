@@ -1,0 +1,15 @@
+{
+  "style_id": "jobs",
+  "core_rules": [
+    {
+      "rule_id": "jobs.single_focus",
+      "constraint": "Display, benefit, reveal, or comparison elements must support one stated focal point. Text and visual elements must support that focal point rather than become independent competing primary claims. The four products may jointly serve the same battery-life comparison. Preserve the shared condition that the hardware and workload are the same, and state that the results apply only to this context."
+    }
+  ],
+  "adjustable_rules": [
+    {
+      "rule_id": "jobs.presentation_preferences",
+      "constraint": "Use color and show four products together as supporting elements for the same battery-life comparison. Color and product count must not create separate competing focal claims. Retain the same-hardware, same-workload condition and the limitation that the results apply only to this context."
+    }
+  ]
+}

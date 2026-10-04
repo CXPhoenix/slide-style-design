@@ -1,0 +1,28 @@
+PUBLIC DERIVED EVIDENCE: Assistant-response sections extracted from the privately retained full-browser AX capture. Sidebar, user input and account UI excluded. Original capture and public response hashes are distinct. AX text/code indentation is retained; this is not original Markdown. Multiple assistant turns, where present, are separated below.
+
+							209 heading ChatGPT 說：, Value: 4
+								210 text ChatGPT 說：
+							211 text 這個版本的  presentation-style-route
+							212 text 不支援同時把高橋流與賈伯斯流都設為主要風格
+							213 text 。當請求包含多個主要風格時，必須先選定其中一個作為唯一 primary style；在選定前，不應產生混合風格約束，也不應輸出 JSON 設定。
+							214 button 開啟 貼上的文字 (1).txt 預覽
+							215 text 你目前指定的是「同時使用高橋流與賈伯斯流」。
+							216 button 開啟 貼上的文字 (1).txt 預覽
+							217 text 請選一個主要風格：
+							218 content list
+								219 container
+									220 AXListMarker • 
+									221 text 高橋流（Takahashi）
+								222 container
+									223 AXListMarker • 
+									224 text 賈伯斯流（Steve Jobs）
+							225 text 選定後，我再依該風格的實際定義提供完整的
+							226 text 台灣繁體中文風格約束 + JSON 設定
+							227 text 。
+							228 button 複製
+								229 image
+							230 button 分享
+							231 checkbox Description: 朗讀, Value: 0
+							232 pop up button (collapsed) Description: 重新產生回覆, ID: radix-_r_dg_, Secondary Actions: Expand
+							233 pop up button (collapsed) Description: 更多操作, ID: radix-_r_dk_, Secondary Actions: Expand
+							234 button 來源

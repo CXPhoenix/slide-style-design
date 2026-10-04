@@ -1,0 +1,17 @@
+{
+  "spec_version": "round-2",
+  "prompt_sha256": "d81fcd8f15f87c58b69e0012eab474b6558e065e4d78a087866dfb094fa35bd5",
+  "context_capture_sha256": "8dc88b54ff5106734abbbaaacbfb3f97c5f332f6a15b3f57f2a7cac73ffac0ed",
+  "files": {
+    "spec.en.md": "e9aa76437e72a36ca4ed1832e2d856bc48bc7a2ea8aad0ac63112c721d2acef1",
+    "traceability.md": "50ba4cdebed3530b238b64c678859db0f9ddba61ff0ef83decf294846bc9c1c0"
+  },
+  "scope_check": [
+    "No new primary style, production workflow, MCP transport, or numerical preset.",
+    "All four mandatory core relationships preserve the original style table and its exceptions.",
+    "An explicit supported choice still bypasses context selection.",
+    "All core constraints remain present on conflict; suggestions are not applied as accepted changes.",
+    "Conditions appear in both formats without requiring duplicate source history.",
+    "First-release acceptance remains document checks and actual ChatGPT trials; MCP loading is separate."
+  ]
+}

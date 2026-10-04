@@ -1,0 +1,15 @@
+{
+  "style_id": "takahashi",
+  "core_rules": [
+    {
+      "rule_id": "takahashi.text_primary",
+      "constraint": "以詞句作為主要視覺與訊息載體，透過相對尺度建立其優先地位； 若包含其他細節，須讓它們支援主要詞句，而非成為同等或更主要的焦點。 保留正確理解素材所需的限定條件，包括「結果僅適用於本次測試條件」。"
+    }
+  ],
+  "adjustable_rules": [
+    {
+      "rule_id": "takahashi.presentation_preferences",
+      "constraint": "採用一張輔助圖表，只用於支援主要詞句並維持較低的視覺層級； 詞句仍須透過相對尺度保持主要視覺與訊息地位。 保留「結果僅適用於本次測試條件」的限定。"
+    }
+  ]
+}

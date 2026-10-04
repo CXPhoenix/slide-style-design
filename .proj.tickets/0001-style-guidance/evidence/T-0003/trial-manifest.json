@@ -1,0 +1,54 @@
+{
+  "candidate": "T-0003-candidate-02",
+  "product_files": {
+    "skills/gates-style/SKILL.md": "75450c6d409075b7287b466bdc5a19b2e844c653025cbb1d17b1b6091b554803",
+    "skills/gates-style/references/core-rule.md": "9c11a6175188ab2145999992a65e64cd96606c9ede370ad6564e6ac70d9fd539",
+    "skills/gates-style/references/handoff-example.md": "968e34dbd7498f5217391a4591ad8e1d87bdc87bdeeeb4a678d2848519d16f5f"
+  },
+  "bundle_sha256": "0aff59cb9fc3f6dd0ada3ea7e5b7cde139d8c222d64c503b42331a19680b712b",
+  "surface": "user-operated actual ChatGPT with inline supply; not MCP",
+  "status": "passed",
+  "previous_candidate": "candidates/candidate-01/trial-manifest.json",
+  "cases": [
+    {
+      "case_id": "CT-01",
+      "input_file": "chatgpt-CT-01-input.txt",
+      "input_sha256": "827f76730a0f34d832d438b2e820644bd2e0802df419fd542459f0694c42e1d6",
+      "request": "請使用比爾蓋茲流，提供適用於現場投影的簡報風格指引與設定。以台灣繁體中文回覆。",
+      "planned_runs": 1,
+      "status": "passed",
+      "response_file": "CT-01-response.md",
+      "model_label": "default model (exact model unknown)",
+      "effort": "medium",
+      "response_sha256": "7f496bfd367fdd4da8b1531f6b129c8246e868c60ad5ce109ace95dc58c9c61c",
+      "structural_status": "passed"
+    },
+    {
+      "case_id": "CT-02",
+      "input_file": "chatgpt-CT-02-input.txt",
+      "input_sha256": "1e152af0a87dc7e20ee81ade5710c1327307a54398eb37b08b768907f917a538",
+      "request": "請使用比爾蓋茲流提供風格指引與設定。用途是現場投影，既有版面有大量留白；分析重點為「兩個方案的平均回應時間比較」。素材是方案 A：120 ms、方案 B：90 ms，兩者使用相同硬體與工作負載，各重複測試 10 次取平均；結果僅適用於此次測試條件。請只針對證據與比較重點的表達關係提供風格指引，保留必要標籤、單位、條件與限定。以台灣繁體中文回覆。",
+      "planned_runs": 1,
+      "status": "passed",
+      "response_file": "CT-02-response.md",
+      "model_label": "default model (exact model unknown)",
+      "effort": "medium",
+      "response_sha256": "c26fa3fa1d3c6df89ebb146e76dac1100e8fca4af598d373e3f82446649fe3ed",
+      "structural_status": "passed"
+    }
+  ],
+  "observations": [
+    {
+      "date": "2026-10-04",
+      "source": "full user-supplied actual ChatGPT replies; both default model / medium",
+      "verdict": "Both candidate 02 cases pass structural and semantic checks. Candidate 01 failure remains archived."
+    }
+  ],
+  "skills_mcp_status": "unverified",
+  "publication": {
+    "status": "sanitized-public-metadata",
+    "raw_browser_captures": "private; not published",
+    "response_files": "retained unchanged; response_sha256 refers to those original response bytes",
+    "historical_capture_hashes": "refer to private originals, not disclosure notices"
+  }
+}

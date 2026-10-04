@@ -1,0 +1,153 @@
+請將以下內容視為這次使用的賈伯斯流 skill 及其參考資料，依照指引回答最後的請求。
+
+=== skills/jobs-style/SKILL.md ===
+---
+name: jobs-style
+description: Provide Steve Jobs presentation-style guidance when this style is requested, organizing expression around one stated focal point.
+---
+
+# Steve Jobs style
+
+Provide reusable style guidance directly. Content transformation and presentation
+production belong to consuming tools.
+
+## Identifying core
+
+`jobs.single_focus` is the mandatory core rule:
+
+- Display, benefit, reveal or comparison elements support one stated focal point.
+- Text and visual elements support that point rather than becoming independent,
+  competing primary claims. Use concise text and relevant visual evidence to make
+  the relationship clear.
+- Several objects can serve the same comparison. One focal point is not a rule
+  that only one object may appear; color or background alone does not identify it.
+
+This is source-led project synthesis, not Jobs's quotation or official method.
+Consult the [core/source record](references/core-rule.md) for attribution,
+applicability, reading limits or boundary examples. The core above is sufficient
+for direct use; no route prerequisite applies.
+
+## Guidance boundary
+
+Use supplied material as context for style constraints. Preserve conditions and
+qualifications needed to interpret a benefit or comparison, including shared test
+conditions and limits on generalization when supplied. Concision cannot remove
+those qualifications. Explain the expression relationship without rewriting the
+material, splitting pages, inventing a deck-wide narrative or producing files.
+Consuming tools may separately perform authorized content or production work.
+
+Do not turn a keynote excerpt into a mandatory buildup/reveal/demo/recap sequence,
+fixed timing, word limit or object-count formula. Reveal is one possible focal
+point, not a requirement to construct a speaking itinerary.
+
+## Core/YAML handoff
+
+This increment returns guidance in Taiwan Traditional Chinese, with English field
+names and rule IDs. Other language variants, JSON switching, adjustments and
+routing are separate increments.
+
+Return complementary Markdown and exactly one YAML settings block. Identify
+Steve Jobs style and `jobs.single_focus` in the explanation. Both Markdown and
+its constraint retain the focal-point/supporting-elements relationship and all
+applicable conditions. Source reasoning and illustrative examples may be Markdown-only.
+
+Use `style_id: jobs`, `core_rules` containing the mandatory record, and
+`adjustable_rules: []`. Records use unique nonempty English `rule_id` values and
+nonempty string `constraint` values; YAML types are JSON-compatible, without
+custom tags. Finish when explanation and settings agree on the relationship and
+conditions. Consult the [handoff example](references/handoff-example.md) for output
+shape; wording may vary without changing identity or meaning.
+
+If requested supporting material is inaccessible, disclose that limit rather than
+invent its contents. No shell, local filesystem or connected MCP service is assumed.
+
+
+=== skills/jobs-style/references/core-rule.md ===
+# Jobs core/source record
+
+## Rule identity
+
+- Rule ID: `jobs.single_focus`.
+- Classification: core.
+- Evidence class: project synthesis grounded in recorded keynote observations and
+  official benefit expression; not an official rule name or creator quotation.
+
+## Required propositions and applicability
+
+1. Display, benefit, reveal or comparison elements support one stated focal point.
+2. Text/visual elements support that point, rather than independent competing claims.
+
+Concise text and relevant visual evidence clarify this relationship. Several objects
+can serve one comparison; count alone does not determine compliance. The alternatives
+(display, benefit, reveal, comparison) need not all occur at once. A generic theme,
+black background or product photo without a focal relationship is insufficient.
+Preserve supplied conditions and qualifications needed to interpret the focal
+point; for a comparison these can include shared test conditions and limits on
+applicability. These are guidance constraints, not content transformation steps.
+
+## Evidence basis and reading limits
+
+**J1 — Recorded keynote observation.** The Archive's 2007 Macworld excerpt describes
+an introduction culminating in one device and a comparison involving multiple
+phones. This motivates focus supported by related elements; it is not a universal
+one-object prohibition or proof of a whole-deck formula.
+Source: [Steve Jobs Archive, Make Something Wonderful](https://book.stevejobsarchive.com/).
+Reading scope: the Macworld 2007 excerpt and bracketed screen/stage descriptions,
+rechecked as web text on 2026-10-03. The source states it is edited/excerpted.
+No complete keynote playback or slide-by-slide visual/timing measurement was done.
+
+**J3 — Official benefit expression.** Apple's iPod launch release links capacity to
+portable listening utility. This informs understandable benefit focus; a release
+is not evidence of a slide layout or proof that all numbers must avoid tables.
+Source: [Apple, Apple Presents iPod (2001)](https://www.apple.com/newsroom/2001/10/23Apple-Presents-iPod/).
+Reading scope: launch headline, product/benefit text and Jobs quotation, rechecked
+2026-10-03. No layout inference is treated as direct source evidence.
+
+The complete supporting-elements relationship is the project's practical synthesis,
+not a claim that either source states this core rule verbatim. No fixed word count,
+font size, object count, timing, image ratio, universal chart/table ban or mandatory
+buildup/reveal/demo/recap sequence is established. No general effectiveness claim
+across audiences is made.
+
+## Boundary examples
+
+**Compatible:** Four products and a concise comparison label support one stated
+comparison point. Their colors can vary while every element retains that relationship;
+necessary test-condition notes remain readable supporting information. Four is an
+illustrative example, not a threshold.
+
+**Conflicting:** Several unrelated claims receive equal primary status, with no
+shared display, benefit, reveal or comparison focus. A black background or larger
+product photo does not repair the missing relationship.
+
+These examples judge guidance statements, not rendered slides or a new
+adjustment-response handler. That handler is a later ticket.
+
+
+=== skills/jobs-style/references/handoff-example.md ===
+# Jobs Markdown/YAML handoff example
+
+This illustrates the existing contract; wording is not an exact-output template.
+
+## 賈伯斯流核心指引
+
+`jobs.single_focus` 要求展示、效益、揭露或比較元素共同支持一個明確陳述的焦點；
+精簡文字與相關視覺證據支持這個焦點，而不是各自形成競爭的主要主張。
+多個物件可以服務同一比較。保留正確理解焦點所需的條件與限定，不能為了
+精簡而省略。這是來源啟發的專案綜整，不是 Jobs 的原話、固定物件數或全局敘事公式。
+內容改寫與簡報製作由其他工具處理。
+
+```yaml
+style_id: jobs
+core_rules:
+  - rule_id: jobs.single_focus
+    constraint: >-
+      讓展示、效益、揭露或比較元素支持一個明確陳述的焦點；
+      文字與視覺元素須支持該焦點，而非形成各自競爭的主要主張。
+      多個物件可服務同一比較；保留正確理解焦點所需的條件與限定。
+adjustable_rules: []
+```
+
+
+=== 本次請求 ===
+請使用賈伯斯流提供風格指引與設定。用途是現場投影；既有素材有 A、B、C、D 四款產品，共同展示「同一測試條件下的電池續航比較」，且須保留「結果不代表其他使用情境」的限定。請針對這個既定比較焦點提供風格指引。以台灣繁體中文回覆。

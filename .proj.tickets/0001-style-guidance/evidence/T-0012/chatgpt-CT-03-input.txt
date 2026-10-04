@@ -1,0 +1,243 @@
+Use the supplied route and available selected-style definitions below for the final caller request. Supporting examples illustrate branches, not new caller preferences.
+
+=== skills/presentation-style-route/SKILL.md ===
+---
+name: presentation-style-route
+description: Select one presentation style and route to its actual guidance; select from supplied purpose/expression needs, honor a named Takahashi, Steve Jobs, Wangxing or Bill Gates choice and report unavailable guidance honestly.
+---
+
+# Presentation style route
+
+Route to one primary style; deliver style guidance and constraints only. Content
+rewriting, reordering, page splitting/merging, production, rehearsal and export
+belong to consuming tools, outside this skill.
+
+## Explicit choice
+
+Consult the caller's existing request. A supported explicit style wins over inferred
+suitability. Resolve Takahashi/高橋流, Steve Jobs/賈伯斯流, Wangxing/忘形流/張忘形,
+or Bill Gates/比爾蓋茲流 using the [style registry](references/styles.md).
+`wangxing` is a project identifier for 張忘形, not an official English name.
+Do not substitute another style or ask for missing optional purpose, audience or
+expression details before delivering a supported explicit choice. Relevant
+limitations may be explained without changing that choice.
+
+Read the selected style's actual entry using whichever skill-content access the
+host provides. Supporting rules/sources/examples are read only when the selected
+style's relevant branch requires them. Do not load all four styles or all research
+as a routine prerequisite. Registry references identify the published definitions;
+they do not assume local path access, shell commands, Codex/Claude invocation syntax,
+or an available Skills MCP service. Already supplied selected guidance counts as
+accessible content; do not pretend to perform a tool load that did not occur.
+
+## Unresolved named choice
+
+Before inferring a style from context, resolve any ambiguous or unsupported explicit
+name. Ask which of the four [supported styles](references/styles.md) the caller
+intends, in the applicable language. A relevant purpose does not authorize overriding
+that unresolved preference or inventing a fifth preset. A supported name identifying
+one style already counts as a resolved choice; use its actual guidance without an
+extra confirmation. See [choice examples](references/choice-examples.md).
+Finish the unresolved branch with the question and no applied profile; continue the
+existing explicit-choice branch after the caller identifies a supported style.
+
+## Multiple requested styles
+
+When the caller requests several primary styles or automatic per-page mixing, ask
+which single supported style should be primary for this request. Keep any resolved
+explicit primary choice; merely mentioning another style as context is not a request
+to mix. Apply this clarification before context inference while multiple primary
+choices remain unresolved. Explain that this release selects one primary style,
+then finish with the question and no mixed or invented profile. Continue with the
+selected style when the caller answers, retaining the established format/language
+preferences. The [choice examples](references/choice-examples.md) show unresolved
+and resolved branches; their metadata is not emitted settings.
+
+## Context selection
+
+When there is no explicit style choice, select from purpose, audience and expression
+needs already supplied. Context is sufficient when a supplied purpose or expression
+need matches at least one anchor below; no request must provide all three fields.
+Audience can refine an eligible choice but does not by itself supply an anchor.
+
+| Supplied purpose / expression need | Eligible style focus |
+|---|---|
+| Emphasize a message through words/phrases as visual carrier | Takahashi text focus |
+| Display/reveal an offering or explain its benefit/comparison | Jobs display/comparison focus |
+| Introduce/explain a concept or communicate a viewpoint through an understandable relation | Wangxing viewpoint/visual focus |
+| Interpret/compare evidence or quantities, or explain system relations | Gates analytical focus |
+
+Choose one eligible style and briefly cite both a supplied anchor and its selected
+focus in the reason. If several anchors match, any one eligible choice is valid;
+no unique-winner scoring or mixing is required. Do not ask for extra optional fields
+once an anchor supports the choice. Do not infer expertise, desired humor or venue
+from an audience label. Proceed through the actual selected guidance and existing
+handoff/availability branches. See [context examples](references/context-examples.md)
+for fixed sufficient branches; they prescribe branch eligibility, not empirical
+claims about what works best for those audiences.
+
+## Missing context
+
+If there is no supported explicit choice and no supplied purpose/expression anchor,
+ask concisely for the missing purpose or expression need in the requested/conversation
+language. A generic request to choose/make a presentation, or an audience alone,
+does not justify a default style or invented audience facts. Do not fabricate a
+profile while the choice is unresolved. See the [missing-context example](references/missing-context-example.md)
+for generic and audience-only requests. Finish this branch with that question;
+continue selection when the caller supplies an anchor or supported explicit choice.
+
+## Delivery
+
+Apply the selected style's existing core, adjustment/conflict and handoff rules.
+Keep its rule IDs, every required proposition and scope-changing condition in both
+Markdown and settings. Do not create a separate routed rule catalog. Use Markdown
+plus one profile: default YAML, explicit JSON instead, never both. Preserve accepted
+preferences, exclude conflicts/unaccepted alternatives according to that style.
+All visible explanations and constraints follow requested/conversation language;
+Chinese uses Taiwan Traditional Chinese. English fields/style/rule IDs stay stable.
+Finish when one selected style's complete guidance/settings are delivered under
+that actual style's rules, with no content transformation.
+
+## Availability
+
+If the selected actual guidance cannot be accessed, state which guidance is unavailable
+and the limitation in the caller's language. Do not reconstruct loaded rules from
+memory, fabricate a profile, assume a missing connector is installed, or silently
+switch styles. Ask the caller to supply the selected guidance or make it accessible
+through the host's available means. An honest limitation report completes this
+branch without settings. For this branch, see the [availability example](references/unavailable-example.md).
+
+
+
+=== skills/presentation-style-route/references/choice-examples.md ===
+# Explicit choice clarification examples
+
+These are branch examples, not settings profiles or new presets. The caller's
+language controls the actual question, rather than this English reference.
+
+```yaml
+ambiguous:
+  request: Use Apple style to compare measured energy use
+  branch: ask_supported_choice
+  supported_styles: [takahashi, jobs, wangxing, gates]
+  settings: null
+unsupported:
+  request: Use Tufte style to compare measured energy use
+  branch: ask_supported_choice
+  supported_styles: [takahashi, jobs, wangxing, gates]
+  settings: null
+multiple:
+  request: Use Takahashi and Jobs together
+  branch: ask_one_primary
+  settings: null
+per_page:
+  request: Use Jobs for product pages and Gates for data pages automatically
+  branch: ask_one_primary
+  settings: null
+resolved:
+  request: I choose Jobs as the only primary style
+  branch: deliver_explicit
+  style_id: jobs
+```
+
+For “Apple style,” ask whether the caller means Steve Jobs, or another supported
+style. Do not assume the answer from a brand association. For Tufte, explain the
+supported set and ask for an intended supported choice. Measurement context does
+not silently replace either unresolved explicit request with Gates. No selected
+profile is delivered until the choice is resolved.
+
+For multiple or per-page requests, ask for one primary style within the supported
+set; no local exceptions or automatic mixing are implemented. After “I choose Jobs
+as the only primary style,” follow the actual Jobs definition and retain previously
+requested JSON and explanation language. A caller already specifying Jobs as primary
+and mentioning Gates only for comparison needs no repeated choice confirmation.
+
+
+=== skills/presentation-style-route/references/context-examples.md ===
+# Sufficient context examples
+
+The approved focus anchors determine these branches. Reason cites the supplied
+purpose/expression and chosen focus. Deliver the actual selected style's complete
+profile, not the branch metadata below. Missing optional fields do not delay delivery.
+Multiple eligible anchors need one choice, not a universal winner.
+
+```yaml
+ai_concept:
+  request: Introduce AI to high-school students
+  branch: deliver_one_eligible
+  eligible_styles: [wangxing]
+measured_energy:
+  request: Compare measured energy use
+  branch: deliver_one_eligible
+  eligible_styles: [gates]
+multiple_anchors:
+  request: Explain a product benefit and compare measured energy use
+  branch: deliver_one_eligible
+  eligible_styles: [jobs, gates]
+```
+
+AI introduction supplies concept explanation; Wangxing's viewpoint/visual focus is
+eligible without a separate expression need. Measured energy comparison supplies
+analytical evidence; Gates is eligible without a separate audience. The combined
+product/evidence purpose supplies both Jobs and Gates anchors; either is valid.
+Do not infer student expertise, teacher humor preferences or a venue.
+
+
+=== skills/presentation-style-route/references/missing-context-example.md ===
+# Missing context examples
+
+A generic request to select a presentation style has no anchor. Ask, for example:
+
+請提供這份素材要達成的用途，或希望觀眾如何理解重點；有了其中一項，就能選擇一個主要風格。
+
+“The audience is teachers” alone also has no purpose/expression anchor. Ask in English:
+
+What is the presentation meant to accomplish, or what expression needs should it support?
+
+Do not infer expertise, humor, venue or a default style from “teachers.” These
+clarifications have no settings profile yet. The current caller's language controls
+the real response; examples do not override it.
+
+
+=== skills/presentation-style-route/references/styles.md ===
+# Published style registry
+
+These links identify actual independently usable definitions. They are package
+references, not host commands or proof of Skills MCP loading. Named use can invoke
+the selected definition directly without this route. Read only the selected entry;
+its rule records own meaning, conditions and attribution.
+
+| Project style ID | Names identifying that style | Actual definition |
+|---|---|---|
+| takahashi | Takahashi / 高橋流 | [takahashi-style](../../takahashi-style/SKILL.md) |
+| jobs | Steve Jobs / 賈伯斯流 | [jobs-style](../../jobs-style/SKILL.md) |
+| wangxing | Wangxing / 忘形流 / 張忘形 | [wangxing-style](../../wangxing-style/SKILL.md) |
+| gates | Bill Gates / 比爾蓋茲流 | [gates-style](../../gates-style/SKILL.md) |
+
+```yaml
+takahashi: ../../takahashi-style/SKILL.md
+jobs: ../../jobs-style/SKILL.md
+wangxing: ../../wangxing-style/SKILL.md
+gates: ../../gates-style/SKILL.md
+```
+
+This registry is a resolver, not a duplicate core-rule catalog or an emitted profile.
+
+
+=== skills/presentation-style-route/references/unavailable-example.md ===
+# Unavailable selected guidance example
+
+This branch assumes an explicit Jobs choice and no access to the actual definition.
+It illustrates a limitation report, not a substitute Jobs rule or settings profile.
+
+I can identify your choice as Jobs, but the actual jobs-style guidance is unavailable
+in this host. I cannot truthfully deliver a loaded Jobs profile from that missing
+content. Please supply its guidance or make it accessible through an available
+skill-content mechanism. I will retain your Jobs choice rather than switch styles.
+
+No local shell, filesystem or connected Skills MCP service is assumed. Language
+follows the current caller; the English here is an example, not a fixed output language.
+
+
+=== Caller request ===
+透過 presentation-style-route 同時使用高橋流與賈伯斯流，提供風格約束與 JSON 設定。請用台灣繁體中文。

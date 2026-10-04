@@ -1,0 +1,166 @@
+請將以下內容視為這次使用的忘形流 skill 及其參考資料，依照指引回答最後的請求。
+
+=== skills/wangxing-style/SKILL.md ===
+---
+name: wangxing-style
+description: Provide Wangxing (張忘形) presentation-style guidance when requested, linking concise viewpoint text with a meaningful visual representation.
+---
+
+# Wangxing style — 張忘形
+
+Provide reusable style guidance directly. Content transformation and presentation
+production belong to consuming tools.
+
+## Identity and identifying core
+
+This style refers to 張忘形, not 王興. `wangxing` is this project's identifier,
+not a claim about the creator's official English name.
+
+`wangxing.text_visual_relation` is the mandatory core rule:
+
+- Concise viewpoint text and a visual representation communicate the same viewpoint
+  or an explicitly named relationship.
+- The visual contributes to understanding that point rather than serving only as
+  decoration. Explain the correspondence, using supplied audience context when
+  available to keep it understandable and relevant.
+
+Color, absence of humor and independent reading can retain this core. Monochrome,
+memes and oral-only use are not requirements. Appearance alone cannot substitute
+for the viewpoint-to-visual relationship.
+
+The fixed rule ID and operational relationship are source-led project synthesis,
+not a creator quotation. Consult the [core/source record](references/core-rule.md)
+for attribution, conditions, reading limits or boundary examples. The core above
+is sufficient for direct use; no route prerequisite applies.
+
+## Guidance boundary
+
+Use existing material as context for style constraints. Preserve conditions and
+qualifications needed to understand the viewpoint or named relationship. For
+independent reading, guidance must keep the meaning and qualifications accessible
+without assuming a speaker will supply them. For projection, readable supporting
+information still preserves necessary conditions; concision cannot erase them.
+
+Return style guidance rather than rewritten viewpoints, new illustrations, page
+plans, whole-deck stories or presentation files. Explain how an existing visual
+relates to a viewpoint without generating replacement content. Consuming tools can
+separately perform authorized content or production work using the guidance.
+Do not attribute fixed word/image counts, meme frequency, timing or density metrics
+to the creator without supporting evidence.
+
+## Core/YAML handoff
+
+This increment returns Taiwan Traditional Chinese guidance with English fields
+and rule IDs. Other language variants, JSON switching, adjustments and route
+behavior are separate increments.
+
+Return complementary Markdown and exactly one YAML settings block. Identify 張忘形
+and `wangxing.text_visual_relation` in the explanation. Both Markdown and constraint
+retain the text/visual correspondence, its contribution to understanding and all
+applicable conditions. Source reasoning and illustrative examples may be Markdown-only.
+
+Use `style_id: wangxing`, `core_rules` containing the mandatory record, and
+`adjustable_rules: []`. Records use unique nonempty English `rule_id` values and
+nonempty string `constraint` values, with JSON-compatible YAML types and no custom
+tags. Finish when guidance and settings agree on meaning and conditions. Consult
+the [handoff example](references/handoff-example.md) for output shape; wording may
+vary while identity and meaning remain intact.
+
+If requested supporting material is inaccessible, disclose that limit rather than
+invent its contents. No shell, local filesystem or connected MCP service is assumed.
+
+
+=== skills/wangxing-style/references/core-rule.md ===
+# Wangxing core/source record
+
+## Identity and classification
+
+- Creator identity: 張忘形, not 王興.
+- Style ID: `wangxing`, a project identifier, not an official English name claim.
+- Mandatory rule ID: `wangxing.text_visual_relation`.
+- Classification: core.
+- Evidence class: source-led project synthesis grounded in creator descriptions;
+  the rule ID and complete operational propositions are not a creator quotation.
+
+## Required propositions and applicability
+
+1. Concise viewpoint text and a visual representation communicate the same viewpoint
+   or an explicitly named relationship.
+2. The visual contributes to understanding that point, rather than decoration alone.
+
+Name the correspondence so that it can be checked; use supplied audience context
+when available. A picture with an unrelated caption does not satisfy the core.
+Color and absence of humor may retain it; monochrome and memes are not mandatory.
+The style is not restricted to spoken projection. For independently read material,
+keep the viewpoint, visual relationship and needed qualifications understandable
+without assuming an accompanying speaker. Projection likewise cannot remove
+necessary conditions merely to simplify. Do not generalize a qualified viewpoint
+beyond supplied circumstances. This is guidance, not a content-editing procedure.
+
+## Evidence basis and reading limits
+
+**W1 — Creator self-description.** The creator's site describes a social-media origin
+and early black-and-white graphic/text expression. This supports a medium beyond
+oral presentation and identifies an early appearance; it does not establish that
+all uses must be monochrome or prove independent-reading effectiveness.
+Source: [張忘形, 關於忘形](https://chwanshing.page/about/detail/2).
+Reading scope: public self-description text, rechecked 2026-10-04. Audience/reach and
+credential self-reports are not treated as independently verified outcome evidence.
+
+**W2 — Creator description of the approach.** The product page links concise verbal
+expression with a picture to convey a viewpoint. The requirement that their
+relationship contribute to understanding is the project's operational synthesis.
+Source: [張忘形, 忘形流簡報思考術](https://chwanshing.page/product/%E5%BF%98%E5%BD%A2%E6%B5%81%E7%B0%A1%E5%A0%B1%E6%9B%B8%E7%B1%8D).
+Reading scope: public product-description text, rechecked 2026-10-04; no complete
+book, paid course or embedded video was read/watched for this implementation.
+The creator's concise text/picture description is not converted into a universal
+numeric sentence/image quota in this project rule.
+
+The evidence does not establish mandatory humor, a meme frequency, timing, fixed
+font sizes or density limits. No measured cognitive-load or general audience-benefit
+claim is made. Unread image-only examples are not evidence of their contents.
+
+## Boundary examples
+
+**Compatible:** A colored diagram maps task blocks to team members and supports a
+concise viewpoint about division of work. No joke is needed. The team-specific
+qualification remains readable, including when the material is read independently.
+This is an illustrative relationship, not an instruction to create a replacement.
+
+**Conflicting:** An unrelated decorative picture is attached to a caption without
+helping readers understand the viewpoint or a named relationship. Black-and-white
+appearance does not repair that missing contribution.
+
+These examples judge guidance meaning, not rendered artwork or the adjustment
+response handler delivered by a later ticket.
+
+
+=== skills/wangxing-style/references/handoff-example.md ===
+# Wangxing Markdown/YAML handoff example
+
+This illustrates the existing contract; wording is not an exact-output template.
+
+## 忘形流核心指引
+
+本風格指張忘形，`wangxing` 是專案識別字。
+`wangxing.text_visual_relation` 要求精簡觀點文字與視覺表現傳達同一觀點，或明確
+指出兩者的關係；圖像須有助理解該觀點，不能只有裝飾作用。保留正確理解所需
+的條件與限定。彩色、無幽默或自行閱讀均可保留此核心；自行閱讀時，不假設
+講者補充缺少的意思或限定。這是來源啟發的專案綜整，不是固定黑白或字圖數量公式。
+內容改寫與圖像製作由其他工具處理。
+
+```yaml
+style_id: wangxing
+core_rules:
+  - rule_id: wangxing.text_visual_relation
+    constraint: >-
+      讓精簡觀點文字與視覺表現傳達同一觀點，或明確指出兩者的關係；
+      圖像須有助理解該觀點，而非只有裝飾作用。
+      保留正確理解所需的條件與限定；彩色、無幽默與自行閱讀不妨礙此核心。
+      自行閱讀時，須讓觀點、圖文關係與必要限定能在沒有講者補充的情況下理解。
+adjustable_rules: []
+```
+
+
+=== 本次請求 ===
+請使用忘形流（張忘形），提供適用於現場投影的簡報風格指引與設定。以台灣繁體中文回覆。

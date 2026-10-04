@@ -1,0 +1,6 @@
+test_explicit_json_examples_preserve_the_existing_catalog_contract (test_serialization.SerializationTests.test_explicit_json_examples_preserve_the_existing_catalog_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK

@@ -1,0 +1,15 @@
+{
+  "style_id": "gates",
+  "core_rules": [
+    {
+      "rule_id": "gates.evidence_relation",
+      "constraint": "Relate evidence, quantities, or system elements to a stated comparison or system point. For the supplied evidence, retain A = 120 ms and B = 90 ms as a mean response time comparison, together with the ms unit, the shared hardware/workload assumption, 10 runs for each case, and the qualification that the result applies only to these test conditions. Do not present the values as isolated decorative numbers without their comparison relationship."
+    }
+  ],
+  "adjustable_rules": [
+    {
+      "rule_id": "gates.presentation_preferences",
+      "constraint": "Use much whitespace while preserving the A/B mean response time relationship and all interpretation-critical labels, units, assumptions, and qualifications."
+    }
+  ]
+}

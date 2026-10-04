@@ -1,0 +1,59 @@
+{
+  "candidate": "T-0006-candidate-01",
+  "surface": "assistant-operated Chrome ChatGPT conversation; pasted text automatically becomes attachment",
+  "product_files": {
+    "skills/wangxing-style/SKILL.md": "9e615150badeac3a96904d748f24a68fab0350b9460441312b35ba4170648a88",
+    "skills/wangxing-style/references/adjustments.md": "bf614a6141509ab81caf7c4b2f3d2fd4c107dad579c572cb4f3ddd9b78a42ac9",
+    "skills/wangxing-style/references/compatible-example.md": "4b420a2e772a673a4f3a45d01d1e958212dd469815dcb295dc3b68da22385463",
+    "skills/wangxing-style/references/conflict-example.md": "174d13c39079f36c7f03dcd12ca92637844058fb7c01b6446e1bf1121c4500e1",
+    "skills/wangxing-style/references/core-rule.md": "a836f72866a3c8a11466f8f40e01080de90ab781c096b993a0de66f4f6beacb4",
+    "skills/wangxing-style/references/handoff-example.md": "57c894281a264708b6828a3297a4d5fd7b29ec4f1f251518e904ba1737f754f8"
+  },
+  "bundle_sha256": "5e0bf5ad2e03cdd329e5db0d25434ad1066c2b5ed5c4097dd2fc5ee37a14cf9f",
+  "cases": [
+    {
+      "case_id": "CT-01",
+      "request": "請使用忘形流（張忘形）提供供讀者自行閱讀的彩色社群圖文風格指引與設定。我要使用彩色、不使用幽默。既有觀點是「在這個團隊中，清楚說明分工，有助減少重複工作」，既有任務區塊圖像與人員分工有明確對應。請接受這些相容偏好、保留圖文關係及「在這個團隊中」限定，不能依賴講者補充。只提供風格約束，不改寫、重組或製作素材。以台灣繁體中文回覆。",
+      "input_file": "chatgpt-CT-01-input.txt",
+      "input_sha256": "82044b32817d6db1f14cca7c0800c821b7e3b9fde5dc42ef5514e20e75c7dfbb",
+      "status": "passed",
+      "planned_runs": 1,
+      "response_file": "CT-01-response.md",
+      "model_label": "default conversation model, exact model not shown",
+      "effort": "Medium (visible menu checked before case1; unchanged session)",
+      "response_sha256": "1e64a8b54fdbdeb2756218d2533b665461782e743e96a9de9ca38a71e666263b",
+      "conversation_url": "[private-conversation-redacted]",
+      "submitted_input": "complete prepared text pasted via UI and automatically converted to attachment; no independent attachment export",
+      "private_capture_basename": "CT-01-screenshot.png"
+    },
+    {
+      "case_id": "CT-02",
+      "request": "請使用忘形流（張忘形）提供風格指引與設定，但我要把觀點文字和視覺的對應關係拿掉，圖片只當無關裝飾，不幫助理解文字。我尚未接受替代方案；請指出規則 ID、衝突要求與被破壞的命題，提出保留核心的建議，交付原本核心設定，不套用衝突或未接受的替代方案。只提供風格約束。以台灣繁體中文回覆。",
+      "input_file": "chatgpt-CT-02-input.txt",
+      "input_sha256": "bde456c0240c210b6df70a9e2099e9d11bb138c043307e01b7180edad45fe330",
+      "status": "passed",
+      "planned_runs": 1,
+      "response_file": "CT-02-response.md",
+      "model_label": "default conversation model, exact model not shown",
+      "effort": "Medium (visible menu checked before case1; unchanged session)",
+      "response_sha256": "ad3bbb147fbbaebe833ee77b3a4ab3849a420b4e61a0a1e5fd93881b597c8ff1",
+      "conversation_url": "[private-conversation-redacted]",
+      "submitted_input": "complete prepared text pasted via UI and automatically converted to attachment; no independent attachment export",
+      "private_capture_basename": "CT-02-screenshot.png"
+    }
+  ],
+  "observations": [
+    {
+      "date": "2026-10-04",
+      "verdict": "Both actual cases pass approved schema and semantic checklist; one execution each, no failed trial."
+    }
+  ],
+  "skills_mcp_status": "unverified",
+  "status": "passed",
+  "publication": {
+    "status": "sanitized-public-metadata",
+    "raw_browser_captures": "private; not published",
+    "response_files": "retained unchanged; response_sha256 refers to those original response bytes",
+    "historical_capture_hashes": "refer to private originals, not disclosure notices"
+  }
+}

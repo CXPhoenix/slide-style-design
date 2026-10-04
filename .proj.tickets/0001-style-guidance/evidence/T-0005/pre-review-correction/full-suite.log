@@ -1,0 +1,45 @@
+test_named_style_has_a_direct_entry_and_accessible_references (test_gates_style.GatesGuidanceTests.test_named_style_has_a_direct_entry_and_accessible_references) ... ok
+test_published_yaml_handoff_uses_the_agreed_core_contract (test_gates_style.GatesGuidanceTests.test_published_yaml_handoff_uses_the_agreed_core_contract) ... ok
+test_compatible_adjustment_example_has_core_and_non_core_settings (test_jobs_style.JobsGuidanceTests.test_compatible_adjustment_example_has_core_and_non_core_settings) ... FAIL
+test_conflict_example_returns_original_core_without_unaccepted_adjustment (test_jobs_style.JobsGuidanceTests.test_conflict_example_returns_original_core_without_unaccepted_adjustment) ... FAIL
+test_named_style_has_a_direct_entry_and_accessible_references (test_jobs_style.JobsGuidanceTests.test_named_style_has_a_direct_entry_and_accessible_references) ... ok
+test_published_yaml_handoff_uses_the_agreed_core_contract (test_jobs_style.JobsGuidanceTests.test_published_yaml_handoff_uses_the_agreed_core_contract) ... ok
+test_compatible_adjustment_example_has_core_and_non_core_settings (test_takahashi_style.TakahashiGuidanceTests.test_compatible_adjustment_example_has_core_and_non_core_settings) ... ok
+test_conflict_example_returns_original_core_without_unaccepted_adjustment (test_takahashi_style.TakahashiGuidanceTests.test_conflict_example_returns_original_core_without_unaccepted_adjustment) ... ok
+test_named_style_has_a_direct_entry_and_accessible_references (test_takahashi_style.TakahashiGuidanceTests.test_named_style_has_a_direct_entry_and_accessible_references) ... ok
+test_published_yaml_handoff_uses_the_agreed_core_contract (test_takahashi_style.TakahashiGuidanceTests.test_published_yaml_handoff_uses_the_agreed_core_contract) ... ok
+test_named_style_has_a_direct_entry_and_accessible_references (test_wangxing_style.WangxingGuidanceTests.test_named_style_has_a_direct_entry_and_accessible_references) ... ok
+test_published_yaml_handoff_uses_the_agreed_core_contract (test_wangxing_style.WangxingGuidanceTests.test_published_yaml_handoff_uses_the_agreed_core_contract) ... ok
+
+======================================================================
+FAIL: test_compatible_adjustment_example_has_core_and_non_core_settings (test_jobs_style.JobsGuidanceTests.test_compatible_adjustment_example_has_core_and_non_core_settings)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repo-root>/tests/test_jobs_style.py", line 58, in test_compatible_adjustment_example_has_core_and_non_core_settings
+    self.assertEqual([r["rule_id"] for r in profile["core_rules"]], ["jobs.text_primary"])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: ['jobs.single_focus'] != ['jobs.text_primary']
+
+First differing element 0:
+'jobs.single_focus'
+'jobs.text_primary'
+
+- ['jobs.single_focus']
++ ['jobs.text_primary']
+
+======================================================================
+FAIL: test_conflict_example_returns_original_core_without_unaccepted_adjustment (test_jobs_style.JobsGuidanceTests.test_conflict_example_returns_original_core_without_unaccepted_adjustment)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repo-root>/tests/test_jobs_style.py", line 82, in test_conflict_example_returns_original_core_without_unaccepted_adjustment
+    self.assertEqual(rule["rule_id"], "jobs.text_primary")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'jobs.single_focus' != 'jobs.text_primary'
+- jobs.single_focus
++ jobs.text_primary
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.007s
+
+FAILED (failures=2)

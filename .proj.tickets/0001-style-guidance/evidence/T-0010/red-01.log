@@ -1,0 +1,20 @@
+test_explicit_route_registry_resolves_the_four_actual_style_entries (test_route.RouteTests.test_explicit_route_registry_resolves_the_four_actual_style_entries) ... ERROR
+
+======================================================================
+ERROR: test_explicit_route_registry_resolves_the_four_actual_style_entries (test_route.RouteTests.test_explicit_route_registry_resolves_the_four_actual_style_entries)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repo-root>/tests/test_route.py", line 12, in test_explicit_route_registry_resolves_the_four_actual_style_entries
+    text = (PACKAGE / "SKILL.md").read_text()
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 787, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '<repo-root>/skills/presentation-style-route/SKILL.md'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)

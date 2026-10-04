@@ -1,0 +1,69 @@
+{
+  "candidate": "T-0002-candidate-01",
+  "product_files": {
+    "skills/wangxing-style/SKILL.md": "81b2071beb7d591664a26bcb6e12f8e687fbcd1150ae5319b82ea4417b01d8dc",
+    "skills/wangxing-style/references/core-rule.md": "f340e64a8aada4a5d9dd8754de38026d2965453e19eb9f927fb53577065dc984",
+    "skills/wangxing-style/references/handoff-example.md": "57c894281a264708b6828a3297a4d5fd7b29ec4f1f251518e904ba1737f754f8"
+  },
+  "bundle_sha256": "b0c65e84520c5985d21c344deec205c58c3fbcfe91ce5eefa7f522de7aecbb1c",
+  "surface": "user-operated ChatGPT; inline supply, not Skills MCP",
+  "cases": [
+    {
+      "case_id": "CT-01",
+      "input_file": "chatgpt-CT-01-input.txt",
+      "input_sha256": "26ba28f9305006a1a58df58a239b70d0fd433c760e2dc1f910bf323de2e62029",
+      "request": "請使用忘形流（張忘形），提供適用於現場投影的簡報風格指引與設定。以台灣繁體中文回覆。",
+      "planned_runs": 1,
+      "status": "passed",
+      "response_file": "CT-01-response.md",
+      "model_label": "default conversation model (exact identifier unknown)",
+      "effort": "medium",
+      "response_sha256": "94a7e569bc39b7a68fab55cee5615d954cc294113dcd2f58630c22aeda26b41c",
+      "observed_at": "2026-10-04",
+      "host_label": "ChatGPT conversation, user-operated",
+      "execution_count": 1
+    },
+    {
+      "case_id": "CT-02",
+      "input_file": "chatgpt-CT-02-input.txt",
+      "input_sha256": "4c2c51c5aad904c76e96a81b4c960ee328a03809c9a27e7ec17f3e787387d6f6",
+      "request": "請使用忘形流（張忘形）提供風格指引與設定。既有素材是供讀者自行閱讀的彩色社群圖文，不使用幽默；觀點為「在這個團隊中，清楚說明分工，有助減少重複工作」，既有圖像以相連的任務區塊對應各人的分工。請只針對文字與圖像的表達關係提供風格指引，保留「在這個團隊中」的限定。以台灣繁體中文回覆。",
+      "planned_runs": 1,
+      "status": "passed",
+      "response_file": "CT-02-response.md",
+      "model_label": "default conversation model (exact identifier unknown)",
+      "effort": "medium",
+      "response_sha256": "64cd7a1a642b4341fbcbf45d9adb0c94b483909ce8b7904c821298a5c44262a2",
+      "observed_at": "2026-10-04",
+      "host_label": "ChatGPT conversation, user-operated",
+      "execution_count": 1
+    }
+  ],
+  "observations": [
+    {
+      "case_id": "CT-01",
+      "structural_verdict": "passed",
+      "semantic_verdict": "passed",
+      "provenance": "user-supplied complete response body; outer transport fence removed",
+      "input_provenance": "associated prepared case input; actual submission not independently exported",
+      "model_effort_provenance": "user confirms default / medium for both",
+      "failure_or_retry_reported": false
+    },
+    {
+      "case_id": "CT-02",
+      "structural_verdict": "passed",
+      "semantic_verdict": "passed",
+      "provenance": "user-supplied complete response body; outer transport fence removed",
+      "input_provenance": "associated prepared case input; actual submission not independently exported",
+      "model_effort_provenance": "user confirms default / medium for both",
+      "failure_or_retry_reported": false
+    }
+  ],
+  "skills_mcp_status": "unverified",
+  "publication": {
+    "status": "sanitized-public-metadata",
+    "raw_browser_captures": "private; not published",
+    "response_files": "retained unchanged; response_sha256 refers to those original response bytes",
+    "historical_capture_hashes": "refer to private originals, not disclosure notices"
+  }
+}

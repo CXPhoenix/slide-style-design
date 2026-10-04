@@ -1,0 +1,18 @@
+test_release_candidate_and_every_ac_have_resolvable_evidence (test_release_evidence.ReleaseEvidenceTests.test_release_candidate_and_every_ac_have_resolvable_evidence) ... FAIL
+
+======================================================================
+FAIL: test_release_candidate_and_every_ac_have_resolvable_evidence (test_release_evidence.ReleaseEvidenceTests.test_release_candidate_and_every_ac_have_resolvable_evidence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repo-root>/tests/test_release_evidence.py", line 21, in test_release_candidate_and_every_ac_have_resolvable_evidence
+    self.assertEqual(record['status'], 'passed')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'failed' != 'passed'
+- failed
++ passed
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.021s
+
+FAILED (failures=1)

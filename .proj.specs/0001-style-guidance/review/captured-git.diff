@@ -1,0 +1,96 @@
+diff --git a/AGENTS.md b/AGENTS.md
+index 3c2ea73..9a9d8e0 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -24,17 +24,45 @@ plans, research and change history there. Keep adopted project rules in `docs/`.
+ 
+ ## Project Charter
+ 
+-**Slide Style Design** — 設計純簡報風格的 skills，提供高橋流、賈伯斯流、忘形流、比爾蓋茲流等風格。
+-
+-本專案預計提供數個「樣式 skill」與一個「route skill」；僅處理簡報風格，不包含任何簡報製作流程。
+-
+-<!-- PLACEHOLDER — the user has not written this yet. -->
+-
+-_What this project is for, who it serves, and what it must do._
+-
+-**Gate (product work):** while this section is a placeholder, the only permitted work is the walking skeleton
+-(below) and the conversation that defines it. Before writing a spec, opening a ticket, or writing
+-implementation code, ask the user to run `/grill-with-docs` and fill this section in.
++**Slide Style Design** provides reusable presentation-style guidance for ChatGPT/GPT
++and other consuming agents. The first release contains four independently usable
++style skills—Takahashi, Steve Jobs, Wangxing, and Bill Gates—and one route skill.
++Product skills live in the root `skills/` directory; `.agents/skills/` and
++`.claude/skills/` contain development collaboration skills.
++
++The product delivers style guidance and constraints only. Content rewriting,
++restructuring, slide production, and export belong to consuming tools and are outside
++this project's scope. Style skills use source-led practical synthesis, distinguish
++direct source evidence from project interpretation, and retain conditions and exceptions.
++They separate identifying core features from adjustable aspects; when an adjustment
++undermines style identity, explain the conflict and suggest a compatible alternative.
++
++The route honors an explicitly requested style. Otherwise, it selects from supplied
++purpose, audience, and expression needs, gives a concise reason, and asks only when
++information is insufficient. Each request selects one primary style. Local exceptions
++and automatic mixing are deferred.
++
++Design first for ChatGPT/GPT, including possible loading through Skills MCP, without
++assuming a local filesystem or Codex/Claude Code-specific operations. Use concise,
++precise descriptions and disclose supporting material as needed, informed by OpenAI's
++GPT-6 Astra skill guidance; this does not restrict support to that model.
++
++Deliver complementary Markdown guidance and structured settings. Markdown explains
++principles, conditions, and exceptions; settings provide style identity, core constraints,
++and adjustable aspects. Both share rule identifiers. Settings default to YAML and use
++JSON when explicitly requested, with the same fields and semantics; emit only one
++structured format per response. Explanatory text follows the user's language, with
++Taiwan Traditional Chinese for Chinese output; field names and rule identifiers use English.
++
++First-release acceptance includes source and rule documentation checks, consistency
++between the two representations, and representative trials in ChatGPT covering style
++identity, routing, adjustment, and conflict handling. Skills MCP loading compatibility
++is verified separately and must be marked unverified until tested. Detailed rules,
++fields, and trial cases remain design work; do not invent fixed word counts, slide
++timing, or meme frequency as source-backed requirements.
++
++The user confirmed this shared understanding on 2026-10-03 (Q14 A). The decision and
++source record is in [the design research](docs/research/2026-10-03-style-design-context.md).
+ 
+ ## Delivery model
+ 
+@@ -96,6 +124,7 @@ Document language and bilingual sync rules: [docs/agents/language.md](docs/agent
+ ## Repository layout
+ 
+ ```
++skills/                          product style skills and the route skill
+ .proj.specs/
+   OPEN-QUESTIONS.md               deferred architecture-level decisions
+   NNNN-<epic-slug>/
+diff --git a/README.md b/README.md
+index 170f8d9..f4efcb2 100644
+--- a/README.md
++++ b/README.md
+@@ -4,6 +4,8 @@
+ 
+ 本專案預計提供數個「樣式 skill」與一個「route skill」；僅處理簡報風格，不包含任何簡報製作流程。
+ 
++本專案交付的產品 skills 放在根目錄 `skills/`；開發協作使用的 skills 位於 `.agents/skills/` 與 `.claude/skills/`。
++
+ 此專案採用 Claude Code 與 Codex 共用的開發流程。在這個目錄開啟開發助理，用 `grill-with-docs` 定義 Project Charter，確認產品服務誰、解決什麼問題，以及必須做到什麼，再建立 walking skeleton。
+ 
+ ## 開始協作
+diff --git a/docs/README.md b/docs/README.md
+index 5555954..29575de 100644
+--- a/docs/README.md
++++ b/docs/README.md
+@@ -9,6 +9,9 @@
+ | 你遇到的問題 | 文件 |
+ | --- | --- |
+ | 開發助理需要遵守哪些共用規則？ | [AGENTS.md](../AGENTS.md) |
++| 簡報風格設計的研究與未決問題？ | [風格設計脈絡](research/2026-10-03-style-design-context.md) |
++| 首版的行為與驗收條件？ | [英文 spec](../.proj.specs/0001-style-guidance/spec.en.md) 與 [traceability matrix](../.proj.specs/0001-style-guidance/traceability.md)（尚未完成 adversarial review） |
++| 產品與協作 skills 的名詞如何區分？ | [領域詞彙](../CONTEXT.md) |
+ | 從需求到交付，每一步何時可以往下走？ | [交付流程](agents/workflow.md) |
+ | Spec 與 tickets 放哪裡？狀態怎麼判定？ | [Issue tracker](agents/issue-tracker.md) |
+ | 四軸 review 與安全審查如何進行？ | [審查規則](agents/review.md) |

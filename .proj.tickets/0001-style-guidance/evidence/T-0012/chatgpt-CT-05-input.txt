@@ -1,0 +1,579 @@
+Use the supplied route and available selected-style definitions below for the final caller request. Supporting examples illustrate branches, not new caller preferences.
+
+=== skills/jobs-style/SKILL.md ===
+---
+name: jobs-style
+description: Provide Steve Jobs presentation-style guidance when this style is requested, organizing expression around one stated focal point, including compatible adjustments and core conflicts.
+---
+
+# Steve Jobs style
+
+Provide reusable style guidance directly. Content transformation and presentation
+production belong to consuming tools.
+
+## Identifying core
+
+`jobs.single_focus` is the mandatory core rule:
+
+- Display, benefit, reveal or comparison elements support one stated focal point.
+- Text and visual elements support that point rather than becoming independent,
+  competing primary claims. Use concise text and relevant visual evidence to make
+  the relationship clear.
+- Several objects can serve the same comparison. One focal point is not a rule
+  that only one object may appear; color or background alone does not identify it.
+
+This is source-led project synthesis, not Jobs's quotation or official method.
+Consult the [core/source record](references/core-rule.md) for attribution,
+applicability, reading limits or boundary examples. The core above is sufficient
+for direct use; no route prerequisite applies.
+
+## Guidance boundary
+
+Use supplied material as context for style constraints. Preserve conditions and
+qualifications needed to interpret a benefit or comparison, including shared test
+conditions and limits on generalization when supplied. Concision cannot remove
+those qualifications. Explain the expression relationship without rewriting the
+material, splitting pages, inventing a deck-wide narrative or producing files.
+Consuming tools may separately perform authorized content or production work.
+
+Do not turn a keynote excerpt into a mandatory buildup/reveal/demo/recap sequence,
+fixed timing, word limit or object-count formula. Reveal is one possible focal
+point, not a requirement to construct a speaking itinerary.
+
+## Adjustments
+
+Accept requested non-core preferences that retain every `jobs.single_focus`
+proposition and applicable material qualification. Color changes and several objects
+serving one comparison are compatible; object count or background alone is not a
+conflict. State the actual accepted preference in Markdown and settings under
+`jobs.presentation_preferences`, retaining the complete core record.
+Consult the [adjustment record](references/adjustments.md) for classification,
+conditions and evidence limits, and the [compatible example](references/compatible-example.md)
+when applying color or related objects. These are expression constraints; content
+restructuring, splitting or appendix relocation remain consuming-tool decisions.
+
+## Core conflicts
+
+When a request negates/replaces a core proposition, name `jobs.single_focus`,
+quote/paraphrase the request, explain the broken focal/supporting relationship and
+offer a retaining suggestion. Deliver original core guidance and settings with
+applicable qualifications. Exclude the conflicting override and any unaccepted
+alternative from applied settings. Keep independently requested compatible choices,
+but do not infer acceptance of a proposed alternative. No style switch or new
+permission workflow is needed to deliver the core.
+See the [conflict example](references/conflict-example.md) for unrelated competing
+claims. Finish with the conflict explained and settings retaining all core conditions.
+
+## Guidance/settings handoff
+
+All visible guidance and constraints follow the caller's requested language, or
+the conversation language when unspecified. Field names and rule IDs stay English.
+
+Return complementary Markdown and exactly one settings block. Identify
+Steve Jobs style and `jobs.single_focus` in the explanation. Both Markdown and
+its constraint retain the focal-point/supporting-elements relationship and all
+applicable conditions. Source reasoning and illustrative examples may be Markdown-only.
+
+Use `style_id: jobs`, `core_rules` containing the mandatory record, and
+an `adjustable_rules` list of accepted applicable preferences, or `[]` when none. Records use unique nonempty English `rule_id` values and
+nonempty string `constraint` values; YAML types are JSON-compatible, without
+custom tags. Finish when explanation and settings agree on the relationship and
+conditions. Consult the [handoff example](references/handoff-example.md) for output
+shape; wording may vary without changing identity or meaning.
+
+If requested supporting material is inaccessible, disclose that limit rather than
+invent its contents. No shell, local filesystem or connected MCP service is assumed.
+
+## Serialization selection
+
+Use YAML by default. If the caller explicitly requests JSON, emit JSON instead,
+never both formats in one answer. Markdown accompanies either. Serialization changes
+only syntax: the same `style_id`, `core_rules`, `adjustable_rules` fields, record/list
+types, stable `rule_id` values, all required propositions and applicability conditions
+remain. Include accepted preferences with their conditions; keep unaccepted alternatives
+out. Preserve unresolved applicability as conditional instructions in either format.
+Use plain JSON-compatible values, with no custom YAML tags or executable settings.
+Compare each included rule against its published source record, not literal wording
+of an earlier response. See the [JSON example](references/json-example.md); the
+existing YAML examples illustrate the same contract, not an instruction to output
+YAML when JSON was requested.
+
+## Language consistency
+
+Apply the caller's explicit language choice to every visible explanation and
+`constraint` string, including conflict explanations, suggestions and availability
+reports. Otherwise use the conversation language. Chinese uses Taiwan Traditional
+Chinese. Keep field names, `style_id` values and published `rule_id` values in
+English and unchanged; do not generate identifiers from translated wording.
+Translation preserves every required proposition, condition, exception, scope
+restriction and accepted adjustment in both Markdown and settings. The core stays
+mandatory in every language and serialization. Follow this invariant for any later
+response type rather than inventing a second language contract. The [English
+example](references/english-example.md) illustrates translation of the same rules;
+it does not override the language requested for the current response.
+
+
+=== skills/presentation-style-route/SKILL.md ===
+---
+name: presentation-style-route
+description: Select one presentation style and route to its actual guidance; select from supplied purpose/expression needs, honor a named Takahashi, Steve Jobs, Wangxing or Bill Gates choice and report unavailable guidance honestly.
+---
+
+# Presentation style route
+
+Route to one primary style; deliver style guidance and constraints only. Content
+rewriting, reordering, page splitting/merging, production, rehearsal and export
+belong to consuming tools, outside this skill.
+
+## Explicit choice
+
+Consult the caller's existing request. A supported explicit style wins over inferred
+suitability. Resolve Takahashi/高橋流, Steve Jobs/賈伯斯流, Wangxing/忘形流/張忘形,
+or Bill Gates/比爾蓋茲流 using the [style registry](references/styles.md).
+`wangxing` is a project identifier for 張忘形, not an official English name.
+Do not substitute another style or ask for missing optional purpose, audience or
+expression details before delivering a supported explicit choice. Relevant
+limitations may be explained without changing that choice.
+
+Read the selected style's actual entry using whichever skill-content access the
+host provides. Supporting rules/sources/examples are read only when the selected
+style's relevant branch requires them. Do not load all four styles or all research
+as a routine prerequisite. Registry references identify the published definitions;
+they do not assume local path access, shell commands, Codex/Claude invocation syntax,
+or an available Skills MCP service. Already supplied selected guidance counts as
+accessible content; do not pretend to perform a tool load that did not occur.
+
+## Unresolved named choice
+
+Before inferring a style from context, resolve any ambiguous or unsupported explicit
+name. Ask which of the four [supported styles](references/styles.md) the caller
+intends, in the applicable language. A relevant purpose does not authorize overriding
+that unresolved preference or inventing a fifth preset. A supported name identifying
+one style already counts as a resolved choice; use its actual guidance without an
+extra confirmation. See [choice examples](references/choice-examples.md).
+Finish the unresolved branch with the question and no applied profile; continue the
+existing explicit-choice branch after the caller identifies a supported style.
+
+## Multiple requested styles
+
+When the caller requests several primary styles or automatic per-page mixing, ask
+which single supported style should be primary for this request. Keep any resolved
+explicit primary choice; merely mentioning another style as context is not a request
+to mix. Apply this clarification before context inference while multiple primary
+choices remain unresolved. Explain that this release selects one primary style,
+then finish with the question and no mixed or invented profile. Continue with the
+selected style when the caller answers, retaining the established format/language
+preferences. The [choice examples](references/choice-examples.md) show unresolved
+and resolved branches; their metadata is not emitted settings.
+
+## Context selection
+
+When there is no explicit style choice, select from purpose, audience and expression
+needs already supplied. Context is sufficient when a supplied purpose or expression
+need matches at least one anchor below; no request must provide all three fields.
+Audience can refine an eligible choice but does not by itself supply an anchor.
+
+| Supplied purpose / expression need | Eligible style focus |
+|---|---|
+| Emphasize a message through words/phrases as visual carrier | Takahashi text focus |
+| Display/reveal an offering or explain its benefit/comparison | Jobs display/comparison focus |
+| Introduce/explain a concept or communicate a viewpoint through an understandable relation | Wangxing viewpoint/visual focus |
+| Interpret/compare evidence or quantities, or explain system relations | Gates analytical focus |
+
+Choose one eligible style and briefly cite both a supplied anchor and its selected
+focus in the reason. If several anchors match, any one eligible choice is valid;
+no unique-winner scoring or mixing is required. Do not ask for extra optional fields
+once an anchor supports the choice. Do not infer expertise, desired humor or venue
+from an audience label. Proceed through the actual selected guidance and existing
+handoff/availability branches. See [context examples](references/context-examples.md)
+for fixed sufficient branches; they prescribe branch eligibility, not empirical
+claims about what works best for those audiences.
+
+## Missing context
+
+If there is no supported explicit choice and no supplied purpose/expression anchor,
+ask concisely for the missing purpose or expression need in the requested/conversation
+language. A generic request to choose/make a presentation, or an audience alone,
+does not justify a default style or invented audience facts. Do not fabricate a
+profile while the choice is unresolved. See the [missing-context example](references/missing-context-example.md)
+for generic and audience-only requests. Finish this branch with that question;
+continue selection when the caller supplies an anchor or supported explicit choice.
+
+## Delivery
+
+Apply the selected style's existing core, adjustment/conflict and handoff rules.
+Keep its rule IDs, every required proposition and scope-changing condition in both
+Markdown and settings. Do not create a separate routed rule catalog. Use Markdown
+plus one profile: default YAML, explicit JSON instead, never both. Preserve accepted
+preferences, exclude conflicts/unaccepted alternatives according to that style.
+All visible explanations and constraints follow requested/conversation language;
+Chinese uses Taiwan Traditional Chinese. English fields/style/rule IDs stay stable.
+Finish when one selected style's complete guidance/settings are delivered under
+that actual style's rules, with no content transformation.
+
+## Availability
+
+If the selected actual guidance cannot be accessed, state which guidance is unavailable
+and the limitation in the caller's language. Do not reconstruct loaded rules from
+memory, fabricate a profile, assume a missing connector is installed, or silently
+switch styles. Ask the caller to supply the selected guidance or make it accessible
+through the host's available means. An honest limitation report completes this
+branch without settings. For this branch, see the [availability example](references/unavailable-example.md).
+
+
+
+=== skills/jobs-style/references/adjustments.md ===
+# Jobs adjustment rule record
+
+ID: `jobs.presentation_preferences`. Classification: adjustable. Evidence class:
+project synthesis / user-selected preference, not creator quotation or official menu.
+Basis: accepted non-core/core boundary and the [core/source record](core-rule.md).
+J1 illustrates several related objects; J3 informs benefit focus. Neither establishes
+mandatory colors, counts or a universal layout. Reuse their edited-excerpt/press-release
+reading limits; no full keynote or rendered-slide measurement added.
+
+Apply only to requested compatible appearance or supporting-element preferences.
+State accepted changes and applicable conditions in both Markdown and constraint.
+Display, benefit, reveal or comparison elements support one stated focal point;
+text/visual elements support it rather than independent competing primary claims.
+Preserve necessary interpretation qualifications. With no applicable preference,
+this optional record is absent; no default color or object count is invented.
+
+Compatible example: a colored background and four products serve one battery-life
+comparison with test-specific limits retained. Four is case-specific, not a threshold.
+Conflicting example: unrelated battery, recruitment and lunch claims receive equal
+primary status without a shared point. Color cannot repair that lost relationship.
+These judgments concern style guidance, not rewriting or producing a slide.
+
+
+=== skills/jobs-style/references/compatible-example.md ===
+# Compatible Jobs adjustment example
+
+## 賈伯斯流相容調整
+
+`jobs.single_focus`：展示、效益、揭露或比較元素支援一個明確焦點；文字與視覺共同
+服務焦點，不形成互相競爭的主要主張。本例四款產品共同支援同一測試條件下的
+電池續航比較，保留「結果不代表其他使用情境」。
+
+接受 `jobs.presentation_preferences`：彩色背景與 A、B、C、D 四款產品仍服務這個
+比較；不是四個獨立主要主張。這是專案綜整的偏好選項，非創作者固定顏色或數量公式。
+只提供風格約束，內容改寫與製作由其他工具處理。
+
+```yaml
+style_id: jobs
+core_rules:
+  - rule_id: jobs.single_focus
+    constraint: >-
+      展示、效益、揭露或比較元素支援一個明確陳述的焦點；文字與視覺服務焦點，
+      不成為互相競爭的主要主張。多個物件可共同服務一項比較。保留本例共同測試條件，
+      且結果不代表其他使用情境。
+adjustable_rules:
+  - rule_id: jobs.presentation_preferences
+    constraint: >-
+      採用彩色背景，同時呈現 A、B、C、D 四款產品，共同服務同一測試條件下的
+      電池續航比較；維持單一比較焦點，保留結果不代表其他使用情境的限定。
+```
+
+
+=== skills/jobs-style/references/conflict-example.md ===
+# Jobs core conflict example
+
+## 賈伯斯流核心衝突
+
+要求「電池續航、企業招聘、午餐選單三個互不相關的主張皆為同等主要焦點」，
+違反 `jobs.single_focus`：沒有一個明確共同焦點，文字與視覺變成競爭的主要主張。
+保留核心的建議是採用一個明確展示／效益／揭露／比較焦點，讓其他元素支援它；
+此建議尚未接受，不列入已套用偏好，也不改寫或重組素材。
+
+交付原本核心：展示、效益、揭露或比較元素支援一個明確焦點，文字與視覺支援
+該焦點而不互相競爭；多個物件可支援同一比較，必要限定仍保留。
+此關係是來源啟發的專案綜整，不是 Jobs 的官方方法或固定物件數公式。
+
+```yaml
+style_id: jobs
+core_rules:
+  - rule_id: jobs.single_focus
+    constraint: >-
+      展示、效益、揭露或比較元素支援一個明確陳述的焦點；文字與視覺服務焦點，
+      不成為互相競爭的主要主張。多個物件可共同服務一項比較，保留正確理解素材
+      所需的條件與限定。
+adjustable_rules: []
+```
+
+
+=== skills/jobs-style/references/core-rule.md ===
+# Jobs core/source record
+
+## Rule identity
+
+- Rule ID: `jobs.single_focus`.
+- Classification: core.
+- Evidence class: project synthesis grounded in recorded keynote observations and
+  official benefit expression; not an official rule name or creator quotation.
+
+## Required propositions and applicability
+
+1. Display, benefit, reveal or comparison elements support one stated focal point.
+2. Text/visual elements support that point, rather than independent competing claims.
+
+Concise text and relevant visual evidence clarify this relationship. Several objects
+can serve one comparison; count alone does not determine compliance. The alternatives
+(display, benefit, reveal, comparison) need not all occur at once. A generic theme,
+black background or product photo without a focal relationship is insufficient.
+Preserve supplied conditions and qualifications needed to interpret the focal
+point; for a comparison these can include shared test conditions and limits on
+applicability. These are guidance constraints, not content transformation steps.
+
+## Evidence basis and reading limits
+
+**J1 — Recorded keynote observation.** The Archive's 2007 Macworld excerpt describes
+an introduction culminating in one device and a comparison involving multiple
+phones. This motivates focus supported by related elements; it is not a universal
+one-object prohibition or proof of a whole-deck formula.
+Source: [Steve Jobs Archive, Make Something Wonderful](https://book.stevejobsarchive.com/).
+Reading scope: the Macworld 2007 excerpt and bracketed screen/stage descriptions,
+rechecked as web text on 2026-10-03. The source states it is edited/excerpted.
+No complete keynote playback or slide-by-slide visual/timing measurement was done.
+
+**J3 — Official benefit expression.** Apple's iPod launch release links capacity to
+portable listening utility. This informs understandable benefit focus; a release
+is not evidence of a slide layout or proof that all numbers must avoid tables.
+Source: [Apple, Apple Presents iPod (2001)](https://www.apple.com/newsroom/2001/10/23Apple-Presents-iPod/).
+Reading scope: launch headline, product/benefit text and Jobs quotation, rechecked
+2026-10-03. No layout inference is treated as direct source evidence.
+
+The complete supporting-elements relationship is the project's practical synthesis,
+not a claim that either source states this core rule verbatim. No fixed word count,
+font size, object count, timing, image ratio, universal chart/table ban or mandatory
+buildup/reveal/demo/recap sequence is established. No general effectiveness claim
+across audiences is made.
+
+## Boundary examples
+
+**Compatible:** Four products and a concise comparison label support one stated
+comparison point. Their colors can vary while every element retains that relationship;
+necessary test-condition notes remain readable supporting information. Four is an
+illustrative example, not a threshold.
+
+**Conflicting:** Several unrelated claims receive equal primary status, with no
+shared display, benefit, reveal or comparison focus. A black background or larger
+product photo does not repair the missing relationship.
+
+These examples judge guidance statements, not rendered slides or a new
+content transformation. See [adjustment record](adjustments.md) for requested preferences.
+
+
+=== skills/jobs-style/references/english-example.md ===
+# English guidance example
+
+Steve Jobs style: jobs.single_focus. Products A, B, C and D support one stated battery-life comparison. Their text and visuals support that shared point, not competing claims. A colored background is accepted; preserve common test conditions and limitations.
+
+The accepted preferences use `jobs.presentation_preferences`.
+
+These rules are source-led project synthesis, not creator quotations or official numerical formulas. Style constraints only; no content transformation.
+
+```yaml
+style_id: jobs
+core_rules:
+- rule_id: jobs.single_focus
+  constraint: Display, benefit, reveal or comparison elements support one stated focal point. Text and visual elements support that focus rather than independent competing claims. Products A, B, C and D may jointly support one battery-life comparison; preserve the common test conditions and limited applicability.
+adjustable_rules:
+- rule_id: jobs.presentation_preferences
+  constraint: Use a colored background and products A, B, C and D for the same battery-life comparison, without competing focal claims; retain common test conditions and applicability limits.
+```
+
+The four products and colored background are accepted preferences for this example, not a universal object-count or color rule.
+
+
+=== skills/jobs-style/references/handoff-example.md ===
+# Jobs Markdown/YAML handoff example
+
+This illustrates the existing contract; wording is not an exact-output template.
+
+## 賈伯斯流核心指引
+
+`jobs.single_focus` 要求展示、效益、揭露或比較元素共同支持一個明確陳述的焦點；
+精簡文字與相關視覺證據支持這個焦點，而不是各自形成競爭的主要主張。
+多個物件可以服務同一比較。保留正確理解焦點所需的條件與限定，不能為了
+精簡而省略。這是來源啟發的專案綜整，不是 Jobs 的原話、固定物件數或全局敘事公式。
+內容改寫與簡報製作由其他工具處理。
+
+```yaml
+style_id: jobs
+core_rules:
+  - rule_id: jobs.single_focus
+    constraint: >-
+      讓展示、效益、揭露或比較元素支持一個明確陳述的焦點；
+      文字與視覺元素須支持該焦點，而非形成各自競爭的主要主張。
+      多個物件可服務同一比較；保留正確理解焦點所需的條件與限定。
+adjustable_rules: []
+```
+
+
+=== skills/jobs-style/references/json-example.md ===
+# Compatible Jobs adjustment example
+
+## 賈伯斯流相容調整
+
+`jobs.single_focus`：展示、效益、揭露或比較元素支援一個明確焦點；文字與視覺共同
+服務焦點，不形成互相競爭的主要主張。本例四款產品共同支援同一測試條件下的
+電池續航比較，保留「結果不代表其他使用情境」。
+
+接受 `jobs.presentation_preferences`：彩色背景與 A、B、C、D 四款產品仍服務這個
+比較；不是四個獨立主要主張。這是專案綜整的偏好選項，非創作者固定顏色或數量公式。
+只提供風格約束，內容改寫與製作由其他工具處理。
+
+This example is for an explicit JSON request. The corresponding compatible YAML
+example preserves the identical rule contract and applicability; emit only one.
+
+```json
+{
+  "style_id": "jobs",
+  "core_rules": [
+    {
+      "rule_id": "jobs.single_focus",
+      "constraint": "展示、效益、揭露或比較元素支援一個明確陳述的焦點；文字與視覺服務焦點， 不成為互相競爭的主要主張。多個物件可共同服務一項比較。保留本例共同測試條件， 且結果不代表其他使用情境。"
+    }
+  ],
+  "adjustable_rules": [
+    {
+      "rule_id": "jobs.presentation_preferences",
+      "constraint": "採用彩色背景，同時呈現 A、B、C、D 四款產品，共同服務同一測試條件下的 電池續航比較；維持單一比較焦點，保留結果不代表其他使用情境的限定。"
+    }
+  ]
+}
+```
+
+
+=== skills/presentation-style-route/references/choice-examples.md ===
+# Explicit choice clarification examples
+
+These are branch examples, not settings profiles or new presets. The caller's
+language controls the actual question, rather than this English reference.
+
+```yaml
+ambiguous:
+  request: Use Apple style to compare measured energy use
+  branch: ask_supported_choice
+  supported_styles: [takahashi, jobs, wangxing, gates]
+  settings: null
+unsupported:
+  request: Use Tufte style to compare measured energy use
+  branch: ask_supported_choice
+  supported_styles: [takahashi, jobs, wangxing, gates]
+  settings: null
+multiple:
+  request: Use Takahashi and Jobs together
+  branch: ask_one_primary
+  settings: null
+per_page:
+  request: Use Jobs for product pages and Gates for data pages automatically
+  branch: ask_one_primary
+  settings: null
+resolved:
+  request: I choose Jobs as the only primary style
+  branch: deliver_explicit
+  style_id: jobs
+```
+
+For “Apple style,” ask whether the caller means Steve Jobs, or another supported
+style. Do not assume the answer from a brand association. For Tufte, explain the
+supported set and ask for an intended supported choice. Measurement context does
+not silently replace either unresolved explicit request with Gates. No selected
+profile is delivered until the choice is resolved.
+
+For multiple or per-page requests, ask for one primary style within the supported
+set; no local exceptions or automatic mixing are implemented. After “I choose Jobs
+as the only primary style,” follow the actual Jobs definition and retain previously
+requested JSON and explanation language. A caller already specifying Jobs as primary
+and mentioning Gates only for comparison needs no repeated choice confirmation.
+
+
+=== skills/presentation-style-route/references/context-examples.md ===
+# Sufficient context examples
+
+The approved focus anchors determine these branches. Reason cites the supplied
+purpose/expression and chosen focus. Deliver the actual selected style's complete
+profile, not the branch metadata below. Missing optional fields do not delay delivery.
+Multiple eligible anchors need one choice, not a universal winner.
+
+```yaml
+ai_concept:
+  request: Introduce AI to high-school students
+  branch: deliver_one_eligible
+  eligible_styles: [wangxing]
+measured_energy:
+  request: Compare measured energy use
+  branch: deliver_one_eligible
+  eligible_styles: [gates]
+multiple_anchors:
+  request: Explain a product benefit and compare measured energy use
+  branch: deliver_one_eligible
+  eligible_styles: [jobs, gates]
+```
+
+AI introduction supplies concept explanation; Wangxing's viewpoint/visual focus is
+eligible without a separate expression need. Measured energy comparison supplies
+analytical evidence; Gates is eligible without a separate audience. The combined
+product/evidence purpose supplies both Jobs and Gates anchors; either is valid.
+Do not infer student expertise, teacher humor preferences or a venue.
+
+
+=== skills/presentation-style-route/references/missing-context-example.md ===
+# Missing context examples
+
+A generic request to select a presentation style has no anchor. Ask, for example:
+
+請提供這份素材要達成的用途，或希望觀眾如何理解重點；有了其中一項，就能選擇一個主要風格。
+
+“The audience is teachers” alone also has no purpose/expression anchor. Ask in English:
+
+What is the presentation meant to accomplish, or what expression needs should it support?
+
+Do not infer expertise, humor, venue or a default style from “teachers.” These
+clarifications have no settings profile yet. The current caller's language controls
+the real response; examples do not override it.
+
+
+=== skills/presentation-style-route/references/styles.md ===
+# Published style registry
+
+These links identify actual independently usable definitions. They are package
+references, not host commands or proof of Skills MCP loading. Named use can invoke
+the selected definition directly without this route. Read only the selected entry;
+its rule records own meaning, conditions and attribution.
+
+| Project style ID | Names identifying that style | Actual definition |
+|---|---|---|
+| takahashi | Takahashi / 高橋流 | [takahashi-style](../../takahashi-style/SKILL.md) |
+| jobs | Steve Jobs / 賈伯斯流 | [jobs-style](../../jobs-style/SKILL.md) |
+| wangxing | Wangxing / 忘形流 / 張忘形 | [wangxing-style](../../wangxing-style/SKILL.md) |
+| gates | Bill Gates / 比爾蓋茲流 | [gates-style](../../gates-style/SKILL.md) |
+
+```yaml
+takahashi: ../../takahashi-style/SKILL.md
+jobs: ../../jobs-style/SKILL.md
+wangxing: ../../wangxing-style/SKILL.md
+gates: ../../gates-style/SKILL.md
+```
+
+This registry is a resolver, not a duplicate core-rule catalog or an emitted profile.
+
+
+=== skills/presentation-style-route/references/unavailable-example.md ===
+# Unavailable selected guidance example
+
+This branch assumes an explicit Jobs choice and no access to the actual definition.
+It illustrates a limitation report, not a substitute Jobs rule or settings profile.
+
+I can identify your choice as Jobs, but the actual jobs-style guidance is unavailable
+in this host. I cannot truthfully deliver a loaded Jobs profile from that missing
+content. Please supply its guidance or make it accessible through an available
+skill-content mechanism. I will retain your Jobs choice rather than switch styles.
+
+No local shell, filesystem or connected Skills MCP service is assumed. Language
+follows the current caller; the English here is an example, not a fixed output language.
+
+
+=== Caller request ===
+我選賈伯斯流作為唯一主要風格，沿用 JSON 與台灣繁體中文。請依已提供的 jobs-style 指引給我風格約束，不改寫內容。

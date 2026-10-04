@@ -1,0 +1,804 @@
+{
+  "scope": "working-tree publication cleanup; not Git-history erasure",
+  "private_originals": "gitignored local archive; not distributed",
+  "records": [
+    {
+      "path": ".proj.specs/0001-style-guidance/reports/first-release-acceptance.html",
+      "action": "public metadata sanitized",
+      "original_sha256": "cdc58571a407afc87a06b2fa86db3166d6d2429b645f5c0dd4e8cf80a90c023d",
+      "public_sha256": "1e1a59cca6e4c9ec2d3861d25709d47a5e45d5093703348b62eee5ee3da7296d"
+    },
+    {
+      "path": ".proj.specs/0001-style-guidance/review/capture.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "8dc88b54ff5106734abbbaaacbfb3f97c5f332f6a15b3f57f2a7cac73ffac0ed",
+      "public_sha256": "b21d14e6dfe97ce73047eaf5b3e1d0562e27d44243fe83253c9c341f1cefae5c"
+    },
+    {
+      "path": ".proj.specs/0001-style-guidance/review/round-1-contract.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "c54c37d8a5fc35c7bd561ef9ce774727461134adcd370535a231f347f5b3bff9",
+      "public_sha256": "65bde0d85265efc0bf691f65ff834cc09fc4bdb485860ae0ab1851a018efe15e"
+    },
+    {
+      "path": ".proj.specs/0001-style-guidance/review/round-2-verifiability.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "28ed6176531ccfaab20b79106cbb5d371042058900b7da906e205c738ead4640",
+      "public_sha256": "c8ca876dfbf5b51e17d626cdacd628614d67faeb397962e0e01b38543288cbc1"
+    },
+    {
+      "path": ".proj.specs/0001-style-guidance/review/security-T-0001.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "f81a76d1ea9cf2603c367b2f36be7fcf0145c450ff452172f276052c01078992",
+      "public_sha256": "c6453c1c7d9307763dff4388df5bac10ebed47a7c51e928c05454e09f1945775"
+    },
+    {
+      "path": ".proj.specs/0001-style-guidance/review/security-T-0002.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "250f5f5e49707be2e8658fd5e056c8fa20ce68e43c9e647802ed73fed1086904",
+      "public_sha256": "d344d6c4f20fc47c278d298bd992fca352b5098018aed8a60ca91d428473b45b"
+    },
+    {
+      "path": ".proj.specs/0001-style-guidance/review/security-T-0003.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "d2938d0dca0c6b9518917a710d8e9cf7f595a1913e3ba3ebf48c9b5eea5f59aa",
+      "public_sha256": "d0566f1a1bd069d09af627d4537b29e094156d25ffd8685c33fe3d0210b45f0b"
+    },
+    {
+      "path": ".proj.specs/0001-style-guidance/review/security-T-0004.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "698d16c2397ff17b0fe79e3ed2df0e46582904410d46d30186c30f2931587208",
+      "public_sha256": "44613f852dd887d8f86424d5d35826b9139bd0ce4913b1ba4f7543a27b0744e7"
+    },
+    {
+      "path": ".proj.specs/0001-style-guidance/review/security-T-0005.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "b0f664cb199d5b29e63dd9f22e7093863c9d6094a43ee83dfce0ffeaa95f836a",
+      "public_sha256": "8b09219f9442568385ab74333cb77b1ee1ddd51ed26507cab78a48d09f099792"
+    },
+    {
+      "path": ".proj.specs/0001-style-guidance/review/security-T-0006.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "8cc483df271e351d68f70dc22d5694c39512b3431fbd34798d99b5b9d3210606",
+      "public_sha256": "35ee20d97675fe857a4529f6f12c950b8208760529b1dfe4510c267bc881b74d"
+    },
+    {
+      "path": ".proj.tickets/0000-walking-skeleton/evidence/T-0000/change-review.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "fcbb77ddb4858e495d8c66d6603cc7272edffc1f1542b62565a16379c381b6b8",
+      "public_sha256": "a5955917bdf44db106f3c4e7c8166ea272d88126528f5c89e80ccdd1705e2469"
+    },
+    {
+      "path": ".proj.tickets/0000-walking-skeleton/evidence/T-0000/red-01.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "3594de438598d438c8b4906672e5bfcf26fe74a7839bf258d93eb2d30f34072d",
+      "public_sha256": "8779e060c21724b09bbdcdcff1f42a337c85e54afcb21e452d707eb98bebf1e8"
+    },
+    {
+      "path": ".proj.tickets/0000-walking-skeleton/evidence/T-0000/red-03.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "6e8368a701c89044eb763cd8b9630e84c61a4d97956533556284065b4d5d1aa8",
+      "public_sha256": "0c1e25f708cb365071413731ee2da49e49f4b32185d187559fa3781fc0686b18"
+    },
+    {
+      "path": ".proj.tickets/0000-walking-skeleton/evidence/T-0000/review-snapshot.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "8dcafbf9d2cd2b0581b647f5e92de19ed8c316ac2797c1111fbf00b77c6662cc",
+      "public_sha256": "c5addd87eff5a7deb6e2d6604737bf5dfe9e14f11ed0ae8df19bd2d8ba5c667a"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0001/change-review.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "a6d6c143968d73be0caf393d174489f72529d49a7782be9da3509417a99bdb51",
+      "public_sha256": "be9cd2bc0a7d6c8fe7a9b75d6a0be46dbd680ac3c46ff80ae5acafe46a20b3fd"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0001/red-01.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "7a410ec80299f23dca2983cb2fbe6ce1e1f7878c4fc42ec43b8039c630d32442",
+      "public_sha256": "d2a3110b60f9ad3be9762f01dbbe47f2d5b9835ac193c1f73eaecc6b49a9d4b5"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0001/red-03.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "4ece941f2281477bf6635349e42d74ed29690db1dfd884e45e6c9b0ffaada0b5",
+      "public_sha256": "21bcc3510f255f603703db303e4b02955c1af5a344b0ab217393ad2fa59464ed"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0001/review-snapshot.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "ea61d67f4d6e707ccaf47f0d965f70ab6dc4725912cad1e8f71e3012c52d7965",
+      "public_sha256": "aa41794c838031c8a8fbe0979ba3825f1cb3f6f3f7d9375ea1cc2fe4fa5b04b6"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0002/change-review.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "9d36eeb4f61f730eba54b721340efe6df4b5f27839d1f1a6e87ba80f71fd11d9",
+      "public_sha256": "2bc8834097dca2c36e0e51eb8a30223458f732478119f4c913e42ffb995b79b4"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0002/red-01.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "83fa8ec091f30909722576bdd9b3060faf8c4112a9140214c629f252723ebd79",
+      "public_sha256": "883e5485e434f921bc942278f5490d997db7ce5d63966ba6fe799c0c5b5f9e8e"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0002/red-03.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "230913a90696e975607b516d9a4a129e40ac4041c98f57b06aa5ea8f62255f3b",
+      "public_sha256": "fe66e1541916b2c9ad689908a0e6f955c61b9e544ee699079037759b3a899630"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0002/review-snapshot.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "30e7ea7fc58ebf1d013d3d22f67ab2a2a18e8cf4d701b94313c914bbd995a5c3",
+      "public_sha256": "89eceb2b94f5b2a05306d803c3e72fe62f5962962cde8678ec92d5e407ebe879"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0003/change-review.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "e4022b8911bcd8a382d4a0a7845e172e5f4fb25541f92f6833551bb06557c07d",
+      "public_sha256": "e5746542699cf883c25c1eab023f19765b80ebe96d6d37d6ec6b1277b619dc38"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0003/red-01.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "18f5a2561178cefbdd22ee97649c50b5e10da1f794a33b60dd36b0f37d7ccde3",
+      "public_sha256": "b0e6be6b95808254897465638a320c60c38e50b3a34c8887911d21202ab77579"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0003/red-03.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "5c737a3e3f564f8b8a961074238c3400049a2174da7c03de837398278de69cd2",
+      "public_sha256": "a75b7c09bca7a8ea28bf178886688499c3abbd43238869cfb1b101990585bef7"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0003/review-snapshot-v2.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "9f8cae4daf29e5d77b0254e833fd65dae928887cd291063a1cee42db6654f81d",
+      "public_sha256": "60ef5c32e57de43bca0c575935c9498ab988df21e5dd7789c1af5ceabeb9271e"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0003/review-snapshot.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "862e2fe5158f8f7ecddb50f573f5e83a3d4aa5f09f2f2ec1c55fb9a8bd320471",
+      "public_sha256": "8efbc299c3ebe799bc849f861314603186707b18f824144b510d156df1dfdae0"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0004/change-review.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "8fa8a9c623d817b353aeff70dd5f8cc663c418a89e7f49f0f501808977a45104",
+      "public_sha256": "dfafaf36a2a82a342bf16f520a91f066763adc07e321c6148db11e9b7ced5815"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0004/red-01.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "23b96eff0b8c193139d407d239e78a6ff43e5fbb76e15e698d4d9efa5fff9b6e",
+      "public_sha256": "9b2c1a66bbd412aca843bdaf472e7328c966b3db220e11f3b83d77c84ea9a24a"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0004/red-02.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "41f26ec9e5c1391f4b33d2a7aae57d46a2ceb1c71a718130cb0ebd43ae3bc43d",
+      "public_sha256": "b18a0b397b64c07090464d9563a5b2256446adcf36b5f022aa9e223b25b56032"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0004/review-snapshot.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "7cb097314ebe0beb1cfe44226160c043f1bb274e2a39ce806ed37fd0836188ae",
+      "public_sha256": "396e93def0956fb470e6edf3b5fa95e80b94272f803c2a1c69a7660474c94aee"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0005/CT-01-screenshot.png",
+      "action": "private capture removed",
+      "original_sha256": "efd2d11f487d69a073fdd48d126e6d3eb48ba5d0c268c8169bc2e86e4bddbb39",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0005/CT-02-screenshot.png",
+      "action": "private capture removed",
+      "original_sha256": "674a08ab6190108a1d44995bcc95fbd7e46f479b9aaf801649015f466b0ec880",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0005/change-review.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "a8464c25c545c278017f2be0653ad0a871f1a453f7ba97211bc258f18a571392",
+      "public_sha256": "5dab9877ba55b2755189de9e4391f08483942ebba48ecf4f7a077862672a0197"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0005/full-suite.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "97b1b94ed886adc781c4c3de38412a9190415859fd947f6aabc51eece96f8b98",
+      "public_sha256": "b3d5b92dbf2e4b38c0d8b783deec8d8891efd1d32d7195120ba02a24ba20a143"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0005/green-01.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "ee939ef032ce6f67becd6a02e8186a3e6e2e5134af5af6a922501ea8afa4c1ff",
+      "public_sha256": "49ec7e5b800b514ad2b55634528f6e46e10e1020a38f61ebbb94471dbf106f32"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0005/green-02.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "f934288b6f7ddea15a6b40c90dbc63c6cd01806ac821eed3748dc33f1325d377",
+      "public_sha256": "e54c9df4d0688cd9c1eb29c0335baddcbc310a13c43e1cdb83d030d6e5c91678"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0005/pre-review-correction/full-suite.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "97b1b94ed886adc781c4c3de38412a9190415859fd947f6aabc51eece96f8b98",
+      "public_sha256": "b3d5b92dbf2e4b38c0d8b783deec8d8891efd1d32d7195120ba02a24ba20a143"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0005/pre-review-correction/green-01.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "ee939ef032ce6f67becd6a02e8186a3e6e2e5134af5af6a922501ea8afa4c1ff",
+      "public_sha256": "49ec7e5b800b514ad2b55634528f6e46e10e1020a38f61ebbb94471dbf106f32"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0005/pre-review-correction/green-02.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "f934288b6f7ddea15a6b40c90dbc63c6cd01806ac821eed3748dc33f1325d377",
+      "public_sha256": "e54c9df4d0688cd9c1eb29c0335baddcbc310a13c43e1cdb83d030d6e5c91678"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0005/pre-review-correction/red-01.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "0adfb3558a7d339f4de474a1b8b4809b7e6d5e217abdf22a6370179ae0699c2b",
+      "public_sha256": "2b825ed5ce4f6df3fdba5ac27584937cfc1edd45f03844bc1f1bf58341b51430"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0005/pre-review-correction/red-02.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "55b6590d247e12357b32c8b71c923b8ac2f7d89551d11c22f93a1ab2d0292ba3",
+      "public_sha256": "965bd14ef6bb596bc6d41db36d0f40a04fc6cab934a534d0af461824fa16d09f"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0005/red-01.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "0adfb3558a7d339f4de474a1b8b4809b7e6d5e217abdf22a6370179ae0699c2b",
+      "public_sha256": "2b825ed5ce4f6df3fdba5ac27584937cfc1edd45f03844bc1f1bf58341b51430"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0005/red-02.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "55b6590d247e12357b32c8b71c923b8ac2f7d89551d11c22f93a1ab2d0292ba3",
+      "public_sha256": "965bd14ef6bb596bc6d41db36d0f40a04fc6cab934a534d0af461824fa16d09f"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0005/review-snapshot-v2.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "5bd3e40ef92e592b1e11949d299bf865400f917072b2cabda178b1f960341cb6",
+      "public_sha256": "61aa8b21cf68be37e0a38fdbae1739ee689bc04460ef203e9b8fc9e44f0cafe9"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0005/trial-manifest.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "831efa4078a5e3358d8b659ed52d718c1d7c707f0cf54631a7507f56ee01e973",
+      "public_sha256": "2b659ed5f650c75075a297a9c13ad5c8bd01e0fe970e7eebe31b29c405de2cc0"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0006/CT-01-screenshot.png",
+      "action": "private capture removed",
+      "original_sha256": "1ee32012bafc0f54aefd0d1a89bb3d53f624d06cc45ce98c734938b696a0eefe",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0006/CT-02-screenshot.png",
+      "action": "private capture removed",
+      "original_sha256": "5e767f62998f6fcd90253165adab04fdc130b5b3c00e530641a43ae32ca5b472",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0006/change-review.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "d7b9bab17f1fbf3378380072199f0e870eb65dd792b4704b74c84da10cd742f8",
+      "public_sha256": "210a4aa22d42d5f00f3bf3861debd5b3221beb212c4be047c5ef7415c73b99c2"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0006/red-01.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "ba4e3276deef93a5ce90fb6b3933f8b8bf184d1101a34ce6ce045bba459f7a62",
+      "public_sha256": "eab6c80271a67289d99f37e42c020913d0288235b872d5b21b4209406fc23c4f"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0006/red-02.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "c5888f6604011b089767c63be11bed642ccec15bbc2efdb0c0b700813eaf3c47",
+      "public_sha256": "573fa292c1b5e7cda0506aa6dbf717fa0c2aa4a32065fea222a70248d8db0c8d"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0006/review-snapshot.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "c2cf7286e558fdc02a30b07da74f48735c2d3eb7fde9afde137afa166b24c06a",
+      "public_sha256": "c368029ea00ae720c520fbc63355aa4091c3df72cd3be1b12d3bca929a785e19"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0006/trial-manifest.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "1df634db38133c4776b5f74f9415fa157f45ec85359e152247a3ce9af56ffc87",
+      "public_sha256": "68cac7b31409ea4d1a99209c188669d7d464eabff92bf067612ea728a20ea5d0"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0007/CT-01-screenshot.png",
+      "action": "private capture removed",
+      "original_sha256": "483b00fd50710ba04e487a8de391a95a886b62384a8dd9ff6807de4cf757b20d",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0007/CT-02-screenshot.png",
+      "action": "private capture removed",
+      "original_sha256": "3d0bf4bcd088cf646e66b58bbe1f1e20395704b08e1c83328d1eabe904523636",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0007/change-review.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "4001a853af173a636c92d13d05e4dc6a290c82948fdc486b4ac13bbb2bc982b2",
+      "public_sha256": "7e70c776dfd6b8382c62c30d875ed91bc574faf9e94b3b5f88f3f09e5c44850a"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0007/red-01.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "726b3e3c2d5124efb3df673bcb336e0d513e127e485ea420825dfb5b8cba3227",
+      "public_sha256": "497b3cbc8d3f8e57fd322f782c277284c4d39cd5e8e1864f6c9e4742a195e919"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0007/red-02.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "3555e920ef70df021d45c2eddf2482aa84c51a475f3facb2543d76ffc486c79a",
+      "public_sha256": "8aca578f310aec705964e286eceb10386e695900fd59fbaca59437285a93b67d"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0007/review-snapshot.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "0aac92a17521d950f58eb9bd6ca018cdbec610b7d23bf9a78dc16544f57208e3",
+      "public_sha256": "c5a0d79de6b7a4f250fd6a5159cc1705743b97f19899032e5d9d3b0c90e672d9"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0007/trial-manifest.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "21bc51ee70c46dc555d697181c1947eb90aa4d32d2405a661a0f8da90471f67a",
+      "public_sha256": "b58c79d5f6253ffd25c0d4c066cd036da60e8a4a1caaef43855ff2120bb410d8"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0008/CT-01-screenshot.png",
+      "action": "private capture removed",
+      "original_sha256": "885f7675eef9dfadc8b70dca33a8c4b851df5d94bfe82da4ea6c24f26299c3f7",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0008/CT-02-screenshot.png",
+      "action": "private capture removed",
+      "original_sha256": "148d1e10d6a499f3a6657ff1311420705795b9f1d3c7cba15fa93c5ee00da6c5",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0008/change-review.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "995437e35a63fe73fd05ab93db8dfcd3c15d163162f334a92b7ece48b97d78ff",
+      "public_sha256": "47c90f8ace1b03e9998fa3d64cedb9a1608a0f1f1c03ca8318f730c166f3c354"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0008/red-01.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "9e0155738fbb4925d2160a9573af3fbce36347e69c9edc10f3881a7a18731a93",
+      "public_sha256": "c7dd69777888e31ae87c98577905f92a1d9a15f66ac6c281815730fd9dd5c9e5"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0008/review-snapshot.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "1ff2da60dd325465a697da6c9d8abb4862c2b85c15cf1c1cececd52fb9c04d96",
+      "public_sha256": "162a6bfcd4c1c87b1648d72b690546e1e1f278768fbc92942322e8ba8e553a22"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0008/trial-manifest.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "d03b38a6cac7efc9356672a60c761d2f7f29218d6759635aa298347a34d8349c",
+      "public_sha256": "667210bd2d1d8328990c49af9e46ce8444bbad5aeefdf3ac4282afa79a34ec8b"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0009/CT-01-screenshot.png",
+      "action": "private capture removed",
+      "original_sha256": "b1870be5991a004fb99b5c193c905584b7db646fd81a48b2106749afc1949424",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0009/CT-02-screenshot.png",
+      "action": "private capture removed",
+      "original_sha256": "e6a6e05116eb92c4b055b8b21af7e9f11230a20bac8c304d95a292a011ac29b1",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0009/change-review.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "729126d5674288a891af16952a727c82d4c8a1d0225c0ea4343a92162d43801f",
+      "public_sha256": "568ac38a8856f9ac0b4f80d4dc39a92aeed112090a681fddd652378f13d624df"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0009/red-01.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "edda74bc5c3a1cfaebc2063da641ff75749cfb33d4653539d79ffaf3dab56762",
+      "public_sha256": "188b900f81a74624eb754e25d24e9fec5e9e4095e4fe247780a3045a0aff3839"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0009/review-snapshot.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "f10dee8bf129a6e1b9772bdadc3e0a53e54cebed00de1d40dec142c020032756",
+      "public_sha256": "978e920b397ba317dbcc85af2518c91c1c8e8db4f9f648d640f1070d33a5b71b"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0009/trial-manifest.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "12ae161ce268172684702eba1fd6e11ed4f1655e3dce3a4898ce3e0dad56ee3a",
+      "public_sha256": "67e1f5a271d467f2c13aecfee6a01e3ffb193cb6085714e261b0a43a53d40167"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0010/CT-01-screenshot.png",
+      "action": "private capture removed",
+      "original_sha256": "194db47a6fc975e2ac0d486989e4724491be1d1679a800b81a6318463ced52a6",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0010/CT-02-screenshot.png",
+      "action": "private capture removed",
+      "original_sha256": "2595dca8a25b8d262ee946a62710299e4a52f88350d89d2c33c0a01199d25353",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0010/CT-03-screenshot.png",
+      "action": "private capture removed",
+      "original_sha256": "b0895a4baf0097872a48917cdba8e7dd9d04b33793397fb553ccf95300183171",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0010/CT-04-screenshot.png",
+      "action": "private capture removed",
+      "original_sha256": "a5d8c5778ffe859f394828d637157a2762b5417834c74f9826942cf9c911723a",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0010/CT-05-screenshot.png",
+      "action": "private capture removed",
+      "original_sha256": "c4d621eddc1473ec6d27dd83e3de9fbefb106760c6825384d7d8dc77856b5e47",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0010/change-review.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "18ed66788419b4df7e94399352f4af74b3023792cc215e81594f32466ba196e2",
+      "public_sha256": "ea6916151b51580f36c428389eae37a3cc1d93b8ac5336ea2a8a236bb94d7c0a"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0010/red-01.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "da51e5097c004480525bbc538393f9585422d1d661942e7f4b44a6d0a8bd7b72",
+      "public_sha256": "a6b6e2779487819c001ebea6c708c294c00e217d64ac1ad6b8e9e61c6709b222"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0010/red-02.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "2ccb2df58debcd11c4dd71a6b4eef28b863768e0eebeef499fd9e37115d1981a",
+      "public_sha256": "4d5bad70be986fb35de7996f9b212070d6a49558a071e155bee9405398199ad1"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0010/review-snapshot.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "fcadf615d0dbddf46cafa55a56e18af23829554f0fae07ec7bf4fc646df34271",
+      "public_sha256": "d5749ff0b5c68d04f05f69545e7fc4c1ecc14b3845258d47c0c1a33ce1181f4f"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0010/trial-manifest.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "c147f76810f1941233de1b4e0b0980945c1eb1e2caeea8134e84e431c60923ee",
+      "public_sha256": "44093aec43e508577f1edb3d33a045b3ea546f40345274d59786e06ec4782ddf"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0011/chatgpt-CT-01.png",
+      "action": "private capture removed",
+      "original_sha256": "ffa20dd0efd7400bd05d84ee23a6f82c9cdf6b7bae4f0b916ba13af6d823671e",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0011/chatgpt-CT-02.png",
+      "action": "private capture removed",
+      "original_sha256": "36d6e0606d622abc8c363f9b306841d4e9737d96ffb7cbe75db8c8b59f22f488",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0011/chatgpt-CT-03.png",
+      "action": "private capture removed",
+      "original_sha256": "395403046b2db9a0158f69d4e63bee6a0aca6e06c64f80976c7effcfcd51952e",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0011/chatgpt-CT-04-ax.txt",
+      "action": "private capture replaced by derived assistant-only AX excerpt",
+      "original_sha256": "9e3bcd13726196da87110a9c829bc94b3f69b234a4764bc7122198b38ebc273d",
+      "public_sha256": "3ed3bc1f9378e27dc361d0ec5fb1635e0ed97a94aae781e99cb272e0da2eb33c"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0011/chatgpt-CT-04.png",
+      "action": "private capture removed",
+      "original_sha256": "7d1580441dae50f19e47eb439a77c3f211f58fa5e42438c0ca23f8e9981537af",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0011/chatgpt-CT-05-ax.txt",
+      "action": "private capture replaced by derived assistant-only AX excerpt",
+      "original_sha256": "f9b40c217b8806035d2c8c7860a07d236bc5187660d1c55a3761a0e1f4e4058f",
+      "public_sha256": "cced435fa5431cc12580a243a6c374368fff6f63d89fc2fac515ce2c46fb7dc5"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0011/chatgpt-CT-05.png",
+      "action": "private capture removed",
+      "original_sha256": "16b01221732f1997ea073e506b80f2f7439859893320489c4254cbbbe82d5ba9",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0011/red-01.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "509b37275b85239f00df19d825bcf8c62686d81c278df0d62fc1df285717d50e",
+      "public_sha256": "28a3a73ebdf545ff0b155cde7aced4d525839ce3fc4ffcb2d3103d43cb582aa3"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0011/red-02.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "b9e9eae034e37e70886da00f7af41362d1f6c67a563859c134f2f2ad9abb6bc0",
+      "public_sha256": "962bbd3f1599b1bf49867b2a177ae6f59c322dd0dd3512ee5e85edf9cb341409"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0011/review-manifest.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "de4f0ea02f9be0a2ae06c669a15ea7c9e2c3cc442b32f04ddaf02f0987446b3b",
+      "public_sha256": "16c7f806483f9e2a889a46cdeb21edb4516df91ba90b9f662e2192494339ccb2"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0011/trial-manifest.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "ef7d54226d78e17a28e7273d1808d40d66ef24a306ac018ca4487992781b1bc8",
+      "public_sha256": "2f69723da2948496cac3ef97f3b4421e9834bbe4f6f7739ae46e07179a637094"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0012/chatgpt-CT-01-ax.txt",
+      "action": "private capture replaced by derived assistant-only AX excerpt",
+      "original_sha256": "93635ed51fcf48cf05b4a33cf800afed57857b68d8f41fd65df5858abcb87753",
+      "public_sha256": "60e3701439b370d5b19acc7e5d184673370e5ff45d15d1132c69c2880fdf2c11"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0012/chatgpt-CT-01.png",
+      "action": "private capture removed",
+      "original_sha256": "0d9e199d6ec848689e98ef10611c2406de8b072fed1c80c82686167de88e5844",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0012/chatgpt-CT-02-ax.txt",
+      "action": "private capture replaced by derived assistant-only AX excerpt",
+      "original_sha256": "16c48747bdeb3b0dfef3d82d95f71123beaf7a20b3ea5ba3afd88be4002b240b",
+      "public_sha256": "fd2bac552863749b0d3fd2a61d24ae5122d0a8eb993de7548939397dd7994038"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0012/chatgpt-CT-02.png",
+      "action": "private capture removed",
+      "original_sha256": "9192e1413e972695fe01b94c3f70a2cb6bf75985164844dd72c55bef8f81f088",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0012/chatgpt-CT-03-ax.txt",
+      "action": "private capture replaced by derived assistant-only AX excerpt",
+      "original_sha256": "74494d667ab89597c4d9a4fa694d2e3fb6fd8f071c1c20e28e1739c20a45fa37",
+      "public_sha256": "0ad0fa8eec5176c0eb1c66b3d8d36dd6fe7c0adf2360a38cdca69f0eef7269f8"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0012/chatgpt-CT-03.png",
+      "action": "private capture removed",
+      "original_sha256": "6119b86dee9bc05e528839653f31356a72ad01d026e07fa1d5e45792238e679f",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0012/chatgpt-CT-04-ax.txt",
+      "action": "private capture replaced by derived assistant-only AX excerpt",
+      "original_sha256": "1ff5f5af338b7f4f6d078b2f3c32b38042e7a2dd5b989f56d186741fa94ce204",
+      "public_sha256": "3321500cfe618e1aecfc312d41fb47035c9bfc3ed46ff006bb6bc37c43a58b30"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0012/chatgpt-CT-04.png",
+      "action": "private capture removed",
+      "original_sha256": "e816fe9cabebc969c03952bd1151b53d25f8ab6a01ec76c5d1aefa6bda7d7af2",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0012/chatgpt-CT-05-ax.txt",
+      "action": "private capture replaced by derived assistant-only AX excerpt",
+      "original_sha256": "ebe915f31afa852fca10292a6d9f49e223ec772fee59b91cec0ba464ba554331",
+      "public_sha256": "15a4b9568b17eb1966719132681de3b8827770a1ee9ecc9e82239ed0a968db98"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0012/chatgpt-CT-05.png",
+      "action": "private capture removed",
+      "original_sha256": "d7f4b28429b24f213520b2cb6cea4dcb55b5d49b73e11d9037337dc3aeefba27",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0012/red-01.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "28f4b22c952f17e7a4e974ad165d8c4faa6e37a8ae5bfe34424c01a001ecca7c",
+      "public_sha256": "d43d8f6426454ea74aa9a280b2114df80ddcfefec0c16461024ab6f603b94a5b"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0012/red-02.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "d22bc189c850f4daf16cb39370953451ec2e5340aea6ba4f808359e204b2bf6b",
+      "public_sha256": "82b1889072c5f7309e571cdce71b77d26b93ecc799d21309aaa091d38f13424e"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0012/review-manifest.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "496a22ca23198fee2e1eb8677c2c0275d5e18d795e8a641a2d32c9ed3fd3bebf",
+      "public_sha256": "b6f777058343e339e91e7a097729be62eff6d4401c930b842538f4ddadeb4a6f"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0012/trial-manifest.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "0006348c6bab48b1b6bdcd645bb15d1153929cf6bc569ed77662e0d79c1774df",
+      "public_sha256": "b2f31e4e863a62e248551b522d8ce2bddc5a4f5dafc3de08cf264db4bf044584"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0013/chatgpt-CT-01-ax.txt",
+      "action": "private capture replaced by derived assistant-only AX excerpt",
+      "original_sha256": "6c413a792e211233e1443d36cf2e40dc9bf958e873395792d6610e792d153aec",
+      "public_sha256": "2973cca03ab8a2ad195e59dd2527bab9d4b4cad25fba89a9aaba4c043ff0d920"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0013/chatgpt-CT-01.png",
+      "action": "private capture removed",
+      "original_sha256": "93e1ee3c0d5d37698c074dc30d658f18ab180879b0d4d18a537f0687180e1d1b",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0013/chatgpt-CT-02-ax.txt",
+      "action": "private capture replaced by derived assistant-only AX excerpt",
+      "original_sha256": "dfc7215771a36693048d720cce5f30640895bab20b607d118535b1d2c272438b",
+      "public_sha256": "67b51b36469a913f986c42d1f4652299e4b9387109cff7f2c3ba17abadbbf8fe"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0013/chatgpt-CT-02.png",
+      "action": "private capture removed",
+      "original_sha256": "185bdf3d9e706052f798089c133bed4d9f7d73ca15c062b4bbf7f96f9caa798a",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0013/chatgpt-CT-03-ax.txt",
+      "action": "private capture replaced by derived assistant-only AX excerpt",
+      "original_sha256": "ed837d572bcd1f6e84beb956db49003fe0c10a71a350b1f06ee0be173b1febb4",
+      "public_sha256": "8300c54da37ed6b4494c68d775c301b9c22ed5a90985f1818ede311f5df950cf"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0013/chatgpt-CT-03.png",
+      "action": "private capture removed",
+      "original_sha256": "690cda32fe58a52c786cfc8286aedf12b4a22090d7c36ec37d891f5d81fe2e0a",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0013/chatgpt-CT-04-ax.txt",
+      "action": "private capture replaced by derived assistant-only AX excerpt",
+      "original_sha256": "11e61f9f2ead91947f99426b7d6496d0992bba3233dd21ed57d284f400c56ec1",
+      "public_sha256": "6e2172349acb54feb586ac1318019cd7627cfd1761a0a8537c453530bfd58fea"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0013/chatgpt-CT-04.png",
+      "action": "private capture removed",
+      "original_sha256": "873bc25d028ca34496228eed22a4bd92913a82e51bee9579c1a4c774aab66792",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0013/chatgpt-CT-05-ax.txt",
+      "action": "private capture replaced by derived assistant-only AX excerpt",
+      "original_sha256": "5a12699b67cb73de472062bf885cea0fb4404eb36065438c62258f3d8b682f7c",
+      "public_sha256": "397d4a72c6242ef3de231d42ab70c259fb76301c87096d26d83974805fc560c0"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0013/chatgpt-CT-05.png",
+      "action": "private capture removed",
+      "original_sha256": "9a08eadbcdac9ef58d6660e783e3097c7e198b881ef48392ad19beb907e2e9a2",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0013/chatgpt-CT-06-ax.txt",
+      "action": "private capture replaced by derived assistant-only AX excerpt",
+      "original_sha256": "36b3b082d4b15c05413b056f63fa76a5a47f377448e60f52e9ad257f9285b9aa",
+      "public_sha256": "6940b007815c39053da2c9fc324b198cce50decca6c4ed072f035f5631e7b1dd"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0013/chatgpt-CT-06.png",
+      "action": "private capture removed",
+      "original_sha256": "8bb4226967be64282b05a5b5e4cd331ef0388ef2eafb1a80d7f530baa0f26236",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0013/host-settings-ax.txt",
+      "action": "private capture replaced by derived assistant-only AX excerpt",
+      "original_sha256": "5d3a74290569ee0bbdf8c1a952539252a47af4114d5b22efddcbb93a9ea84e9d",
+      "public_sha256": "6940b007815c39053da2c9fc324b198cce50decca6c4ed072f035f5631e7b1dd"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0013/host-settings.png",
+      "action": "private capture removed",
+      "original_sha256": "a48fad175e74ea77ad3d08fc9222ebe7ce6f59de6caa5a6b6df534252dabb753",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0013/initial-verdict-before-T14-audit/trial-manifest.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "412cf6b052caa64a5a3a542756b8c859aee1ca930baea10f335916b0ae141e60",
+      "public_sha256": "57cd8cc01f847844a1bafd23336aca5ee77c56e0c0311a2019d63ece32da19f5"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0013/red-01.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "a038d5129a838ccf5a070ae0facaeb4528b81e8ab392c34d51c63386928c1ecf",
+      "public_sha256": "211bdd86f72b4005489832100c1e4064052e1fc4a8aaead6f8e6fe4dbd0d14d0"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0013/reviews.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "52c5db1d8d5233f8c1e9b8346b9e54867c351a20b5c2357b2aca12eb94adb6f0",
+      "public_sha256": "ff622302f6774eb5847d40345494cea1ece352ad30cfdf9fe79c73d65363681a"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0013/trial-manifest.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "65fe009a037e33033568e2e8bd428ea8c87cfd33eb57ff7803febe72b7a9f3b8",
+      "public_sha256": "ca4d47362c0f776564f167e8678556dbf70c5f35d178a3de602da8997ea539ea"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0014/chatgpt-CT-01-ax.txt",
+      "action": "private capture replaced by derived assistant-only AX excerpt",
+      "original_sha256": "21db19bc7f5e2b462b34254c268e5d74c4bc953fb37b1367f945fa8b04f91792",
+      "public_sha256": "03af4f5ab627670a67a3d0d3c884b69f72b9a8fd2eb3108d3530e11c246f8670"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0014/chatgpt-CT-01.png",
+      "action": "private capture removed",
+      "original_sha256": "a17bf3e83c07f40e71fba53fc306034df8e9373d8b5959367decc0d18be3919b",
+      "public_sha256": null
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0014/red-01.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "118c6df3b7acc54a92f87a28b97ce7c24afc081a57847c7d7a68bf2beb9d68e7",
+      "public_sha256": "82357cd3a3e4af7189394d089b62ac58f9a8b5665fe003698490a488f3f30a94"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0014/red-02.log",
+      "action": "public metadata sanitized",
+      "original_sha256": "700adb30b191ea9275f4316fd02b1f04a65af636fcbb99dc7089a80a0f135fd9",
+      "public_sha256": "c646d2c38cf0f8c18ceafc26aa75aa8bb5b2b5c64364b0b7079e0a88f46dffe0"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0014/review-manifest.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "7b73572af57376c319c9dee9809e4619ca018151285d03929472fafa99fe84b7",
+      "public_sha256": "f61b8c72b5acb80f7870b8870011530d9719bc9dc34347b02715116cd3a428a9"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0014/review-v2-manifest.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "dc39efb5bc5f65f5fbbf538a42f4ac83c4075c61a34c15f965bdaa0073cfe454",
+      "public_sha256": "8d1cc06a01f21b847e9e9a6f54c578e800292e2f14c32233f4d1df1931c766bf"
+    },
+    {
+      "path": ".proj.tickets/0001-style-guidance/evidence/T-0014/trial-manifest.json",
+      "action": "public metadata sanitized",
+      "original_sha256": "b5da531024a062e63a1070755ffc5d45430713bd046f2fe358de7023e0b1e25e",
+      "public_sha256": "23a8152837b1c0441eabcafeea1c76ec8265c64296202e1bb8debc6117fd0fdb"
+    },
+    {
+      "path": "docs/reviews/security-T-0000.md",
+      "action": "public metadata sanitized",
+      "original_sha256": "fb6d1c5ebf19d190ee5d81145da0f5c83ccef12889919eebd9f71723fc67b3a9",
+      "public_sha256": "3914437955657465d36225b528c5500809ff8be7e55f5a18db9c9fc4b9d2a1b7"
+    }
+  ]
+}

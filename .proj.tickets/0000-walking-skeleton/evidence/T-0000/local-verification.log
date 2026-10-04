@@ -1,0 +1,21 @@
+2026-10-03 — local verification, T-0000
+
+$ python3 -B -m unittest discover -s tests -v
+Ran 2 tests in 0.001s
+OK
+Full product-suite output retained in green-03.log (same two product tests).
+
+$ python3 scripts/verify-project.py
+PASS: shared instructions, 32 skills across Claude/Codex trees, invocation policies, helper assets and native role configs
+Static/offline checks only; confirm discovery in fresh Claude Code and Codex sessions.
+Exit: 0
+
+$ git diff --check
+No output; exit: 0
+
+SHA-256 integrity check:
+PASS: supplied product/input hashes match; both cases remain unverified
+
+Independent change review: Standards P2 coverage-table omission corrected and
+confirmed resolved; Spec zero findings. Static security review: zero qualifying
+HIGH/MEDIUM candidates. Actual ChatGPT and Skills MCP: unverified.

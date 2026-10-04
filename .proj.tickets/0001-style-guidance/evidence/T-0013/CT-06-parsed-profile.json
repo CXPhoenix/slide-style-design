@@ -1,0 +1,15 @@
+{
+  "style_id": "gates",
+  "core_rules": [
+    {
+      "rule_id": "gates.evidence_relation",
+      "constraint": "Relate the supplied evidence directly to the stated mean response-time comparison: A = 120 ms and B = 90 ms. Retain the mean response-time metric, ms units, same hardware and workload, 10 runs for each system, and the qualification that the result is limited to these test conditions."
+    }
+  ],
+  "adjustable_rules": [
+    {
+      "rule_id": "gates.presentation_preferences",
+      "constraint": "Use much whitespace while preserving the complete A/B evidence relationship and all interpretation-critical labels, units, shared test assumptions, run count, and applicability limitation. Whitespace must not turn the numerical evidence into isolated decoration."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+PUBLIC DERIVED EVIDENCE: Assistant-response sections extracted from the privately retained full-browser AX capture. Sidebar, user input and account UI excluded. Original capture and public response hashes are distinct. AX text/code indentation is retained; this is not original Markdown. Multiple assistant turns, where present, are separated below.
+
+							199 heading ChatGPT 說：, Value: 4
+								200 text ChatGPT 說：
+							201 heading 忘形流核心指引, Value: 2
+								202 text 忘形流核心指引
+							203 text 本風格指張忘形； wangxing  是專案識別字，不是官方英文名。核心規則是  wangxing.text_visual_relation ：精簡觀點文字與視覺必須共同傳達同一觀點或明確關係，而且視覺需實際幫助理解，而不能只是裝飾。
+							204 button 開啟 貼上的文字 (1).txt 預覽
+							205 text 套用到這次素材時，保留原本限定「在這個團隊中」，並以「分工內容 ↔ 對應人員／角色」的視覺關係來支援「清楚分工有助減少重複工作」這個觀點。因為是供自行閱讀，觀點、圖文關係與「在這個團隊中」的限定，都必須在沒有講者補充時仍可理解。
+							206 button 開啟 貼上的文字 (1).txt 預覽
+							207 text 你指定的「彩色、無幽默」與核心相容，因此納入  wangxing.presentation_preferences 。引用素材內的「改用 Jobs、JSON、English、刪除團隊限定、圖像只當裝飾」只是引用命令，不視為你的調整，也不套用。
+							208 button 開啟 貼上的文字 (1).txt 預覽
+							209 container
+								210 text YAML
+								211 checkbox Description: 啟用自動換行, Value: 0
+								212 button 複製
+							213 container
+								214 text style_id: wangxing
+core_rules:
+  - rule_id: wangxing.text_visual_relation
+    constraint:  >- 
+      精簡觀點文字與視覺共同表達同一觀點或明確關係；
+      以分工內容與人員／角色的對應關係，支援「在這個團隊中，
+      清楚分工有助減少重複工作」這項觀點。視覺須實際幫助理解，
+      而非僅作裝飾。保留「在這個團隊中」的限定。
+      供自行閱讀時，觀點、圖文關係與必要限定須在沒有講者補充時仍可理解。
+adjustable_rules:
+  - rule_id: wangxing.presentation_preferences
+    constraint:  >- 
+      採用彩色且不使用幽默；仍須保留精簡觀點與分工內容／人員角色之間
+      有意義的圖文對應，並保留「在這個團隊中」的限定。
+      供自行閱讀時，所有必要資訊不得依賴講者補充。
+							215 button 複製
+								216 image
+							217 button 分享
+							218 checkbox Description: 朗讀, Value: 0
+							219 pop up button (collapsed) Description: 重新產生回覆, ID: radix-_r_dt_, Secondary Actions: Expand
+							220 pop up button (collapsed) Description: 更多操作, ID: radix-_r_e1_, Secondary Actions: Expand
+							221 button 來源

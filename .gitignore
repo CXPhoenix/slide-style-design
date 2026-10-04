@@ -1,0 +1,28 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.claude/settings.local.json
+.claude/worktrees/
+.codex/*.local.toml
+.worktrees/
+.scratch/
+node_modules/
+dist/
+# Local uv runs create this; the project does not lock dependencies with uv.
+uv.lock
+harness_agile/data/template.json
+*.egg-info/
+
+# Credentials belong to each runtime's local configuration.
+.env
+.env.*
+!.env.example
+
+# Local standalone vulnerability reproduction repositories.
+/.proj.vuln.recur/
+
+# Session handoffs expire and stay local; init creates the directory.
+/.proj.handoffs/
+
+# Private originals from publication privacy cleanup; never distribute.
+.proj.private-evidence/

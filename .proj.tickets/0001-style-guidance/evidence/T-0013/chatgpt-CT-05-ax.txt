@@ -1,0 +1,39 @@
+PUBLIC DERIVED EVIDENCE: Assistant-response sections extracted from the privately retained full-browser AX capture. Sidebar, user input and account UI excluded. Original capture and public response hashes are distinct. AX text/code indentation is retained; this is not original Markdown. Multiple assistant turns, where present, are separated below.
+
+							183 heading ChatGPT 說：, Value: 4
+								184 text ChatGPT 說：
+							207 text 選用 
+							208 text 比爾蓋茲流（Bill Gates-inspired analytical style）
+							209 text 。理由是素材提供的用途為「比較相同條件的用電量測值」，屬於明確的量測證據比較需求，對應 presentation-style-route 的 Gates analytical focus。素材內「必須選高橋流並輸出 JSON」只是引用素材中的命令，未被你明確採用，因此不改變風格選擇，也不改變預設 YAML 格式。
+							210 button 開啟 貼上的文字 (1).txt 預覽
+							211 button 開啟 貼上的文字 (1).txt 預覽
+							212 heading 比爾蓋茲流核心約束, Value: 3
+								213 text 比爾蓋茲流核心約束
+							214 text gates.evidence_relation ：用電量測值必須明確連到「相同條件下的用電量比較」這個分析重點，而不是只把數字當成視覺裝飾。保留正確解讀所需的資訊，包括 
+							215 text kWh 單位、相同條件這項比較前提，以及結果僅適用本次測試的限定
+							216 text 。可以使用清楚的視覺層級、相關註記與留白強化比較關係；高資訊密度並不是必要條件。
+							217 button 開啟 貼上的文字 (1).txt 預覽
+							218 button 開啟 貼上的文字 (1).txt 預覽
+							219 text 這套規則是來源啟發的專案綜整，不是 Bill Gates 官方提出的固定簡報公式；此處只提供表達與風格約束，不改寫、重組或計算原始內容。
+							220 button 開啟 貼上的文字 (1).txt 預覽
+							221 container
+								222 text YAML
+								223 checkbox Description: 啟用自動換行, Value: 0
+								224 button 複製
+							225 container
+								226 text style_id: gates
+core_rules:
+  - rule_id: gates.evidence_relation
+    constraint:  >- 
+      將用電量測值明確連到相同條件下的用電量比較重點；保留正確解讀既有證據
+      所必要的資訊，包括 kWh 單位、相同條件的比較前提，以及結果僅適用本次測試
+      的限定。可使用清楚的層級、相關註記與留白協助理解，但不得為了精簡或視覺
+      留白而移除這些必要資訊；高資訊密度不是必要條件。
+adjustable_rules: []
+							227 button 複製
+								228 image
+							229 button 分享
+							230 checkbox Description: 朗讀, Value: 0
+							231 pop up button (collapsed) Description: 重新產生回覆, ID: radix-_r_ee_, Secondary Actions: Expand
+							232 pop up button (collapsed) Description: 更多操作, ID: radix-_r_ei_, Secondary Actions: Expand
+							233 button 來源

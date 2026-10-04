@@ -1,0 +1,350 @@
+- link "跳至內容":
+  - /url: "#_R_3ndjqctdbntccged79l75_"
+- complementary:
+  - navigation "應用程式導覽":
+    - button "首頁":
+      - generic: 首頁
+    - button "空間":
+      - generic: 空間
+    - button "已排程":
+      - generic: 已排程
+    - button "外掛程式":
+      - generic: 外掛程式
+    - button "探索":
+      - generic: 探索
+    - button "開啟個人檔案選單"
+  - navigation "首頁":
+    - link "首頁":
+      - /url: /
+      - generic: ChatGPT
+    - button "查看活動":
+    - button "搜尋":
+    - button "切換側邊欄" [expanded]:
+    - button "新對話":
+      - generic: 新對話
+    - button "3300助理 1 則未讀訊息":
+      - generic: 3300助理
+      - generic: "1"
+      - generic: 1 則未讀訊息
+    - button "已釘選" [expanded]:
+      - generic: 已釘選
+    - list:
+      - group "新興科技聯盟基礎端教案設計-work":
+        - link "新興科技聯盟基礎端教案設計-work":
+          - /url: /c/6a957e4b-0bac-83e8-83cc-3c6ad8f755ba
+          - generic: 新興科技聯盟基礎端教案設計-work
+        - button "對話動作":
+        - button "取消釘選對話":
+      - group "Quill & Grill Plugin 製作":
+        - link "Quill & Grill Plugin 製作":
+          - /url: /c/6aa40cd8-a62c-83ee-8e2d-9551beacdfb7
+          - generic: Quill & Grill Plugin 製作
+        - button "對話動作":
+        - button "取消釘選對話":
+    - button "專案" [expanded]:
+      - generic: 專案
+    - button "專案側邊欄選項":
+    - button "新增新的專案":
+    - list:
+      - button "資安 / A3 研習演講" [expanded]:
+        - generic: 資安 / A3 研習演講
+        - button "資安 / A3 研習演講 的專案動作":
+        - button "在 資安 / A3 研習演講 中開始新對話":
+      - list "資安 / A3 研習演講 中的對話":
+        - group "完成A3資安教材":
+          - link "完成A3資安教材":
+            - /url: /g/g-p-6aba4e0cea8481919c158811721e5b57/c/6aba5368-0f78-83ee-9f13-ced440f4b5a3
+            - generic: 完成A3資安教材
+          - button "對話動作":
+          - button "釘選對話":
+        - group "簡報差異與後續修改":
+          - link "簡報差異與後續修改":
+            - /url: /g/g-p-6aba4e0cea8481919c158811721e5b57/c/6abbe01a-bdd4-83ee-b057-1abbc3b218af
+            - generic: 簡報差異與後續修改
+          - button "對話動作":
+          - button "釘選對話":
+        - group "製作梗圖":
+          - link "製作梗圖":
+            - /url: /g/g-p-6aba4e0cea8481919c158811721e5b57/c/6abbd4a6-2680-83e9-918a-8d1cc863218c
+            - generic: 製作梗圖
+          - button "對話動作":
+          - button "釘選對話":
+        - group "A3教材進度比較":
+          - link "A3教材進度比較":
+            - /url: /g/g-p-6aba4e0cea8481919c158811721e5b57/c/6abb2a68-3990-83ee-b61e-c69d25f89532
+            - generic: A3教材進度比較
+          - button "對話動作":
+          - button "釘選對話":
+      - status
+      - button "各種教學內容製作":
+        - generic: 各種教學內容製作
+        - button "各種教學內容製作 的專案動作":
+        - button "在 各種教學內容製作 中開始新對話":
+      - button "Research & Extension":
+        - generic: Research & Extension
+        - button "Research & Extension 的專案動作":
+        - button "在 Research & Extension 中開始新對話":
+      - button "AI 資安學程":
+        - generic: AI 資安學程
+        - button "AI 資安學程 的專案動作":
+        - button "在 AI 資安學程 中開始新對話":
+      - button "新興科技聯盟計劃":
+        - generic: 新興科技聯盟計劃
+        - button "新興科技聯盟計劃 的專案動作":
+        - button "在 新興科技聯盟計劃 中開始新對話":
+      - button "全華資安別冊-作者一校":
+        - generic: 全華資安別冊-作者一校
+        - button "全華資安別冊-作者一校 的專案動作":
+        - button "在 全華資安別冊-作者一校 中開始新對話":
+    - button "最近項目" [expanded]:
+      - generic: 最近項目
+    - button "對話側邊欄選項":
+    - button "篩選對話與工作":
+    - button "新對話":
+    - list:
+      - group "選擇簡報風格":
+        - link "選擇簡報風格":
+          - /url: /c/6ac22ad7-8fec-83ec-9dc9-615a28df4fa0
+          - generic: 選擇簡報風格
+        - button "對話動作":
+        - button "釘選對話":
+      - group "選擇比爾蓋茲風格":
+        - link "選擇比爾蓋茲風格":
+          - /url: /c/6ac22a99-5300-83ee-9728-eb06be985f33
+          - generic: 選擇比爾蓋茲風格
+        - button "對話動作":
+        - button "釘選對話":
+      - group "比較能源用量":
+        - link "比較能源用量":
+          - /url: /c/6ac22a70-87bc-83ee-b596-68e973d4029c
+          - generic: 比較能源用量
+        - button "對話動作":
+        - button "釘選對話":
+      - group "選定簡報風格":
+        - link "選定簡報風格":
+          - /url: /c/6ac22a38-c9ac-83ee-9ea1-d456cdbdd4d1
+          - generic: 選定簡報風格
+        - button "對話動作":
+        - button "釘選對話":
+      - group "Presentation style unavailable":
+        - link "Presentation style unavailable":
+          - /url: /c/6ac1d0cd-0710-83e8-95b9-ac3d38ea00e3
+          - generic: Presentation style unavailable
+        - button "對話動作":
+        - button "釘選對話":
+      - group "比爾蓋茲風格指引":
+        - link "比爾蓋茲風格指引":
+          - /url: /c/6ac1cfb3-6b04-83ee-9cbc-188c2a5ba56d
+          - generic: 比爾蓋茲風格指引
+        - button "對話動作":
+        - button "釘選對話":
+      - group "賈伯斯流指引":
+        - link "賈伯斯流指引":
+          - /url: /c/6ac1cf31-fa90-83ee-b1fd-5c93d349821b
+          - generic: 賈伯斯流指引
+        - button "對話動作":
+        - button "釘選對話":
+      - group "高橋流風格規則":
+        - link "高橋流風格規則":
+          - /url: /c/6ac1cf25-6cc4-83ee-bc34-197491d32a24
+          - generic: 高橋流風格規則
+        - button "對話動作":
+        - button "釘選對話":
+      - group "王星風格指引":
+        - link "王星風格指引":
+          - /url: /c/6ac1cf51-4500-83ee-a341-6b9e372a277c
+          - generic: 王星風格指引
+        - button "對話動作":
+        - button "釘選對話":
+      - group "高橋流衝突說明":
+        - link "高橋流衝突說明":
+          - /url: /c/6ac1ce33-d0e8-83ee-8be7-74847b0f96cc
+          - generic: 高橋流衝突說明
+        - button "對話動作":
+        - button "釘選對話":
+      - status:
+        - generic: 正在載入對話
+  - separator
+- main:
+  - button "分享":
+    - text: 分享
+  - button "更多":
+  - button "切換摘要":
+  - heading "你說：" [level=4]
+  - paragraph:
+    - text: Use the supplied route and available selected-style definitions below for the final caller request. Supporting examples illustrate branches, not new caller preferences.
+    - text: === skills/presentation-style-route/SKILL.md ===
+    - text: "---"
+    - text: "name: presentation-style-route"
+    - text: "description: Select one presentation style and route to its actual guidance; select from supplied purpose/expression needs, honor a named Takahashi, Steve Jobs, Wangxing or Bill Gates choice and report unavailable guidance honestly."
+    - text: "---"
+    - text: "# Presentation style route"
+    - text: Route to one primary style; deliver style guidance and constraints only. Content
+    - text: rewriting, reordering, page splitting/merging, production, rehearsal and export
+    - text: belong to consuming tools, outside this skill.
+    - text: "## Explicit choice"
+    - text: Consult the caller's existing request. A supported explicit style wins over inferred
+    - text: suitability. Resolve Takahashi/高橋流, Steve Jobs/賈伯斯流, Wangxing/忘形流/張忘形,
+    - text: or Bill Gates/比爾蓋茲流 using the [style registry](references/styles.md).
+    - text: "`wangxing` is a project identifier for 張忘形, not an official English name."
+    - text: Do not substitute another style or ask for missing optional purpose, audience or
+    - text: expression details before delivering a supported explicit choice. Relevant
+    - text: limitations may be explained without changing that choice.
+    - text: Read the selected style's actual entry using whichever skill-content access the
+    - text: host provides. Supporting rules/sources/examples are read only when the selected
+    - text: style's relevant branch requires them. Do not load all four styles or all research
+    - text: as a routine prerequisite. Registry references identify the published definitions;
+    - text: they do not assume local path access, shell commands, Codex/Claude invocation syntax,
+    - text: or an available Skills MCP service. Already supplied selected guidance counts as
+    - text: accessible content; do not pretend to perform a tool load that did not occur.
+    - text: "## Context selection"
+    - text: When there is no explicit style choice, select from purpose, audience and expression
+    - text: needs already supplied. Context is sufficient when a supplied purpose or expression
+    - text: need matches at least one anchor below; no request must provide all three fields.
+    - text: Audience can refine an eligible choice but does not by itself supply an anchor.
+    - text: "| Supplied purpose / expression need | Eligible style focus |"
+    - text: "|---|---|"
+    - text: "| Emphasize a message through words/phrases as visual carrier | Takahashi text focus |"
+    - text: "| Display/reveal an offering or explain its benefit/comparison | Jobs display/comparison focus |"
+    - text: "| Introduce/explain a concept or communicate a viewpoint through an understandable relation | Wangxing viewpoint/visual focus |"
+    - text: "| Interpret/compare evidence or quantities, or explain system relations | Gates analytical focus |"
+    - text: Choose one eligible style and briefly cite both a supplied anchor and its selected
+    - text: focus in the reason. If several anchors match, any one eligible choice is valid;
+    - text: no unique-winner scoring or mixing is required. Do not ask for extra optional fields
+    - text: once an anchor supports the choice. Do not infer expertise, desired humor or venue
+    - text: from an audience label. Proceed through the actual selected guidance and existing
+    - text: handoff/availability branches. See [context examples](references/context-examples.md)
+    - text: for fixed sufficient branches; they prescribe branch eligibility, not empirical
+    - text: claims about what works best for those audiences.
+    - text: "## Missing context"
+    - text: If there is no supported explicit choice and no supplied purpose/expression anchor,
+    - text: ask concisely for the missing purpose or expression need in the requested/conversation
+    - text: language. A generic request to choose/make a presentation, or an audience alone,
+    - text: does not justify a default style or invented audience facts. Do not fabricate a
+    - text: profile while the choice is unresolved. See the [missing-context example](references/missing-context-example.md)
+    - text: for generic and audience-only requests. Finish this branch with that question;
+    - text: continue selection when the caller supplies an anchor or supported explicit choice.
+    - text: "## Delivery"
+    - text: Apply the selected style's existing core, adjustment/conflict and handoff rules.
+    - text: Keep its rule IDs, every required proposition and scope-changing condition in both
+    - text: Markdown and settings. Do not create a separate routed rule catalog. Use Markdown
+    - text: "plus one profile: default YAML, explicit JSON instead, never both. Preserve accepted"
+    - text: preferences, exclude conflicts/unaccepted alternatives according to that style.
+    - text: All visible explanations and constraints follow requested/conversation language;
+    - text: Chinese uses Taiwan Traditional Chinese. English fields/style/rule IDs stay stable.
+    - text: Finish when one selected style's complete guidance/settings are delivered under
+    - text: that actual style's rules, with no content transformation.
+    - text: "## Availability"
+    - text: If the selected actual guidance cannot be accessed, state which guidance is unavailable
+    - text: and the limitation in the caller's language. Do not reconstruct loaded rules from
+    - text: memory, fabricate a profile, assume a missing connector is installed, or silently
+    - text: switch styles. Ask the caller to supply the selected guidance or make it accessible
+    - text: through the host's available means. An honest limitation report completes this
+    - text: branch without settings. For this branch, see the [availability example](references/unavailable-example.md).
+    - text: Unresolved named/multiple choices are a later increment.
+    - text: === skills/presentation-style-route/references/context-examples.md ===
+    - text: "# Sufficient context examples"
+    - text: The approved focus anchors determine these branches. Reason cites the supplied
+    - text: purpose/expression and chosen focus. Deliver the actual selected style's complete
+    - text: profile, not the branch metadata below. Missing optional fields do not delay delivery.
+    - text: Multiple eligible anchors need one choice, not a universal winner.
+    - text: "```yaml"
+    - text: "ai_concept:"
+    - text: "request: Introduce AI to high-school students"
+    - text: "branch: deliver_one_eligible"
+    - text: "eligible_styles: [wangxing]"
+    - text: "measured_energy:"
+    - text: "request: Compare measured energy use"
+    - text: "branch: deliver_one_eligible"
+    - text: "eligible_styles: [gates]"
+    - text: "multiple_anchors:"
+    - text: "request: Explain a product benefit and compare measured energy use"
+    - text: "branch: deliver_one_eligible"
+    - text: "eligible_styles: [jobs, gates]"
+    - text: "```"
+    - text: AI introduction supplies concept explanation; Wangxing's viewpoint/visual focus is
+    - text: eligible without a separate expression need. Measured energy comparison supplies
+    - text: analytical evidence; Gates is eligible without a separate audience. The combined
+    - text: product/evidence purpose supplies both Jobs and Gates anchors; either is valid.
+    - text: Do not infer student expertise, teacher humor preferences or a venue.
+    - text: === skills/presentation-style-route/references/missing-context-example.md ===
+    - text: "# Missing context examples"
+    - text: "A generic request to select a presentation style has no anchor. Ask, for example:"
+    - text: 請提供這份素材要達成的用途，或希望觀眾如何理解重點；有了其中一項，就能選擇一個主要風格。
+    - text: "“The audience is teachers” alone also has no purpose/expression anchor. Ask in English:"
+    - text: What is the presentation meant to accomplish, or what expression needs should it support?
+    - text: Do not infer expertise, humor, venue or a default style from “teachers.” These
+    - text: clarifications have no settings profile yet. The current caller's language controls
+    - text: the real response; examples do not override it.
+    - text: === skills/presentation-style-route/references/styles.md ===
+    - text: "# Published style registry"
+    - text: These links identify actual independently usable definitions. They are package
+    - text: references, not host commands or proof of Skills MCP loading. Named use can invoke
+    - text: the selected definition directly without this route. Read only the selected entry;
+    - text: its rule records own meaning, conditions and attribution.
+    - text: "| Project style ID | Names identifying that style | Actual definition |"
+    - text: "|---|---|---|"
+    - text: "| takahashi | Takahashi / 高橋流 | [takahashi-style](../../takahashi-style/SKILL.md) |"
+    - text: "| jobs | Steve Jobs / 賈伯斯流 | [jobs-style](../../jobs-style/SKILL.md) |"
+    - text: "| wangxing | Wangxing / 忘形流 / 張忘形 | [wangxing-style](../../wangxing-style/SKILL.md) |"
+    - text: "| gates | Bill Gates / 比爾蓋茲流 | [gates-style](../../gates-style/SKILL.md) |"
+    - text: "```yaml"
+    - text: "takahashi: ../../takahashi-style/SKILL.md"
+    - text: "jobs: ../../jobs-style/SKILL.md"
+    - text: "wangxing: ../../wangxing-style/SKILL.md"
+    - text: "gates: ../../gates-style/SKILL.md"
+    - text: "```"
+    - text: This registry is a resolver, not a duplicate core-rule catalog or an emitted profile.
+    - text: === skills/presentation-style-route/references/unavailable-example.md ===
+    - text: "# Unavailable selected guidance example"
+    - text: This branch assumes an explicit Jobs choice and no access to the actual definition.
+    - text: It illustrates a limitation report, not a substitute Jobs rule or settings profile.
+    - text: I can identify your choice as Jobs, but the actual jobs-style guidance is unavailable
+    - text: in this host. I cannot truthfully deliver a loaded Jobs profile from that missing
+    - text: content. Please supply its guidance or make it accessible through an available
+    - text: skill-content mechanism. I will retain your Jobs choice rather than switch styles.
+    - text: No local shell, filesystem or connected Skills MCP service is assumed. Language
+    - text: follows the current caller; the English here is an example, not a fixed output language.
+    - text: === Caller request ===
+    - text: 透過 presentation-style-route 幫我選簡報風格。\
+  - generic: …
+  - button "顯示較多":
+    - generic: 顯示較多
+  - button "複製訊息":
+  - button "分享提示詞":
+  - button "編輯訊息":
+  - heading "ChatGPT 說：" [level=4]
+  - paragraph:
+    - text: 請提供這份簡報要達成的
+    - strong: 用途
+    - text: ，或希望觀眾如何
+    - strong: 理解重點／接收訊息
+    - text: ；有其中一項即可選擇主要風格。
+  - paragraph: 例如：
+  - list:
+    - listitem: 強調一句核心訊息 → 高橋流
+    - listitem: 展示產品／方案優勢或比較 → 賈伯斯流
+    - listitem: 解釋概念、觀點，搭配具意義的視覺關係 → 忘形流
+    - listitem: 比較數據、證據，或解釋系統關係 → 比爾蓋茲流
+  - button "複製":
+  - button "分享":
+  - button "朗讀":
+  - button "重新產生回覆":
+  - button "更多操作":
+  - generic: ChatGPT 可能會出錯。請查證重要資訊。
+  - button:
+  - heading "最新回覆" [level=4]
+  - status
+  - button "新增檔案和更多內容":
+  - textbox "問問 ChatGPT" [active]:
+    - paragraph: 問問 ChatGPT
+  - button "選取 ChatGPT 模型":
+    - generic: 中
+  - button "聽寫":
+  - button "開始語音對話":
+- status
+- status
+- status
+- status
+- status
+- status

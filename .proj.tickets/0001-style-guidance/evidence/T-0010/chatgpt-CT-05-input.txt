@@ -1,0 +1,97 @@
+Use the following supplied route and available selected-style guidance for the final caller request. Do not assume other guidance is loaded.
+
+=== skills/presentation-style-route/SKILL.md ===
+---
+name: presentation-style-route
+description: Select one presentation style and route to its actual guidance; honor a named Takahashi, Steve Jobs, Wangxing or Bill Gates choice and report unavailable guidance honestly.
+---
+
+# Presentation style route
+
+Route to one primary style; deliver style guidance and constraints only. Content
+rewriting, reordering, page splitting/merging, production, rehearsal and export
+belong to consuming tools, outside this skill.
+
+## Explicit choice
+
+Consult the caller's existing request. A supported explicit style wins over inferred
+suitability. Resolve Takahashi/高橋流, Steve Jobs/賈伯斯流, Wangxing/忘形流/張忘形,
+or Bill Gates/比爾蓋茲流 using the [style registry](references/styles.md).
+`wangxing` is a project identifier for 張忘形, not an official English name.
+Do not substitute another style or ask for missing optional purpose, audience or
+expression details before delivering a supported explicit choice. Relevant
+limitations may be explained without changing that choice.
+
+Read the selected style's actual entry using whichever skill-content access the
+host provides. Supporting rules/sources/examples are read only when the selected
+style's relevant branch requires them. Do not load all four styles or all research
+as a routine prerequisite. Registry references identify the published definitions;
+they do not assume local path access, shell commands, Codex/Claude invocation syntax,
+or an available Skills MCP service. Already supplied selected guidance counts as
+accessible content; do not pretend to perform a tool load that did not occur.
+
+## Delivery
+
+Apply the selected style's existing core, adjustment/conflict and handoff rules.
+Keep its rule IDs, every required proposition and scope-changing condition in both
+Markdown and settings. Do not create a separate routed rule catalog. Use Markdown
+plus one profile: default YAML, explicit JSON instead, never both. Preserve accepted
+preferences, exclude conflicts/unaccepted alternatives according to that style.
+All visible explanations and constraints follow requested/conversation language;
+Chinese uses Taiwan Traditional Chinese. English fields/style/rule IDs stay stable.
+Finish when one selected style's complete guidance/settings are delivered under
+that actual style's rules, with no content transformation.
+
+## Availability
+
+If the selected actual guidance cannot be accessed, state which guidance is unavailable
+and the limitation in the caller's language. Do not reconstruct loaded rules from
+memory, fabricate a profile, assume a missing connector is installed, or silently
+switch styles. Ask the caller to supply the selected guidance or make it accessible
+through the host's available means. An honest limitation report completes this
+branch without settings. For this branch, see the [availability example](references/unavailable-example.md).
+Context selection and unresolved choices are later increments.
+
+
+=== skills/presentation-style-route/references/styles.md ===
+# Published style registry
+
+These links identify actual independently usable definitions. They are package
+references, not host commands or proof of Skills MCP loading. Named use can invoke
+the selected definition directly without this route. Read only the selected entry;
+its rule records own meaning, conditions and attribution.
+
+| Project style ID | Names identifying that style | Actual definition |
+|---|---|---|
+| takahashi | Takahashi / 高橋流 | [takahashi-style](../../takahashi-style/SKILL.md) |
+| jobs | Steve Jobs / 賈伯斯流 | [jobs-style](../../jobs-style/SKILL.md) |
+| wangxing | Wangxing / 忘形流 / 張忘形 | [wangxing-style](../../wangxing-style/SKILL.md) |
+| gates | Bill Gates / 比爾蓋茲流 | [gates-style](../../gates-style/SKILL.md) |
+
+```yaml
+takahashi: ../../takahashi-style/SKILL.md
+jobs: ../../jobs-style/SKILL.md
+wangxing: ../../wangxing-style/SKILL.md
+gates: ../../gates-style/SKILL.md
+```
+
+This registry is a resolver, not a duplicate core-rule catalog or an emitted profile.
+
+
+=== skills/presentation-style-route/references/unavailable-example.md ===
+# Unavailable selected guidance example
+
+This branch assumes an explicit Jobs choice and no access to the actual definition.
+It illustrates a limitation report, not a substitute Jobs rule or settings profile.
+
+I can identify your choice as Jobs, but the actual jobs-style guidance is unavailable
+in this host. I cannot truthfully deliver a loaded Jobs profile from that missing
+content. Please supply its guidance or make it accessible through an available
+skill-content mechanism. I will retain your Jobs choice rather than switch styles.
+
+No local shell, filesystem or connected Skills MCP service is assumed. Language
+follows the current caller; the English here is an example, not a fixed output language.
+
+
+=== Caller request ===
+Through presentation-style-route, choose Jobs. For this trial the actual jobs-style guidance is unavailable: no supplied content or connected skill loader can retrieve it. Do not search or reconstruct it from prior knowledge. Reply in English with an honest availability report, without pretending loaded rules or substituting another style.

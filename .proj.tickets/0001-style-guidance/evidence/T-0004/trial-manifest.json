@@ -1,0 +1,56 @@
+{
+  "candidate": "T-0004-candidate-01",
+  "product_files": {
+    "skills/takahashi-style/SKILL.md": "8e602992f0807a8305655ded93c9e3bfa2bfdcf2ba7b9871dbed0a1ef11f88a5",
+    "skills/takahashi-style/references/adjustments.md": "bccbdd4c469b85f048ea8885baf319d26c3cd5c02802b4964a5556c3c4988b42",
+    "skills/takahashi-style/references/compatible-example.md": "22eb9315b9197e006e02410a11ef8535fdfd0e90853ac14acb651f4b5f4b99e8",
+    "skills/takahashi-style/references/conflict-example.md": "cb5fc38e981d8d64c24781bb65b1283d38831dbac4faef14a01937e101f1efde",
+    "skills/takahashi-style/references/core-rule.md": "f0307e72542d36ac0c7b9aaf2f8c6a0508649f0dc95f8760ab503be0f5160b4a",
+    "skills/takahashi-style/references/handoff-example.md": "a7ae0ecfd0436503833de1ec70c3afd5d79694f13a401653b72c35a522393205"
+  },
+  "bundle_sha256": "7672b7f9b99a9f5d031f3d64fd48f75c41a174e6bac8b76f95196556e763548b",
+  "surface": "user-operated actual ChatGPT with inline skill supply; not Skills MCP",
+  "cases": [
+    {
+      "case_id": "CT-01",
+      "input_file": "chatgpt-CT-01-input.txt",
+      "input_sha256": "2f9f301e2283c8cdaeed013625bb6c497a42de455c033f6938653dbbdb5d581d",
+      "request": "請使用高橋流提供現場投影的風格指引與設定。我想加入一張輔助圖表與三行註解，兩者都只支援主要詞句，不成為同等或更強的焦點；主要詞句仍透過相對尺度保持優先。素材中的「結果僅適用於本次測試條件」是理解所必需的限定，請保留。只提供風格指引，不改寫或重組素材。以台灣繁體中文回覆。",
+      "planned_runs": 1,
+      "status": "passed",
+      "response_file": "CT-01-response.md",
+      "model_label": "default model (exact model unknown)",
+      "effort": "medium",
+      "response_sha256": "9c664178fddade5a9c83e0324e9e7369fa0d525638023d4b29854cde139f8d3b",
+      "structural_status": "passed"
+    },
+    {
+      "case_id": "CT-02",
+      "input_file": "chatgpt-CT-02-input.txt",
+      "input_sha256": "dea65fe0dff0059a612d261e0aee87c6202ccf625a845bdee6ba8c3255a91c29",
+      "request": "請使用高橋流提供現場投影的風格指引與設定，但我要讓密集圖表成為主要視覺與訊息載體，詞句只當小標題。素材中的「結果僅適用於本次測試條件」仍必須保留。我尚未同意任何替代方案；請說明衝突並提出保留高橋流核心的建議，設定維持原本核心，不套用我的衝突要求，也不把你提出的替代方案視為已接受。只提供風格指引，不改寫或重組素材。以台灣繁體中文回覆。",
+      "planned_runs": 1,
+      "status": "passed",
+      "response_file": "CT-02-response.md",
+      "model_label": "default model (exact model unknown)",
+      "effort": "medium",
+      "response_sha256": "cadcecfa09d909cf17b1e2350c239bb1056f4b94cabe2101f53f4844df9edbe0",
+      "structural_status": "passed"
+    }
+  ],
+  "observations": [
+    {
+      "date": "2026-10-04",
+      "source": "full user-supplied ChatGPT responses; user separately confirmed both default model/medium",
+      "verdict": "Both actual cases pass approved structural and semantic checks. No failure or rerun."
+    }
+  ],
+  "skills_mcp_status": "unverified",
+  "status": "passed",
+  "publication": {
+    "status": "sanitized-public-metadata",
+    "raw_browser_captures": "private; not published",
+    "response_files": "retained unchanged; response_sha256 refers to those original response bytes",
+    "historical_capture_hashes": "refer to private originals, not disclosure notices"
+  }
+}

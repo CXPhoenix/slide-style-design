@@ -1,0 +1,69 @@
+{
+  "candidate": "T-0009-candidate-02",
+  "surface": "assistant-operated Chrome ChatGPT conversation; pasted text automatically becomes attachment",
+  "product_files": {
+    "skills/takahashi-style/SKILL.md": "ed0d6daa72ab9498f83c41983d96e83688b8ffec8b8eda61800139d523da450a",
+    "skills/wangxing-style/SKILL.md": "ec004a4e7d80d62d821594890ee2acb7e528636eb0108115362fe242b3ff2cb1",
+    "skills/takahashi-style/references/adjustments.md": "bccbdd4c469b85f048ea8885baf319d26c3cd5c02802b4964a5556c3c4988b42",
+    "skills/takahashi-style/references/compatible-example.md": "22eb9315b9197e006e02410a11ef8535fdfd0e90853ac14acb651f4b5f4b99e8",
+    "skills/takahashi-style/references/conflict-example.md": "cb5fc38e981d8d64c24781bb65b1283d38831dbac4faef14a01937e101f1efde",
+    "skills/takahashi-style/references/core-rule.md": "f0307e72542d36ac0c7b9aaf2f8c6a0508649f0dc95f8760ab503be0f5160b4a",
+    "skills/takahashi-style/references/english-example.md": "31bf9053d3ad7a83b09b83fe5e4c5fc9dadae8dcd150eae770a5db1d2d53a9b6",
+    "skills/takahashi-style/references/handoff-example.md": "a7ae0ecfd0436503833de1ec70c3afd5d79694f13a401653b72c35a522393205",
+    "skills/takahashi-style/references/json-example.md": "2d4f4f3616dbf86a7f825c89081d2160407ad24678ba56d40bd48a173e35e55a",
+    "skills/wangxing-style/references/adjustments.md": "bf614a6141509ab81caf7c4b2f3d2fd4c107dad579c572cb4f3ddd9b78a42ac9",
+    "skills/wangxing-style/references/compatible-example.md": "4b420a2e772a673a4f3a45d01d1e958212dd469815dcb295dc3b68da22385463",
+    "skills/wangxing-style/references/conflict-example.md": "174d13c39079f36c7f03dcd12ca92637844058fb7c01b6446e1bf1121c4500e1",
+    "skills/wangxing-style/references/core-rule.md": "a836f72866a3c8a11466f8f40e01080de90ab781c096b993a0de66f4f6beacb4",
+    "skills/wangxing-style/references/english-example.md": "f053de280655cdce279cfc0697df7e364967e561aad93bd8ca1f9d1473c214b8",
+    "skills/wangxing-style/references/handoff-example.md": "57c894281a264708b6828a3297a4d5fd7b29ec4f1f251518e904ba1737f754f8",
+    "skills/wangxing-style/references/json-example.md": "367402464b05a2004f0d0f1d7954695bdabb3b4bfee0a704f7da7efaa026bddb"
+  },
+  "bundle_sha256": "d49e64109a6f324692539c59909884cd246ea039989dafadd556843e3f75501d",
+  "cases": [
+    {
+      "case_id": "CT-01",
+      "request": "Please answer entirely in English, including constraint text. Use Wangxing style for independently read social graphics. Accept color and no humor. Keep the statement limited to this team: clear task division helps reduce duplicate work. The visual maps task blocks to each person's responsibilities. No speaker is present to supply missing information. Provide style guidance and settings only, without rewriting or reorganizing material.",
+      "input_file": "chatgpt-CT-01-input.txt",
+      "input_sha256": "4d1b0df03ead6eb196caf2c37761d726fb1aa8ed7d61fe2318670ee2dd481825",
+      "status": "passed",
+      "planned_runs": 1,
+      "response_file": "CT-01-response.md",
+      "model_label": "default conversation model; exact identity not displayed",
+      "effort": "Medium checked before CT01; unchanged CT02",
+      "response_sha256": "e0d51ba7458623136c1cdab6c579f0fd067ee285ed88c25309219abd5163c521",
+      "conversation_url": "[private-conversation-redacted]",
+      "runs": 1,
+      "private_capture_basename": "CT-01-screenshot.png"
+    },
+    {
+      "case_id": "CT-02",
+      "request": "請用台灣繁體中文提供高橋流風格指引及設定。我要求讓密集圖表主導，文字只作小標題。保留「結果僅適用於本次測試條件」。我尚未接受替代建議；請指出核心規則 ID、衝突要求、被破壞命題及保留核心的建議，設定仍保留原核心且不套用衝突或未接受替代。只提供風格約束。",
+      "input_file": "chatgpt-CT-02-input.txt",
+      "input_sha256": "6f67f1a1f6cde1a095b83bdb54b040c1f28ef18f6627660f442d72945a63b750",
+      "status": "passed",
+      "planned_runs": 1,
+      "response_file": "CT-02-response.md",
+      "model_label": "default conversation model; exact identity not displayed",
+      "effort": "Medium checked before CT01; unchanged CT02",
+      "response_sha256": "e224abf187dd3717e4c2c2b0ee6244dfafe5cedae6c163873c9dfd9bcb42b970",
+      "conversation_url": "[private-conversation-redacted]",
+      "runs": 1,
+      "private_capture_basename": "CT-02-screenshot.png"
+    }
+  ],
+  "observations": [
+    "Candidate01 prepared/pasted CT-01 but not submitted; original payloads/manifest retained. Corrected before actual trials.",
+    "CT01 English prose/constraints, stable English IDs, proper-name Chinese identification parenthetical is retained; team restriction and independent-reading/no-speaker condition in bothforms; color/nohumor compatible.",
+    "CT02 Taiwan Traditional Chinese prose/constraints; explicitcoreID/request/threebrokenpropositions/retainingsuggestion, originalcore plus qualifier, noacceptedalternatives.",
+    "Host-generated chat title of CT01 is 王星風格指南, but response identifies 張忘形 and disclaims official English name; host title is not skill output.",
+    "One run each candidate02; no failed responses/reruns; original candidate01 not submitted. Prepared upload hashes known, actual attachment bytes not independently exported."
+  ],
+  "skills_mcp_status": "unverified",
+  "publication": {
+    "status": "sanitized-public-metadata",
+    "raw_browser_captures": "private; not published",
+    "response_files": "retained unchanged; response_sha256 refers to those original response bytes",
+    "historical_capture_hashes": "refer to private originals, not disclosure notices"
+  }
+}

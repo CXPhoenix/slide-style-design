@@ -1,0 +1,68 @@
+{
+  "candidate": "T-0000-candidate-01",
+  "sha256_algorithm": "SHA-256",
+  "product_files": {
+    "skills/takahashi-style/SKILL.md": "80e5cfa01eefcfd704342074ae0aa9612e6a093e25622b4203771c0a138b2ec9",
+    "skills/takahashi-style/references/core-rule.md": "5c97f9fd0cbae571fa89356130abc65ffa983605c56fd2a16e9d3e8920df1146",
+    "skills/takahashi-style/references/handoff-example.md": "a7ae0ecfd0436503833de1ec70c3afd5d79694f13a401653b72c35a522393205"
+  },
+  "supplied_bundle_sha256": "2569700cca2fc4c5d623fc165993ff37dd96f2908f369ba01bef6e91ad346b87",
+  "surface": "human-operated ChatGPT; inline skill supply, not Skills MCP",
+  "cases": [
+    {
+      "case_id": "CT-01",
+      "input_file": "chatgpt-CT-01-input.txt",
+      "input_sha256": "cbc1a74fbd3f4949a4053a02e46e611b1192a455d7e7436025b144d929ea7fd2",
+      "request": "請使用高橋流，提供適用於現場投影的簡報風格指引與設定。以台灣繁體中文回覆。",
+      "planned_counted_runs": 1,
+      "status": "passed",
+      "response_file": "CT-01-response.md",
+      "host_label": "ChatGPT conversation; user-operated",
+      "model_label": "default conversation model (exact identifier unknown)",
+      "response_sha256": "488e5aac844f5ccc6460d059009026f1cbf5b24335c06ae9d1c3c78e2f0a736b",
+      "effort": "medium",
+      "observed_at": "2026-10-03",
+      "execution_count": 1
+    },
+    {
+      "case_id": "CT-02",
+      "input_file": "chatgpt-CT-02-input.txt",
+      "input_sha256": "1ad0e71fe1c4050d391e0e3a72c34ba27bd5740950dd17e9f8d0dfe82090c285",
+      "request": "請使用高橋流提供風格指引與設定。用途是現場投影研究結果；既有素材為「在同一測試環境的 30 位受試者中，完成時間平均縮短 20%；結果不代表其他環境」，另有補充註解。以台灣繁體中文回覆。",
+      "planned_counted_runs": 1,
+      "status": "passed",
+      "response_file": "CT-02-response.md",
+      "host_label": "ChatGPT conversation; user-operated",
+      "model_label": "default conversation model (exact identifier unknown)",
+      "response_sha256": "4941c04653496d1b9d1d9e4b57e6a762201223e8375dcbbc580657773d503541",
+      "effort": "medium",
+      "observed_at": "2026-10-03",
+      "execution_count": 1
+    }
+  ],
+  "observations": [
+    {
+      "case_id": "CT-01",
+      "provenance": "complete response supplied by user in this Codex conversation; outer transport fence removed, body retained",
+      "input_provenance": "prepared input associated with named case; actual ChatGPT submitted input not independently exported",
+      "structural_verdict": "passed",
+      "semantic_verdict": "passed",
+      "failure_or_retry_reported": false
+    },
+    {
+      "case_id": "CT-02",
+      "provenance": "complete response supplied by user in this Codex conversation; outer transport fence removed, body retained",
+      "input_provenance": "prepared input associated with named case; actual ChatGPT submitted input not independently exported",
+      "structural_verdict": "passed",
+      "semantic_verdict": "passed",
+      "failure_or_retry_reported": false
+    }
+  ],
+  "skills_mcp_status": "unverified",
+  "publication": {
+    "status": "sanitized-public-metadata",
+    "raw_browser_captures": "private; not published",
+    "response_files": "retained unchanged; response_sha256 refers to those original response bytes",
+    "historical_capture_hashes": "refer to private originals, not disclosure notices"
+  }
+}

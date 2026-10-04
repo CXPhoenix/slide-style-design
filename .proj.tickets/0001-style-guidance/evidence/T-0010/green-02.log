@@ -1,0 +1,7 @@
+test_explicit_route_registry_resolves_the_four_actual_style_entries (test_route.RouteTests.test_explicit_route_registry_resolves_the_four_actual_style_entries) ... ok
+test_unavailable_guidance_example_reports_a_limit_without_a_fabricated_profile (test_route.RouteTests.test_unavailable_guidance_example_reports_a_limit_without_a_fabricated_profile) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+OK

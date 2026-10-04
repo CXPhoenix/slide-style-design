@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-03",
+  "status": "passed",
+  "round": 2,
+  "spec_sha256": "e9aa76437e72a36ca4ed1832e2d856bc48bc7a2ea8aad0ac63112c721d2acef1",
+  "matrix_sha256": "50ba4cdebed3530b238b64c678859db0f9ddba61ff0ef83decf294846bc9c1c0",
+  "spec_git_blob_hash": "9ef59464c92757b14df041c90d212e6ef152d913",
+  "prompt_sha256": "d81fcd8f15f87c58b69e0012eab474b6558e065e4d78a087866dfb094fa35bd5",
+  "context_capture_sha256": "8dc88b54ff5106734abbbaaacbfb3f97c5f332f6a15b3f57f2a7cac73ffac0ed",
+  "axes": {
+    "completeness": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 0,
+      "report": "round-2-completeness.md"
+    },
+    "verifiability": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 0,
+      "report": "round-2-verifiability.md"
+    },
+    "contract": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 0,
+      "report": "round-2-contract.md"
+    },
+    "redteam": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 0,
+      "report": "round-2-redteam.md"
+    }
+  },
+  "translation": "../spec.zh-TW.md",
+  "scope": "specification review only",
+  "unverified": [
+    "product implementation",
+    "approved ticket test plan",
+    "actual ChatGPT trials",
+    "Skills MCP loading"
+  ],
+  "draft_note": "The stage-2 drafting label in the English source is historical; this record establishes review acceptance and freezing."
+}

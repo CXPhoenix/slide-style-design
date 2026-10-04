@@ -1,0 +1,6 @@
+test_explicit_route_registry_resolves_the_four_actual_style_entries (test_route.RouteTests.test_explicit_route_registry_resolves_the_four_actual_style_entries) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK

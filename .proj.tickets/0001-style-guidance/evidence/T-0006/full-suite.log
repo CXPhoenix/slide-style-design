@@ -1,0 +1,19 @@
+test_named_style_has_a_direct_entry_and_accessible_references (test_gates_style.GatesGuidanceTests.test_named_style_has_a_direct_entry_and_accessible_references) ... ok
+test_published_yaml_handoff_uses_the_agreed_core_contract (test_gates_style.GatesGuidanceTests.test_published_yaml_handoff_uses_the_agreed_core_contract) ... ok
+test_compatible_adjustment_example_has_core_and_non_core_settings (test_jobs_style.JobsGuidanceTests.test_compatible_adjustment_example_has_core_and_non_core_settings) ... ok
+test_conflict_example_returns_original_core_without_unaccepted_adjustment (test_jobs_style.JobsGuidanceTests.test_conflict_example_returns_original_core_without_unaccepted_adjustment) ... ok
+test_named_style_has_a_direct_entry_and_accessible_references (test_jobs_style.JobsGuidanceTests.test_named_style_has_a_direct_entry_and_accessible_references) ... ok
+test_published_yaml_handoff_uses_the_agreed_core_contract (test_jobs_style.JobsGuidanceTests.test_published_yaml_handoff_uses_the_agreed_core_contract) ... ok
+test_compatible_adjustment_example_has_core_and_non_core_settings (test_takahashi_style.TakahashiGuidanceTests.test_compatible_adjustment_example_has_core_and_non_core_settings) ... ok
+test_conflict_example_returns_original_core_without_unaccepted_adjustment (test_takahashi_style.TakahashiGuidanceTests.test_conflict_example_returns_original_core_without_unaccepted_adjustment) ... ok
+test_named_style_has_a_direct_entry_and_accessible_references (test_takahashi_style.TakahashiGuidanceTests.test_named_style_has_a_direct_entry_and_accessible_references) ... ok
+test_published_yaml_handoff_uses_the_agreed_core_contract (test_takahashi_style.TakahashiGuidanceTests.test_published_yaml_handoff_uses_the_agreed_core_contract) ... ok
+test_compatible_adjustment_example_has_core_and_non_core_settings (test_wangxing_style.WangxingGuidanceTests.test_compatible_adjustment_example_has_core_and_non_core_settings) ... ok
+test_conflict_example_returns_original_core_without_unaccepted_adjustment (test_wangxing_style.WangxingGuidanceTests.test_conflict_example_returns_original_core_without_unaccepted_adjustment) ... ok
+test_named_style_has_a_direct_entry_and_accessible_references (test_wangxing_style.WangxingGuidanceTests.test_named_style_has_a_direct_entry_and_accessible_references) ... ok
+test_published_yaml_handoff_uses_the_agreed_core_contract (test_wangxing_style.WangxingGuidanceTests.test_published_yaml_handoff_uses_the_agreed_core_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.009s
+
+OK

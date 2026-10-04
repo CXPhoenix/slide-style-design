@@ -1,0 +1,24 @@
+PUBLIC DERIVED EVIDENCE: Assistant-response sections extracted from the privately retained full-browser AX capture. Sidebar, user input and account UI excluded. Original capture and public response hashes are distinct. AX text/code indentation is retained; this is not original Markdown. Multiple assistant turns, where present, are separated below.
+
+							172 heading ChatGPT 說：, Value: 4
+								173 text ChatGPT 說：
+							174 text This release supports only 
+							175 text one primary style per request
+							176 text . Automatic per-page mixing between Jobs and Gates is not supported. 
+							177 button 開啟 貼上的文字 (1).txt 預覽
+							178 text Which single primary style should I apply?
+							179 content list
+								180 container
+									181 AXListMarker • 
+									182 text Steve Jobs / Jobs  — product display, benefit, or comparison focus.
+								183 container
+									184 AXListMarker • 
+									185 text Bill Gates / Gates  — evidence, quantities, comparison, or system-relation focus. 
+									186 button 開啟 貼上的文字 (1).txt 預覽
+							187 button 複製
+								188 image
+							189 button 分享
+							190 checkbox Description: 朗讀, Value: 0
+							191 pop up button (collapsed) Description: 重新產生回覆, ID: radix-_r_ds_, Secondary Actions: Expand
+							192 pop up button (collapsed) Description: 更多操作, ID: radix-_r_e0_, Secondary Actions: Expand
+							193 button 來源

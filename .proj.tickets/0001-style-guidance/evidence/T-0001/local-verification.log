@@ -1,0 +1,15 @@
+2026-10-03 T-0001 local checks
+Full product suite: 4 tests passed (full-suite.log); existing Takahashi tests unchanged.
+Portable verifier: PASS shared instructions, 32 development skills across both trees,
+invocation policies, helper assets and native role configs. Static/offline only.
+Tracked diff whitespace check: exit0, no output.
+Trial integrity: product and input SHA-256 match; actual responses absent.
+Independent Standards/Spec: each had one P2 stale ticket-summary finding; correction
+confirmed resolved by both. Open findings0. Security qualifying candidates0.
+Actual ChatGPT/MCP: unverified. No commit or landing performed for T-0001.
+
+2026-10-04 final candidate check
+Full existing suite:4 passed; portable verifier PASS; tracked whitespace diff check exit0.
+Product/input/response hashes verified; accepted spec/matrix hashes unchanged.
+Both supplied actual ChatGPT responses pass structural/semantic audit. User confirmed
+default model/medium; exact model ID unknown. Skills MCP remains unverified.

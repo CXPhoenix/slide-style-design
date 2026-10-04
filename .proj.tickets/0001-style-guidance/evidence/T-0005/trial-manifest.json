@@ -1,0 +1,61 @@
+{
+  "candidate": "T-0005-candidate-02",
+  "product_files": {
+    "skills/jobs-style/SKILL.md": "dd928acafc05e0ec9d098aec064fb585c5d393e465216be6e0d9b738db90f152",
+    "skills/jobs-style/references/adjustments.md": "32279c449dea258736e811e2786ccf5e9c88f78f1a6ca75ad40eae9ce712572b",
+    "skills/jobs-style/references/compatible-example.md": "689ecb667450ea7a8d3664fd93e6ee9b412774126fdc37d58b5a9f406d20d344",
+    "skills/jobs-style/references/conflict-example.md": "18f6dd4b45662f3866975850dabe924e69204aaa29e41c550f1047ecfad5f850",
+    "skills/jobs-style/references/core-rule.md": "bad23fd50c985c5a6c0b43545507082247612669a361c542b8f4712725382ccf",
+    "skills/jobs-style/references/handoff-example.md": "7ef77deca8c1c1fc2a81027d7d569cc5c37067218ff36e733d287bf469ba9707"
+  },
+  "bundle_sha256": "1d6f43a5a323df099037e23d01e4c95727f07e1b48ed4562561f7add76cab0f6",
+  "surface": "assistant-operated Chrome ChatGPT conversation; pasted skill/request automatically converted to text attachment",
+  "cases": [
+    {
+      "case_id": "CT-01",
+      "input_file": "chatgpt-CT-01-input.txt",
+      "input_sha256": "ea59aeaaeacc7a8bfc33b7629f6e780a647e4002eb39dcb043811fb5986569b9",
+      "request": "請使用賈伯斯流提供現場投影的風格指引與設定。我想改用彩色背景，並同時呈現 A、B、C、D 四款產品，全部支援「同一測試條件下的電池續航比較」這一個焦點；結果不代表其他使用情境，請保留這項限定。只提供風格約束，不改寫或重組素材。以台灣繁體中文回覆。",
+      "planned_runs": 1,
+      "status": "passed",
+      "response_file": "CT-01-response.md",
+      "model_label": "default conversation model; exact model not shown",
+      "effort": "Medium (visible model menu)",
+      "response_sha256": "5f9941720118ef741870ca8ce9e1b5a280e563c6bbb67565eba06958027f0925",
+      "conversation_url": "[private-conversation-redacted]",
+      "submitted_input": "pasted full prepared input via browser UI; automatically converted to text attachment; no independent attachment export",
+      "structural_status": "passed",
+      "private_capture_basename": "CT-01-screenshot.png"
+    },
+    {
+      "case_id": "CT-02",
+      "input_file": "chatgpt-CT-02-input.txt",
+      "input_sha256": "78ded9d608971ab2cc369d7eef75161bf17c872899ccf8329f3c2904248e862c",
+      "request": "請使用賈伯斯流提供風格指引與設定，但我要求同一頁的電池續航、企業招聘、午餐選單三個互不相關的主張都成為同等主要焦點，沒有共同展示或比較問題。我尚未同意替代方案；請指出核心規則 ID、衝突要求及破壞的命題，給保留核心的建議，設定維持原本核心，不套用衝突或未接受替代方案。以台灣繁體中文回覆。",
+      "planned_runs": 1,
+      "status": "passed",
+      "response_file": "CT-02-response.md",
+      "model_label": "default conversation model; exact model not shown",
+      "effort": "Medium (visible model menu)",
+      "response_sha256": "f49093eca79cd3486da893f4e8af34ae441e87f9da2cf6195432964c44af5bd4",
+      "conversation_url": "[private-conversation-redacted]",
+      "submitted_input": "pasted full prepared input via browser UI; automatically converted to text attachment; no independent attachment export",
+      "structural_status": "passed",
+      "private_capture_basename": "CT-02-screenshot.png"
+    }
+  ],
+  "observations": [
+    {
+      "date": "2026-10-04",
+      "verdict": "Both actual cases pass approved schema and semantic checks. Initial local fixture failures retained; candidate01 not submitted."
+    }
+  ],
+  "skills_mcp_status": "unverified",
+  "status": "passed",
+  "publication": {
+    "status": "sanitized-public-metadata",
+    "raw_browser_captures": "private; not published",
+    "response_files": "retained unchanged; response_sha256 refers to those original response bytes",
+    "historical_capture_hashes": "refer to private originals, not disclosure notices"
+  }
+}

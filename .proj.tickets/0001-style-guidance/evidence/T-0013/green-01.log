@@ -1,0 +1,6 @@
+test_every_independent_entry_exposes_a_boundary_example (test_material_boundary.MaterialBoundaryTests.test_every_independent_entry_exposes_a_boundary_example) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK

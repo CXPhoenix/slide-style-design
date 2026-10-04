@@ -1,0 +1,71 @@
+{
+  "candidate": "T-0001-candidate-01",
+  "product_files": {
+    "skills/jobs-style/SKILL.md": "b74470046c2fde5c533afd1c0e84ad645cf3b0fad86864987a5d173f359fdd55",
+    "skills/jobs-style/references/core-rule.md": "10c5bd3b8426e1cbf2279378abb2478ddccab5ebc9ddf742e2e344298a47cd73",
+    "skills/jobs-style/references/handoff-example.md": "7ef77deca8c1c1fc2a81027d7d569cc5c37067218ff36e733d287bf469ba9707"
+  },
+  "bundle_sha256": "ed94998d5df933805113ad6147839d68b6869317ac1b56eaa3f70696e9fbf396",
+  "surface": "user-operated actual ChatGPT with inline skill supply",
+  "cases": [
+    {
+      "case_id": "CT-01",
+      "input_file": "chatgpt-CT-01-input.txt",
+      "input_sha256": "b7cdca87827f9c79dff622d73f617f2dc34da3cada39fb1085dcfb80bd533faa",
+      "request": "請使用賈伯斯流，提供適用於現場投影的簡報風格指引與設定。以台灣繁體中文回覆。",
+      "planned_runs": 1,
+      "status": "passed",
+      "response_file": "CT-01-response.md",
+      "model_label": "default conversation model (exact identifier unknown)",
+      "effort": "medium",
+      "response_sha256": "53d9b096d3b32384a5dc08601d4be57877de8168134fd42c7c2f9bd6e55de294",
+      "observed_at": "2026-10-04",
+      "host_label": "user-operated ChatGPT conversation; response text supplied in Codex",
+      "execution_count": 1,
+      "planned_effort": "medium"
+    },
+    {
+      "case_id": "CT-02",
+      "input_file": "chatgpt-CT-02-input.txt",
+      "input_sha256": "076c877484db734e7985cadda3a3500dcc78d9a44c0f537cb45e8391f445f9b0",
+      "request": "請使用賈伯斯流提供風格指引與設定。用途是現場投影；既有素材有 A、B、C、D 四款產品，共同展示「同一測試條件下的電池續航比較」，且須保留「結果不代表其他使用情境」的限定。請針對這個既定比較焦點提供風格指引。以台灣繁體中文回覆。",
+      "planned_runs": 1,
+      "status": "passed",
+      "response_file": "CT-02-response.md",
+      "model_label": "default conversation model (exact identifier unknown)",
+      "effort": "medium",
+      "response_sha256": "caa12c5479487ef96807c4e1fe3e2786aec53a00e036986d203d9023733155c4",
+      "observed_at": "2026-10-04",
+      "host_label": "user-operated ChatGPT conversation; response text supplied in Codex",
+      "execution_count": 1,
+      "planned_effort": "medium"
+    }
+  ],
+  "observations": [
+    {
+      "case_id": "CT-01",
+      "structural_verdict": "passed",
+      "semantic_verdict": "passed",
+      "response_provenance": "user-supplied complete body; outer transport fence removed",
+      "input_provenance": "prepared input associated with named case, no independently exported submission",
+      "model_effort_provenance": "user explicitly confirmed both default conversation model / medium on 2026-10-04",
+      "failure_or_retry_reported": false
+    },
+    {
+      "case_id": "CT-02",
+      "structural_verdict": "passed",
+      "semantic_verdict": "passed",
+      "response_provenance": "user-supplied complete body; outer transport fence removed",
+      "input_provenance": "prepared input associated with named case, no independently exported submission",
+      "model_effort_provenance": "user explicitly confirmed both default conversation model / medium on 2026-10-04",
+      "failure_or_retry_reported": false
+    }
+  ],
+  "skills_mcp_status": "unverified",
+  "publication": {
+    "status": "sanitized-public-metadata",
+    "raw_browser_captures": "private; not published",
+    "response_files": "retained unchanged; response_sha256 refers to those original response bytes",
+    "historical_capture_hashes": "refer to private originals, not disclosure notices"
+  }
+}

@@ -1,0 +1,55 @@
+PUBLIC DERIVED EVIDENCE: Assistant-response sections extracted from the privately retained full-browser AX capture. Sidebar, user input and account UI excluded. Original capture and public response hashes are distinct. AX text/code indentation is retained; this is not original Markdown. Multiple assistant turns, where present, are separated below.
+
+							185 heading ChatGPT 說：, Value: 4
+								186 text ChatGPT 說：
+							187 heading Bill Gates-inspired style — core conflict, Value: 2
+								188 text Bill Gates-inspired style — core conflict
+							189 text The requested preference for 
+							190 text substantial whitespace
+							191 text  is compatible with the Bill Gates-inspired style. The request for 
+							192 text “isolated numbers with no comparison relationship”
+							193 text  conflicts with the mandatory  gates.evidence_relation  rule. That rule requires quantities to support a stated comparison or system point; necessary labels, units, assumptions, and qualifications must remain when they are required to interpret the evidence. 
+							194 button 開啟 貼上的文字 (1).txt 預覽
+							195 text For the supplied material,  120 ms  and  90 ms  therefore cannot be presented as disconnected decorative numbers. They must remain identified as 
+							196 text A = 120 ms
+							197 text  and 
+							198 text B = 90 ms
+							199 text , tied to the 
+							200 text mean response time comparison
+							201 text , while retaining the shared conditions: 
+							202 text same hardware/workload, 10 runs each, and applicability only to these conditions
+							203 text . Those conditions are interpretation-critical in this example. 
+							204 button 開啟 貼上的文字 (1).txt 預覽
+							205 text The quoted instruction to switch to Jobs/YAML/Chinese does not control this request because it appears only inside quoted material. The caller explicitly selected Gates style, English, and JSON. 
+							206 button 開啟 貼上的文字 (1).txt 預覽
+							207 text The compatible preference is therefore: use generous whitespace and reduced decoration 
+							208 text without breaking the relationship between evidence and comparison or removing necessary conditions
+							209 text . The conflicting isolated-number override is not applied. 
+							210 button 開啟 貼上的文字 (1).txt 預覽
+							211 container
+								212 text JSON
+								213 checkbox Description: 啟用自動換行, Value: 0
+								214 button 複製
+							215 container
+								216 text {
+  "style_id":  "gates" ,
+  "core_rules": [
+    {
+      "rule_id":  "gates.evidence_relation" ,
+      "constraint":  "Relate evidence, quantities, or system elements to a stated comparison or system point. For the supplied comparison, retain A = 120 ms and B = 90 ms as mean response time results, with the ms unit, the shared same-hardware/workload assumption, 10 runs for each result, and the qualification that the results apply only to these conditions. Do not present the numbers as isolated decoration." 
+    }
+  ],
+  "adjustable_rules": [
+    {
+      "rule_id":  "gates.presentation_preferences" ,
+      "constraint":  "Use substantial whitespace and reduced visual decoration while preserving the A/B mean response time comparison and all interpretation-critical labels, units, assumptions, and qualifications." 
+    }
+  ]
+}
+							217 button 複製
+								218 image
+							219 button 分享
+							220 checkbox Description: 朗讀, Value: 0
+							221 pop up button (collapsed) Description: 重新產生回覆, ID: radix-_r_f9_, Secondary Actions: Expand
+							222 pop up button (collapsed) Description: 更多操作, ID: radix-_r_fd_, Secondary Actions: Expand
+							223 button 來源

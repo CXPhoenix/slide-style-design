@@ -1,0 +1,450 @@
+Use the following supplied route and available selected-style guidance for the final caller request. Do not assume other guidance is loaded.
+
+=== skills/presentation-style-route/SKILL.md ===
+---
+name: presentation-style-route
+description: Select one presentation style and route to its actual guidance; honor a named Takahashi, Steve Jobs, Wangxing or Bill Gates choice and report unavailable guidance honestly.
+---
+
+# Presentation style route
+
+Route to one primary style; deliver style guidance and constraints only. Content
+rewriting, reordering, page splitting/merging, production, rehearsal and export
+belong to consuming tools, outside this skill.
+
+## Explicit choice
+
+Consult the caller's existing request. A supported explicit style wins over inferred
+suitability. Resolve Takahashi/高橋流, Steve Jobs/賈伯斯流, Wangxing/忘形流/張忘形,
+or Bill Gates/比爾蓋茲流 using the [style registry](references/styles.md).
+`wangxing` is a project identifier for 張忘形, not an official English name.
+Do not substitute another style or ask for missing optional purpose, audience or
+expression details before delivering a supported explicit choice. Relevant
+limitations may be explained without changing that choice.
+
+Read the selected style's actual entry using whichever skill-content access the
+host provides. Supporting rules/sources/examples are read only when the selected
+style's relevant branch requires them. Do not load all four styles or all research
+as a routine prerequisite. Registry references identify the published definitions;
+they do not assume local path access, shell commands, Codex/Claude invocation syntax,
+or an available Skills MCP service. Already supplied selected guidance counts as
+accessible content; do not pretend to perform a tool load that did not occur.
+
+## Delivery
+
+Apply the selected style's existing core, adjustment/conflict and handoff rules.
+Keep its rule IDs, every required proposition and scope-changing condition in both
+Markdown and settings. Do not create a separate routed rule catalog. Use Markdown
+plus one profile: default YAML, explicit JSON instead, never both. Preserve accepted
+preferences, exclude conflicts/unaccepted alternatives according to that style.
+All visible explanations and constraints follow requested/conversation language;
+Chinese uses Taiwan Traditional Chinese. English fields/style/rule IDs stay stable.
+Finish when one selected style's complete guidance/settings are delivered under
+that actual style's rules, with no content transformation.
+
+## Availability
+
+If the selected actual guidance cannot be accessed, state which guidance is unavailable
+and the limitation in the caller's language. Do not reconstruct loaded rules from
+memory, fabricate a profile, assume a missing connector is installed, or silently
+switch styles. Ask the caller to supply the selected guidance or make it accessible
+through the host's available means. An honest limitation report completes this
+branch without settings. For this branch, see the [availability example](references/unavailable-example.md).
+Context selection and unresolved choices are later increments.
+
+
+=== skills/takahashi-style/SKILL.md ===
+---
+name: takahashi-style
+description: Provide Takahashi presentation-style guidance when this style is requested, using words and phrases as the primary visual focus, including compatible adjustments and core-conflict explanations.
+---
+
+# Takahashi style
+
+Provide reusable style guidance directly. Content transformation and presentation
+production belong to the consuming tools.
+
+## Identifying core
+
+`takahashi.text_primary` is the mandatory core rule:
+
+- Words or phrases carry the primary visual/message focus.
+- Relative scale establishes their priority.
+- Other detail, if present, supports that text focus rather than becoming an equal
+  or dominant focal point. Supporting charts or notes are not universally excluded.
+
+This relationship is source-led project synthesis, not a creator quotation or
+universal numerical formula. Consult the [core/source record](references/core-rule.md)
+when source attribution, applicability, evidence limits, or boundary examples matter.
+The core above is sufficient for a direct invocation; no route is required.
+
+## Guidance boundary
+
+Use supplied material as context for style constraints. Preserve any qualifications
+needed to interpret the material; style guidance is not a reason to remove them.
+Return guidance and constraints, not rewritten material, page plans, presentation
+files, or rehearsal instructions. Consuming tools can separately perform authorized
+content or production work using this guidance.
+
+## Adjustments
+
+Evaluate requested adjustments against every proposition of `takahashi.text_primary`
+and any applicable material qualifications. Accept non-core preferences that retain
+them; supporting charts/notes explicitly subordinate to the words are compatible,
+regardless of their presence or count. Reflect accepted preferences in both Markdown
+and settings with `takahashi.presentation_preferences`, while keeping the complete
+core rule. With no applicable preference, keep the adjustable list empty.
+
+Consult the [adjustment rule record](references/adjustments.md) for classification,
+conditions and attribution, and the [compatible example](references/compatible-example.md)
+when applying subordinate detail. These are style constraints, not permission to
+rewrite, reorganize, split slides or move material to an appendix.
+
+## Core conflicts
+
+When a requested adjustment negates or replaces a core proposition, identify
+`takahashi.text_primary`, quote or paraphrase the conflicting request, explain the
+broken proposition and offer a suggestion that retains it. Deliver the original
+core guidance and settings, including applicable qualifications. Keep the conflicting
+override and any unaccepted alternative out of applied settings. A suggestion is
+not an accepted preference; retain separately requested compatible preferences if
+present, but do not infer acceptance of the alternative. Explain the conflict
+without switching styles or requiring a new permission process to deliver the core.
+
+Consult the [conflict example](references/conflict-example.md) when a chart becomes
+primary and words are reduced to a minor heading. Finish when the explanation
+names the conflict and the settings preserve every applicable core proposition,
+with no conflicting or unaccepted change.
+
+## Guidance/settings handoff
+
+All visible guidance and constraints follow the caller's requested language, or
+the conversation language when unspecified. Field names and rule IDs stay English.
+
+Return complementary Markdown and exactly one settings block. Include the style
+identity and `takahashi.text_primary` in the explanation. Both the explanation and
+its constraint retain every core proposition and any applicable conditions.
+Background, source reasoning, and illustrative examples may stay Markdown-only.
+
+The settings contain `style_id: takahashi`, a `core_rules` list containing the mandatory
+record, and an `adjustable_rules` list with applicable accepted preferences, or `[]`
+when none apply. Every record has a nonempty English `rule_id`
+and a nonempty string `constraint`; identifiers are unique. Use JSON-compatible
+YAML types without custom tags. Finish when the guidance and settings agree on
+the identifying relationship and conditions.
+
+Consult the [handoff example](references/handoff-example.md) when the output shape
+needs illustration; wording can vary while rule identity and meaning stay intact.
+
+If the requested source/supporting record is inaccessible, state that limitation;
+do not invent its contents. Access does not assume shell commands, a local
+filesystem, or a connected Skills MCP service.
+
+## Serialization selection
+
+Use YAML by default. If the caller explicitly requests JSON, emit JSON instead,
+never both formats in one answer. Markdown accompanies either. Serialization changes
+only syntax: the same `style_id`, `core_rules`, `adjustable_rules` fields, record/list
+types, stable `rule_id` values, all required propositions and applicability conditions
+remain. Include accepted preferences with their conditions; keep unaccepted alternatives
+out. Preserve unresolved applicability as conditional instructions in either format.
+Use plain JSON-compatible values, with no custom YAML tags or executable settings.
+Compare each included rule against its published source record, not literal wording
+of an earlier response. See the [JSON example](references/json-example.md); the
+existing YAML examples illustrate the same contract, not an instruction to output
+YAML when JSON was requested.
+
+## Language consistency
+
+Apply the caller's explicit language choice to every visible explanation and
+`constraint` string, including conflict explanations, suggestions and availability
+reports. Otherwise use the conversation language. Chinese uses Taiwan Traditional
+Chinese. Keep field names, `style_id` values and published `rule_id` values in
+English and unchanged; do not generate identifiers from translated wording.
+Translation preserves every required proposition, condition, exception, scope
+restriction and accepted adjustment in both Markdown and settings. The core stays
+mandatory in every language and serialization. Follow this invariant for any later
+response type rather than inventing a second language contract. The [English
+example](references/english-example.md) illustrates translation of the same rules;
+it does not override the language requested for the current response.
+
+
+=== skills/presentation-style-route/references/styles.md ===
+# Published style registry
+
+These links identify actual independently usable definitions. They are package
+references, not host commands or proof of Skills MCP loading. Named use can invoke
+the selected definition directly without this route. Read only the selected entry;
+its rule records own meaning, conditions and attribution.
+
+| Project style ID | Names identifying that style | Actual definition |
+|---|---|---|
+| takahashi | Takahashi / 高橋流 | [takahashi-style](../../takahashi-style/SKILL.md) |
+| jobs | Steve Jobs / 賈伯斯流 | [jobs-style](../../jobs-style/SKILL.md) |
+| wangxing | Wangxing / 忘形流 / 張忘形 | [wangxing-style](../../wangxing-style/SKILL.md) |
+| gates | Bill Gates / 比爾蓋茲流 | [gates-style](../../gates-style/SKILL.md) |
+
+```yaml
+takahashi: ../../takahashi-style/SKILL.md
+jobs: ../../jobs-style/SKILL.md
+wangxing: ../../wangxing-style/SKILL.md
+gates: ../../gates-style/SKILL.md
+```
+
+This registry is a resolver, not a duplicate core-rule catalog or an emitted profile.
+
+
+=== skills/presentation-style-route/references/unavailable-example.md ===
+# Unavailable selected guidance example
+
+This branch assumes an explicit Jobs choice and no access to the actual definition.
+It illustrates a limitation report, not a substitute Jobs rule or settings profile.
+
+I can identify your choice as Jobs, but the actual jobs-style guidance is unavailable
+in this host. I cannot truthfully deliver a loaded Jobs profile from that missing
+content. Please supply its guidance or make it accessible through an available
+skill-content mechanism. I will retain your Jobs choice rather than switch styles.
+
+No local shell, filesystem or connected Skills MCP service is assumed. Language
+follows the current caller; the English here is an example, not a fixed output language.
+
+
+=== skills/takahashi-style/references/adjustments.md ===
+# Takahashi adjustment rule record
+
+## Identity and basis
+
+- ID: `takahashi.presentation_preferences`.
+- Classification: adjustable, never a replacement for `takahashi.text_primary`.
+- Evidence class: project synthesis / user-selected preference, not a creator rule.
+- Basis: the accepted specification's non-core/core boundary and the existing
+  [core/source record](core-rule.md). T1 supports large textual emphasis; limited
+  T2 observations prevent a universal ban on other forms. Neither establishes an
+  official adjustable menu, chart count, color palette or numerical threshold.
+- Reading limits: reuse the core record's publisher-introduction and extracted
+  sample-text scopes. No full-book, full-video or rendered-slide validation added.
+
+## Required propositions and conditions
+
+Apply this record only to requested compatible presentation preferences, including
+appearance or supporting-detail choices. State the actual accepted preference in
+both Markdown and constraint; preserve its supplied conditions. Words remain the
+primary visual/message carrier, relative scale establishes their priority, and any
+other detail supports rather than equals or dominates the text. Preserve necessary
+material qualifications. This record is optional when no preference is applicable;
+it does not require charts, notes, colors or any fixed count by default.
+
+A chart and three note lines explicitly supporting the main words are a compatible
+example. Three reflects that request, not a universal allowed-count rule. A color
+preference can also be compatible if it retains the core relationships. In contrast,
+letting a dense chart become primary while words become a minor heading conflicts
+with the core. Removing a qualification needed for interpretation is also incompatible.
+These are semantic guidance judgments, not a rendering or rewriting procedure.
+
+
+=== skills/takahashi-style/references/compatible-example.md ===
+# Compatible adjustment example
+
+Illustrates a request for one supporting chart and three note lines, with a necessary
+test-specific qualification. Counts and conditions belong to this illustrative request.
+
+## 高橋流相容調整
+
+`takahashi.text_primary`：以詞句作為主要視覺與訊息載體，透過相對尺度建立優先地位。
+其他細節若存在，只支援詞句，不成為同等或更強的焦點；保留理解素材所需的限定。
+
+接受 `takahashi.presentation_preferences`：一張輔助圖表與三行註解共同支援主要詞句，
+維持較低視覺層級；保留「結果僅適用於本次測試條件」。這是依核心關係整理的專案
+調整指引，並非高橋本人規定的圖表或註解數量。內容重組與製作由其他工具處理。
+
+```yaml
+style_id: takahashi
+core_rules:
+  - rule_id: takahashi.text_primary
+    constraint: >-
+      以詞句承載主要視覺與訊息，透過相對尺度建立優先地位；其他細節若存在，
+      須支援主要詞句，而非同等或更主要的焦點。保留理解素材所需的限定，
+      包括結果僅適用於本次測試條件。
+adjustable_rules:
+  - rule_id: takahashi.presentation_preferences
+    constraint: >-
+      採用一張輔助圖表與三行註解，只支援主要詞句，維持較低的視覺層級；
+      詞句仍透過相對尺度保持主要視覺與訊息地位。保留結果僅適用於本次測試條件。
+```
+
+
+=== skills/takahashi-style/references/conflict-example.md ===
+# Core conflict example
+
+The caller wants dense-chart dominance and a minor text heading, with a necessary
+test-specific qualification, and has not accepted the suggested alternative.
+
+## 高橋流核心衝突
+
+你要求「密集圖表承載主要視覺與訊息，詞句只當小標題」，與 `takahashi.text_primary`
+衝突：詞句失去主要載體的角色，相對尺度不再建立詞句優先，圖表也不再是輔助。
+
+保留核心的建議是讓主要詞句維持相對尺度的優先，圖表支援其訊息；這只是建議，
+尚未視為你已接受的調整。以下交付原本核心：詞句為主要視覺與訊息載體，透過相對
+尺度建立優先；其他細節若出現，須支援詞句，不成為同等或更強的焦點。保留
+「結果僅適用於本次測試條件」。設定不套用圖表主導要求，也不將替代建議列為已套用偏好。
+
+此核心關係是來源啟發的專案綜整，不是創作者的逐字原話或固定字級公式。
+只提供風格約束，不改寫、重組或製作素材。
+
+```yaml
+style_id: takahashi
+core_rules:
+  - rule_id: takahashi.text_primary
+    constraint: >-
+      以詞句承載主要視覺與訊息，透過相對尺度建立優先地位；其他細節若存在，
+      須支援主要詞句，而非同等或更主要的焦點。保留理解素材所需的限定，
+      包括結果僅適用於本次測試條件。
+adjustable_rules: []
+```
+
+
+=== skills/takahashi-style/references/core-rule.md ===
+# Takahashi core/source record
+
+## Rule identity
+
+- Rule ID: `takahashi.text_primary`.
+- Rule classification: core.
+- Evidence class: project synthesis, grounded in direct publication support and
+  limited observations of creator material; not a quotation or official rule ID.
+
+## Required propositions and applicability
+
+1. Words or phrases are the primary visual/message carrier in Takahashi guidance.
+2. Relative scale establishes their priority rather than a fixed font-size rule.
+3. Other detail, if included, is supporting rather than an equal or dominant focus.
+
+Preserve the third proposition as conditional: supporting detail may be absent.
+When it is present, preserve its relationship to the primary words/phrases.
+Maintain source-material qualifications needed for correct interpretation. This
+record describes guidance, not a procedure for rewriting or splitting slides.
+
+## Evidence basis and reading limits
+
+**T1 — Direct publication support.** The creator's publisher describes very large
+text as a defining feature of the method. This supports relative textual emphasis;
+the primary-carrier/supporting-detail relationship above is the project's practical
+synthesis, not a claim that the publisher states all three propositions.
+Source: [SB Creative, the creator's 2005 book](https://www.sbcr.jp/product/4797332530/).
+Reading scope: publisher introduction and bibliographic material, not the full book.
+
+**T2 — Limited creator-sample observation.** The creator's later LT material shows
+short textual fragments and also includes bullets and relationship-model examples
+in extracted text/alternative text. This limits the claim that all creator
+presentations universally exclude other forms. It does not prove every chart fits
+the original text-first method.
+Source: [Takahashi's 2011 LT material](https://www.slideshare.net/takahashim/ldd11-w).
+Reading scope: extracted web text/alternative text; no full visual measurement,
+downloaded PDF, or observed delivery timing. Source notes were collected 2026-10-03.
+
+No fixed font size, word count, pacing, or density threshold is established by these
+reading scopes. Any later numerical project choice needs its own explicit status
+and conditions. No universal audience-effectiveness claim is supported here.
+
+## Boundary examples
+
+**Compatible:** A chart and three auxiliary note lines support the main words/phrases;
+relative scale still makes those words the main visual/message focus. Three is an
+illustrative case, not an allowed-count threshold.
+
+**Conflicting:** A dense chart or prose paragraph becomes the main message carrier,
+while the words/phrases are only a minor heading. This replaces the required
+primary/supporting relationship.
+
+These examples judge the meaning of guidance. They do not assess a rendered slide
+or prescribe content transformation. See [adjustments](adjustments.md) for the
+project rule governing requested non-core preferences.
+
+
+=== skills/takahashi-style/references/english-example.md ===
+# English guidance example
+
+Takahashi style: `takahashi.text_primary`.
+
+The words remain primary through relative scale; the chart and notes only support them. Keep the results limited to these test conditions. Accept this amount of supporting detail as a context-specific preference, not a universal numerical rule.
+
+The accepted preferences use `takahashi.presentation_preferences`.
+
+These rules are source-led project synthesis, not creator quotations or official numerical formulas. Style constraints only; no content transformation.
+
+```yaml
+style_id: takahashi
+core_rules:
+- rule_id: takahashi.text_primary
+  constraint: Words/phrases are the primary visual/message carrier; relative scale establishes their priority. Other detail, including the requested chart and three lines of notes, supports rather than competes with the words. Keep the qualification that results apply only to these test conditions.
+adjustable_rules:
+- rule_id: takahashi.presentation_preferences
+  constraint: Accept one supporting chart and three lines of notes, always subordinate to the words through relative scale. Preserve the test-condition qualification.
+```
+
+
+=== skills/takahashi-style/references/handoff-example.md ===
+# Illustrative core/YAML handoff
+
+This illustrates the shared fields and meaning, not required exact phrasing.
+
+## 高橋流指引
+
+核心規則 `takahashi.text_primary`：以詞句承載主要視覺與訊息，透過相對尺度
+建立優先地位。其他細節若出現，須輔助這個文字焦點，不能成為同等或更主要
+的焦點。保留理解素材所需的限定條件；這些指引交由其他工具處理實際製作。
+
+這是根據來源整理的專案規則，不是創作者原話，也沒有固定字數或字體大小。
+
+```yaml
+style_id: takahashi
+core_rules:
+  - rule_id: takahashi.text_primary
+    constraint: >-
+      以詞句作為主要視覺與訊息載體，透過相對尺度建立優先地位；
+      若包含其他細節，須讓它們輔助詞句，而非成為同等或更主要的焦點。
+      保留正確理解素材所需的限定條件。
+adjustable_rules: []
+```
+
+
+=== skills/takahashi-style/references/json-example.md ===
+# Compatible adjustment example
+
+Illustrates a request for one supporting chart and three note lines, with a necessary
+test-specific qualification. Counts and conditions belong to this illustrative request.
+
+## 高橋流相容調整
+
+`takahashi.text_primary`：以詞句作為主要視覺與訊息載體，透過相對尺度建立優先地位。
+其他細節若存在，只支援詞句，不成為同等或更強的焦點；保留理解素材所需的限定。
+
+接受 `takahashi.presentation_preferences`：一張輔助圖表與三行註解共同支援主要詞句，
+維持較低視覺層級；保留「結果僅適用於本次測試條件」。這是依核心關係整理的專案
+調整指引，並非高橋本人規定的圖表或註解數量。內容重組與製作由其他工具處理。
+
+This example is for an explicit JSON request. The corresponding compatible YAML
+example preserves the identical rule contract and applicability; emit only one.
+
+```json
+{
+  "style_id": "takahashi",
+  "core_rules": [
+    {
+      "rule_id": "takahashi.text_primary",
+      "constraint": "以詞句承載主要視覺與訊息，透過相對尺度建立優先地位；其他細節若存在， 須支援主要詞句，而非同等或更主要的焦點。保留理解素材所需的限定， 包括結果僅適用於本次測試條件。"
+    }
+  ],
+  "adjustable_rules": [
+    {
+      "rule_id": "takahashi.presentation_preferences",
+      "constraint": "採用一張輔助圖表與三行註解，只支援主要詞句，維持較低的視覺層級； 詞句仍透過相對尺度保持主要視覺與訊息地位。保留結果僅適用於本次測試條件。"
+    }
+  ]
+}
+```
+
+
+=== Caller request ===
+透過 presentation-style-route 指定高橋流。用途是研究結果的證據比較，即使其他風格可能更合適也不要換。沒有另外提供觀眾或場地。只給風格約束與設定，保留「結果僅適用本次測試條件」。用台灣繁體中文。

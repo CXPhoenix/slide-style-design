@@ -1,0 +1,20 @@
+test_explicit_route_registry_resolves_the_four_actual_style_entries (test_route.RouteTests.test_explicit_route_registry_resolves_the_four_actual_style_entries) ... ok
+test_missing_context_examples_do_not_fabricate_a_style_profile (test_route.RouteTests.test_missing_context_examples_do_not_fabricate_a_style_profile) ... ok
+test_multiple_style_examples_require_one_primary_before_delivery (test_route.RouteTests.test_multiple_style_examples_require_one_primary_before_delivery) ... ERROR
+test_named_choice_examples_clarify_within_the_supported_set (test_route.RouteTests.test_named_choice_examples_clarify_within_the_supported_set) ... ok
+test_published_context_examples_follow_the_spec_focus_anchor_branches (test_route.RouteTests.test_published_context_examples_follow_the_spec_focus_anchor_branches) ... ok
+test_unavailable_guidance_example_reports_a_limit_without_a_fabricated_profile (test_route.RouteTests.test_unavailable_guidance_example_reports_a_limit_without_a_fabricated_profile) ... ok
+
+======================================================================
+ERROR: test_multiple_style_examples_require_one_primary_before_delivery (test_route.RouteTests.test_multiple_style_examples_require_one_primary_before_delivery)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repo-root>/tests/test_route.py", line 65, in test_multiple_style_examples_require_one_primary_before_delivery
+    self.assertEqual(records[key]["branch"], "ask_one_primary")
+                     ~~~~~~~^^^^^
+KeyError: 'multiple'
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.013s
+
+FAILED (errors=1)
